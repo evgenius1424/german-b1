@@ -2,6 +2,8 @@
 
 Generate complete, B1-style German listening practice exams and prepare them for publication to a Telegram channel.
 
+Published exams: [@german_b1_horen on Telegram](https://t.me/german_b1_horen)
+
 The project treats an exam as structured data first. A deterministic blueprint fixes coverage, answer-key balance, speaker constraints, and distractor types; an LLM writes the German content; validation checks the result against the blueprint and against audio and Telegram constraints. Audio and delivery artifacts can always be rebuilt from the tracked exam text.
 
 > This is an independent practice-material generator. It is not affiliated with, endorsed by, or an official product of Goethe-Institut. Do not redistribute copyrighted source materials through this repository.
