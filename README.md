@@ -45,11 +45,3 @@ For Telegram publishing, copy `.env.example` to the ignored `.env` file and set 
 `scripts/hoeren/` is the core module. Its interface is the `scripts/exam` command above. The blueprint, LLM client, validator, TTS renderer, Telegram-manifest builder, and Telegram publisher are internal implementations behind that interface. This concentrates format knowledge and recovery behavior in one place while keeping external dependencies replaceable at their seams.
 
 Read [exam design](docs/exam-design.md) for the generation rules, [generation guide](docs/generation-guide.md) for operating guidance, and [Telegram delivery](docs/telegram-delivery.md) for publishing behavior.
-
-## Verification
-
-The regression suite uses only Python's standard library and does not call an LLM, render audio, or contact Telegram:
-
-```zsh
-PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=scripts python3 -m unittest discover -s tests -v
-```
