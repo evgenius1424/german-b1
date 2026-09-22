@@ -1,0 +1,7 @@
+#!/bin/zsh
+# Generates Goethe B1 Hören practice exams. See: scripts/exam --help
+
+set -euo pipefail
+
+project_root=${0:A:h:h}
+PYTHONPATH="$project_root/scripts" exec "$project_root/.venv-tts/bin/python" -m hoeren "$@"

@@ -1,0 +1,1603 @@
+{
+  "id": "2026-09-21-264053",
+  "created": "2026-09-21T23:56:57",
+  "origin": "generated",
+  "ontology_sha256": "e0f60eeeedd6",
+  "model": "default",
+  "blueprint": {
+    "seed": 264053,
+    "1": {
+      "units": [
+        {
+          "text": 1,
+          "text_type": "announcement in a public building (library, swimming pool, town hall)",
+          "speaker_gender": "m",
+          "questions": [
+            {
+              "number": 1,
+              "answer": "richtig",
+              "trap": "NEGATION",
+              "difficulty": 3
+            },
+            {
+              "number": 2,
+              "answer": "c",
+              "trap": "REQUEST_ACTION",
+              "difficulty": 2
+            }
+          ]
+        },
+        {
+          "text": 2,
+          "text_type": "voicemail from a shop, workshop or delivery service",
+          "speaker_gender": "m",
+          "questions": [
+            {
+              "number": 3,
+              "answer": "falsch",
+              "trap": "PLAN_ACTUAL",
+              "difficulty": 4
+            },
+            {
+              "number": 4,
+              "answer": "c",
+              "trap": "QUANTITY_SCOPE",
+              "difficulty": 4
+            }
+          ]
+        },
+        {
+          "text": 3,
+          "text_type": "private voicemail from a friend or relative",
+          "speaker_gender": "f",
+          "questions": [
+            {
+              "number": 5,
+              "answer": "falsch",
+              "trap": "MENTIONED_TRUE",
+              "difficulty": 4
+            },
+            {
+              "number": 6,
+              "answer": "b",
+              "trap": "MENTIONED_TRUE",
+              "difficulty": 3
+            }
+          ]
+        },
+        {
+          "text": 4,
+          "text_type": "station or platform announcement",
+          "speaker_gender": "f",
+          "questions": [
+            {
+              "number": 7,
+              "answer": "richtig",
+              "trap": "PARAPHRASE",
+              "difficulty": 3
+            },
+            {
+              "number": 8,
+              "answer": "a",
+              "trap": "PLACE_SWAP",
+              "difficulty": 4
+            }
+          ]
+        },
+        {
+          "text": 5,
+          "text_type": "announcement in a department store or supermarket",
+          "speaker_gender": "m",
+          "questions": [
+            {
+              "number": 9,
+              "answer": "richtig",
+              "trap": "MENTIONED_TRUE",
+              "difficulty": 4
+            },
+            {
+              "number": 10,
+              "answer": "a",
+              "trap": "CAUSE_SWAP",
+              "difficulty": 3
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "setting": "first-day orientation talk for new employees at a company",
+      "speaker_gender": "m",
+      "questions": [
+        {
+          "number": 11,
+          "answer": "c",
+          "trap": "MENTIONED_TRUE",
+          "difficulty": 5
+        },
+        {
+          "number": 12,
+          "answer": "a",
+          "trap": "DISTRACTOR_DENSITY",
+          "difficulty": 4
+        },
+        {
+          "number": 13,
+          "answer": "b",
+          "trap": "DISTRACTOR_DENSITY",
+          "difficulty": 3
+        },
+        {
+          "number": 14,
+          "answer": "a",
+          "trap": "PLACE_SWAP",
+          "difficulty": 4
+        },
+        {
+          "number": 15,
+          "answer": "b",
+          "trap": "PLACE_SWAP",
+          "difficulty": 3
+        }
+      ]
+    },
+    "3": {
+      "scenario": "two colleagues on the bus talk about one of them moving to a new flat",
+      "questions": [
+        {
+          "number": 16,
+          "answer": "falsch",
+          "trap": "NEGATION",
+          "difficulty": 3
+        },
+        {
+          "number": 17,
+          "answer": "falsch",
+          "trap": "ROLE_SWAP",
+          "difficulty": 2
+        },
+        {
+          "number": 18,
+          "answer": "richtig",
+          "trap": "FORECAST_ACTUAL",
+          "difficulty": 5
+        },
+        {
+          "number": 19,
+          "answer": "falsch",
+          "trap": "WANT_DO",
+          "difficulty": 4
+        },
+        {
+          "number": 20,
+          "answer": "richtig",
+          "trap": "ROLE_SWAP",
+          "difficulty": 2
+        },
+        {
+          "number": 21,
+          "answer": "falsch",
+          "trap": "NEGATION",
+          "difficulty": 4
+        },
+        {
+          "number": 22,
+          "answer": "richtig",
+          "trap": "NEGATION",
+          "difficulty": 4
+        }
+      ]
+    },
+    "4": {
+      "topic": "Is working part-time a good model for everyone?",
+      "genders": {
+        "moderator": "m",
+        "guest1": "f",
+        "guest2": "f"
+      },
+      "questions": [
+        {
+          "number": 23,
+          "answer": "guest1",
+          "trap": "KEYWORD_OVERLAP",
+          "difficulty": 2
+        },
+        {
+          "number": 24,
+          "answer": "guest1",
+          "trap": "STANCE_QUALIFIER",
+          "difficulty": 5
+        },
+        {
+          "number": 25,
+          "answer": "guest2",
+          "trap": "KEYWORD_OVERLAP",
+          "difficulty": 4
+        },
+        {
+          "number": 26,
+          "answer": "guest2",
+          "trap": "STANCE_QUALIFIER",
+          "difficulty": 2
+        },
+        {
+          "number": 27,
+          "answer": "guest1",
+          "trap": "STANCE_QUALIFIER",
+          "difficulty": 5
+        },
+        {
+          "number": 28,
+          "answer": "guest2",
+          "trap": "SOURCE_ATTRIBUTION",
+          "difficulty": 2
+        },
+        {
+          "number": 29,
+          "answer": "guest2",
+          "trap": "KEYWORD_OVERLAP",
+          "difficulty": 4
+        },
+        {
+          "number": 30,
+          "answer": "moderator",
+          "trap": "KEYWORD_OVERLAP",
+          "difficulty": 3
+        }
+      ]
+    }
+  },
+  "parts": {
+    "1": {
+      "part": 1,
+      "instruction": "Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+      "plays": 2,
+      "situation": null,
+      "topic": null,
+      "units": [
+        {
+          "id": "teil1-text1",
+          "title": "Text 1",
+          "topic": "Swimming pool: outdoor pool closed for pump repair",
+          "speakers": [
+            {
+              "id": "S1",
+              "name": "Ansage",
+              "gender": "m",
+              "role": "Durchsage im Schwimmbad",
+              "voice": "markus"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "statement": "Das Hallenbad ist heute wie gewohnt bis 21 Uhr geöffnet.",
+              "frame": "object=Hallenbad; state=geöffnet; time=heute bis 21 Uhr; status=normal"
+            },
+            {
+              "id": "F2",
+              "statement": "Das Außenbecken bleibt heute geschlossen, weil die Wasserpumpe repariert wird.",
+              "frame": "object=Außenbecken; state=geschlossen; time=heute; cause=Reparatur Wasserpumpe; polarity=negativ"
+            },
+            {
+              "id": "F3",
+              "statement": "Die Liegewiese kann man trotzdem nutzen.",
+              "frame": "object=Liegewiese; state=nutzbar; modality=können"
+            },
+            {
+              "id": "F4",
+              "statement": "Gäste im Außenbecken sollen das Wasser verlassen und ins Hallenbad wechseln.",
+              "frame": "agent=Gäste im Außenbecken; action=ins Hallenbad wechseln; modality=Bitte"
+            },
+            {
+              "id": "F5",
+              "statement": "Wer möchte, kann an der Kasse einen Gutschein abholen; Geld gibt es nicht zurück.",
+              "frame": "agent=Gäste; action=Gutschein an der Kasse abholen; modality=optional; polarity=kein Geld zurück"
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "S1",
+              "text": "Liebe Badegäste, wir haben eine wichtige Information für Sie. Unser Hallenbad ist heute wie gewohnt bis 21 Uhr geöffnet. Das Außenbecken bleibt heute aber leider geschlossen, weil dort die Wasserpumpe repariert werden muss. Die Liegewiese können Sie trotzdem weiter nutzen. Wir bitten alle Gäste, die jetzt noch im Außenbecken sind, das Wasser zu verlassen und ins Hallenbad zu wechseln. Geld können wir Ihnen nicht zurückgeben. Wer möchte, kann sich aber an der Kasse einen Gutschein für einen weiteren Besuch abholen. Vielen Dank für Ihr Verständnis."
+            }
+          ],
+          "questions": [
+            {
+              "type": "true_false",
+              "number": 1,
+              "prompt": "Im Außenbecken kann man heute nicht schwimmen.",
+              "options": [],
+              "answer": "richtig",
+              "target_fact": "F2",
+              "evidence_quote": "Das Außenbecken bleibt heute aber leider geschlossen, weil dort die Wasserpumpe repariert werden muss.",
+              "trap": "NEGATION",
+              "slot": "POLARITY",
+              "difficulty": 3,
+              "explanation": "Das Außenbecken ist heute geschlossen. Nur das Hallenbad und die Liegewiese kann man normal nutzen."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 2,
+              "prompt": "Was sollen die Gäste im Außenbecken tun?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "an der Kasse einen Gutschein holen",
+                  "fact_id": "F5",
+                  "why_wrong": "optional offer, not the request"
+                },
+                {
+                  "id": "b",
+                  "text": "auf die Liegewiese gehen",
+                  "fact_id": "F3",
+                  "why_wrong": "only allowed, not requested"
+                },
+                {
+                  "id": "c",
+                  "text": "ins Hallenbad gehen",
+                  "fact_id": "F4",
+                  "why_wrong": ""
+                }
+              ],
+              "answer": "c",
+              "target_fact": "F4",
+              "evidence_quote": "Wir bitten alle Gäste, die jetzt noch im Außenbecken sind, das Wasser zu verlassen und ins Hallenbad zu wechseln.",
+              "trap": "REQUEST_ACTION",
+              "slot": "WHAT",
+              "difficulty": 2,
+              "explanation": "Die Gäste sollen ins Hallenbad wechseln. Den Gutschein und die Liegewiese kann man nutzen, das ist aber keine Bitte."
+            }
+          ],
+          "text_type": "announcement in a public building (library, swimming pool, town hall)"
+        },
+        {
+          "id": "teil1-text2",
+          "title": "Text 2",
+          "topic": "Bicycle shop: repair delayed, higher price",
+          "speakers": [
+            {
+              "id": "S2",
+              "name": "Tobias Brandt",
+              "gender": "m",
+              "role": "Mitarbeiter in einer Fahrradwerkstatt",
+              "voice": "markus"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "statement": "Das Fahrrad sollte eigentlich heute fertig werden.",
+              "frame": "agent=Werkstatt; action=Fahrrad fertig machen; time=heute; status=geplant, nicht erreicht"
+            },
+            {
+              "id": "F2",
+              "statement": "Das neue Hinterrad ist noch nicht geliefert worden; es kommt am Donnerstag.",
+              "frame": "object=Hinterrad; state=nicht geliefert; time=Lieferung Donnerstag; cause=Verzögerung"
+            },
+            {
+              "id": "F3",
+              "statement": "Abholung ist ab Freitag möglich.",
+              "frame": "agent=Frau Kowalski; action=abholen; time=ab Freitag"
+            },
+            {
+              "id": "F4",
+              "statement": "Die Bremsen kosten 25 Euro.",
+              "frame": "object=Bremsen; quantity=25 Euro; scope=nur Teil der Reparatur"
+            },
+            {
+              "id": "F5",
+              "statement": "Am Telefon wurden 60 Euro für alles genannt; das Hinterrad allein kostet 60 Euro.",
+              "frame": "quantity=60 Euro; status=alter Preis für alles / Preis nur Hinterrad"
+            },
+            {
+              "id": "F6",
+              "statement": "Die ganze Reparatur kostet zusammen 85 Euro.",
+              "frame": "object=ganze Reparatur; quantity=85 Euro; scope=alles"
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "S2",
+              "text": "Guten Tag, Frau Kowalski, hier ist Tobias Brandt von Fahrrad Brandt. Es geht um Ihr Fahrrad. Eigentlich wollten wir es heute fertig machen, aber das neue Hinterrad ist leider noch nicht geliefert worden. Die Bremsen haben wir schon repariert. Das Hinterrad kommt am Donnerstag, Sie können das Fahrrad dann ab Freitag abholen. Und noch etwas zum Preis: Die Bremsen kosten 25 Euro, das Hinterrad 60 Euro, zusammen also 85 Euro. Am Telefon hatte ich Ihnen nur 60 Euro für alles gesagt, das tut mir leid. Bis Freitag, auf Wiederhören."
+            }
+          ],
+          "questions": [
+            {
+              "type": "true_false",
+              "number": 3,
+              "prompt": "Frau Kowalski kann ihr Fahrrad heute abholen.",
+              "options": [],
+              "answer": "falsch",
+              "target_fact": "F1",
+              "evidence_quote": "Eigentlich wollten wir es heute fertig machen, aber das neue Hinterrad ist leider noch nicht geliefert worden.",
+              "trap": "PLAN_ACTUAL",
+              "slot": "WHEN",
+              "difficulty": 4,
+              "explanation": "Das Fahrrad sollte heute fertig sein, aber das Hinterrad fehlt noch. Abholen kann sie es erst ab Freitag."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 4,
+              "prompt": "Wie viel kostet die ganze Reparatur?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "25 Euro",
+                  "fact_id": "F4",
+                  "why_wrong": "price of the brakes only (part, not whole)"
+                },
+                {
+                  "id": "b",
+                  "text": "60 Euro",
+                  "fact_id": "F5",
+                  "why_wrong": "old phone estimate / wheel only"
+                },
+                {
+                  "id": "c",
+                  "text": "85 Euro",
+                  "fact_id": "F6",
+                  "why_wrong": ""
+                }
+              ],
+              "answer": "c",
+              "target_fact": "F6",
+              "evidence_quote": "Die Bremsen kosten 25 Euro, das Hinterrad 60 Euro, zusammen also 85 Euro.",
+              "trap": "QUANTITY_SCOPE",
+              "slot": "HOW_MUCH",
+              "difficulty": 4,
+              "explanation": "Zusammen kostet alles 85 Euro. 25 Euro sind nur die Bremsen, 60 Euro war der alte Preis am Telefon."
+            }
+          ],
+          "text_type": "voicemail from a shop, workshop or delivery service"
+        },
+        {
+          "id": "teil1-text3",
+          "title": "Text 3",
+          "topic": "Sister about a birthday present for their mother",
+          "speakers": [
+            {
+              "id": "S3",
+              "name": "Katrin",
+              "gender": "f",
+              "role": "Schwester von Jonas",
+              "voice": "petra"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "statement": "Katrin wollte eigentlich ein Kochbuch kaufen, aber es gab es nicht mehr.",
+              "frame": "agent=Katrin; action=Kochbuch kaufen; status=gewollt, nicht erfolgt; cause=ausverkauft"
+            },
+            {
+              "id": "F2",
+              "statement": "Katrin hat einen Theatergutschein für 40 Euro gekauft.",
+              "frame": "agent=Katrin; action=kaufen; object=Theatergutschein; quantity=40 Euro; status=erledigt"
+            },
+            {
+              "id": "F3",
+              "statement": "Jonas soll die Hälfte überweisen.",
+              "frame": "agent=Jonas; action=überweisen; quantity=Hälfte; modality=Bitte"
+            },
+            {
+              "id": "F4",
+              "statement": "Jonas soll Blumen mitbringen.",
+              "frame": "agent=Jonas; action=mitbringen; object=Blumen; modality=Bitte"
+            },
+            {
+              "id": "F5",
+              "statement": "Katrin backt den Kuchen selbst.",
+              "frame": "agent=Katrin; action=backen; object=Kuchen"
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "S3",
+              "text": "Hallo Jonas, hier ist Katrin. Ich rufe wegen Mamas Geburtstag am Sonntag an. Ich war heute in der Stadt und wollte eigentlich das Kochbuch kaufen, über das wir gesprochen haben. Das gab es aber leider nicht mehr. Ich habe dann einen Gutschein für das Theater gekauft, der hat 40 Euro gekostet. Kannst du mir bitte die Hälfte überweisen? Und noch etwas: Tante Ruth kommt auch zum Kaffee. Bring bitte Blumen mit, den Kuchen backe ich selbst. Ruf mich an, wenn du Fragen hast. Tschüss."
+            }
+          ],
+          "questions": [
+            {
+              "type": "true_false",
+              "number": 5,
+              "prompt": "Katrin hat für die Mutter ein Kochbuch gekauft.",
+              "options": [],
+              "answer": "falsch",
+              "target_fact": "F2",
+              "evidence_quote": "Das gab es aber leider nicht mehr. Ich habe dann einen Gutschein für das Theater gekauft",
+              "trap": "MENTIONED_TRUE",
+              "slot": "WHAT",
+              "difficulty": 4,
+              "explanation": "Das Kochbuch wird erwähnt, aber es gab es nicht mehr. Katrin hat einen Theatergutschein gekauft."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 6,
+              "prompt": "Was soll Jonas mitbringen?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "einen Kuchen",
+                  "fact_id": "F5",
+                  "why_wrong": "Katrin bakes it herself (wrong actor)"
+                },
+                {
+                  "id": "b",
+                  "text": "Blumen",
+                  "fact_id": "F4",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "c",
+                  "text": "ein Kochbuch",
+                  "fact_id": "F1",
+                  "why_wrong": "only the original gift idea, sold out"
+                }
+              ],
+              "answer": "b",
+              "target_fact": "F4",
+              "evidence_quote": "Bring bitte Blumen mit, den Kuchen backe ich selbst.",
+              "trap": "MENTIONED_TRUE",
+              "slot": "WHAT",
+              "difficulty": 3,
+              "explanation": "Jonas soll Blumen mitbringen. Den Kuchen backt Katrin selbst, und das Kochbuch gab es nicht mehr."
+            }
+          ],
+          "text_type": "private voicemail from a friend or relative"
+        },
+        {
+          "id": "teil1-text4",
+          "title": "Text 4",
+          "topic": "Regional train to Lindau delayed and moved to another platform",
+          "speakers": [
+            {
+              "id": "S4",
+              "name": "Sprecherin",
+              "gender": "f",
+              "role": "Bahnhofsdurchsage",
+              "voice": "petra"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "statement": "Die Regionalbahn nach Lindau um 16:20 Uhr hat etwa 15 Minuten Verspätung wegen einer Signalstörung.",
+              "frame": "object=Regionalbahn nach Lindau; time=16:20 Uhr planmäßig; quantity=15 Minuten Verspätung; cause=Signalstörung"
+            },
+            {
+              "id": "F2",
+              "statement": "Der Zug fährt heute nicht an Gleis 4, sondern an Gleis 7 ab.",
+              "frame": "object=Regionalbahn nach Lindau; place=Gleis 7; status=neu, statt Gleis 4"
+            },
+            {
+              "id": "F3",
+              "statement": "Der Zug nach München an Gleis 5 fährt pünktlich.",
+              "frame": "object=Zug nach München; place=Gleis 5; status=pünktlich"
+            },
+            {
+              "id": "F4",
+              "statement": "Die Wagen der ersten Klasse halten heute im Abschnitt A.",
+              "frame": "object=erste Klasse; place=Abschnitt A; time=heute"
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "S4",
+              "text": "Achtung an Gleis 4. Die Regionalbahn nach Lindau, planmäßige Abfahrt 16:20 Uhr, hat heute ungefähr 15 Minuten Verspätung. Grund dafür ist eine Signalstörung. Bitte beachten Sie: Der Zug fährt heute nicht hier an Gleis 4 ab, sondern an Gleis 7. Die Wagen der ersten Klasse halten heute im Abschnitt A. Der Zug nach München an Gleis 5 fährt pünktlich um 16:25 Uhr. Wir bitten um Entschuldigung."
+            }
+          ],
+          "questions": [
+            {
+              "type": "true_false",
+              "number": 7,
+              "prompt": "Der Zug nach Lindau kommt später.",
+              "options": [],
+              "answer": "richtig",
+              "target_fact": "F1",
+              "evidence_quote": "Die Regionalbahn nach Lindau, planmäßige Abfahrt 16:20 Uhr, hat heute ungefähr 15 Minuten Verspätung.",
+              "trap": "PARAPHRASE",
+              "slot": "STATUS",
+              "difficulty": 3,
+              "explanation": "Der Zug hat etwa 15 Minuten Verspätung, er kommt also später. Pünktlich ist nur der Zug nach München."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 8,
+              "prompt": "Wo fährt der Zug nach Lindau heute ab?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "an Gleis 7",
+                  "fact_id": "F2",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "b",
+                  "text": "an Gleis 4",
+                  "fact_id": "F2",
+                  "why_wrong": "usual platform, superseded today"
+                },
+                {
+                  "id": "c",
+                  "text": "an Gleis 5",
+                  "fact_id": "F3",
+                  "why_wrong": "platform of the Munich train"
+                }
+              ],
+              "answer": "a",
+              "target_fact": "F2",
+              "evidence_quote": "Der Zug fährt heute nicht hier an Gleis 4 ab, sondern an Gleis 7.",
+              "trap": "PLACE_SWAP",
+              "slot": "WHERE",
+              "difficulty": 4,
+              "explanation": "Heute fährt der Zug an Gleis 7 ab. Gleis 4 ist das normale Gleis, an Gleis 5 fährt der Zug nach München."
+            }
+          ],
+          "text_type": "station or platform announcement"
+        },
+        {
+          "id": "teil1-text5",
+          "title": "Text 5",
+          "topic": "Supermarket closes early for new refrigerated counters",
+          "speakers": [
+            {
+              "id": "S5",
+              "name": "Ansage",
+              "gender": "m",
+              "role": "Durchsage im Supermarkt",
+              "voice": "markus"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "statement": "Der Markt schließt heute schon um 18 Uhr statt um 20 Uhr.",
+              "frame": "object=Markt; action=schließen; time=heute 18 Uhr statt 20 Uhr; status=Ausnahme"
+            },
+            {
+              "id": "F2",
+              "statement": "Grund ist der Einbau neuer Kühltheken am Abend.",
+              "frame": "cause=Einbau neuer Kühltheken; time=heute Abend"
+            },
+            {
+              "id": "F3",
+              "statement": "Die Tiefkühlprodukte sind heute um 30 Prozent reduziert.",
+              "frame": "object=Tiefkühlprodukte; quantity=30 Prozent billiger; time=heute"
+            },
+            {
+              "id": "F4",
+              "statement": "Die Bäckerei am Eingang ist heute ganz geschlossen, weil eine Mitarbeiterin krank ist.",
+              "frame": "object=Bäckerei am Eingang; state=geschlossen; cause=Mitarbeiterin krank"
+            },
+            {
+              "id": "F5",
+              "statement": "Ab morgen ist der Markt wieder wie gewohnt bis 20 Uhr geöffnet.",
+              "frame": "object=Markt; time=ab morgen bis 20 Uhr; status=normal"
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "S5",
+              "text": "Liebe Kundinnen und Kunden, bitte beachten Sie: Unser Markt schließt heute ausnahmsweise schon um 18 Uhr und nicht wie sonst um 20 Uhr. Heute Abend werden nämlich neue Kühltheken eingebaut. Deshalb sind alle Tiefkühlprodukte heute um 30 Prozent reduziert. Leider ist auch die Bäckerei am Eingang heute ganz geschlossen, weil eine Mitarbeiterin krank ist. Ab morgen sind wir wieder wie gewohnt bis 20 Uhr für Sie da. Vielen Dank für Ihren Einkauf."
+            }
+          ],
+          "questions": [
+            {
+              "type": "true_false",
+              "number": 9,
+              "prompt": "Der Supermarkt schließt heute früher als sonst.",
+              "options": [],
+              "answer": "richtig",
+              "target_fact": "F1",
+              "evidence_quote": "Unser Markt schließt heute ausnahmsweise schon um 18 Uhr und nicht wie sonst um 20 Uhr.",
+              "trap": "MENTIONED_TRUE",
+              "slot": "WHEN",
+              "difficulty": 4,
+              "explanation": "Heute schließt der Markt um 18 Uhr. 20 Uhr wird genannt, ist aber die normale Zeit und gilt erst ab morgen wieder."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 10,
+              "prompt": "Warum schließt der Markt heute früher?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "Es werden neue Kühltheken eingebaut.",
+                  "fact_id": "F2",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "b",
+                  "text": "Eine Mitarbeiterin ist krank.",
+                  "fact_id": "F4",
+                  "why_wrong": "cause of the bakery closing, not the market"
+                },
+                {
+                  "id": "c",
+                  "text": "Es gibt ein Sonderangebot.",
+                  "fact_id": "F3",
+                  "why_wrong": "consequence, not the cause"
+                }
+              ],
+              "answer": "a",
+              "target_fact": "F2",
+              "evidence_quote": "Heute Abend werden nämlich neue Kühltheken eingebaut.",
+              "trap": "CAUSE_SWAP",
+              "slot": "WHY",
+              "difficulty": 3,
+              "explanation": "Der Grund sind die neuen Kühltheken. Die kranke Mitarbeiterin betrifft nur die Bäckerei, das Angebot ist eine Folge."
+            }
+          ],
+          "text_type": "announcement in a department store or supermarket"
+        }
+      ],
+      "validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "cost_usd": 0.3196
+    },
+    "2": {
+      "part": 2,
+      "instruction": "Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "plays": 1,
+      "situation": "Sie beginnen eine neue Stelle bei einer Fahrradfirma. Am ersten Arbeitstag hören Sie die Begrüßung durch einen Mitarbeiter der Personalabteilung.",
+      "topic": "First day at a bicycle manufacturer: HR orientation for new staff",
+      "units": [
+        {
+          "id": "teil2",
+          "title": null,
+          "topic": "First day at a bicycle manufacturer: HR orientation for new staff",
+          "speakers": [
+            {
+              "id": "S1",
+              "name": "Jonas Brandt",
+              "gender": "m",
+              "role": "Mitarbeiter der Personalabteilung, leitet die Einführung",
+              "voice": "markus"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "statement": "Die neuen Mitarbeiter haben den Arbeitsvertrag schon per Post unterschrieben.",
+              "frame": "agent=neue Mitarbeiter; action=Vertrag unterschreiben; time=vor dem ersten Tag; status=erledigt"
+            },
+            {
+              "id": "F2",
+              "statement": "Die Steuernummer muss erst bis Ende des Monats abgegeben werden.",
+              "frame": "object=Steuernummer; action=abgeben; time=bis Ende des Monats; status=noch offen, nicht heute"
+            },
+            {
+              "id": "F3",
+              "statement": "Heute sollen alle vor dem Rundgang ihre Kontodaten abgeben.",
+              "frame": "agent=neue Mitarbeiter; action=abgeben; object=Kontodaten; recipient=Herr Brandt; time=heute vor dem Rundgang; cause=pünktliches Gehalt"
+            },
+            {
+              "id": "F4",
+              "statement": "Mit Gleitzeit kann man normalerweise ab 7 Uhr anfangen.",
+              "frame": "action=Arbeitsbeginn; time=ab 7 Uhr; status=normalerweise; modality=möglich"
+            },
+            {
+              "id": "F5",
+              "statement": "Die Kernzeit ist von 9 bis 15 Uhr.",
+              "frame": "state=Kernzeit; time=9 bis 15 Uhr; modality=Pflicht"
+            },
+            {
+              "id": "F6",
+              "statement": "In der ersten Woche beginnen alle neuen Mitarbeiter um 8:30 Uhr.",
+              "frame": "agent=neue Mitarbeiter; action=beginnen; time=8:30 Uhr; scope=erste Woche; cause=tägliche Einführung"
+            },
+            {
+              "id": "F7",
+              "statement": "Ein Essen in der Kantine kostet normalerweise 4,50 Euro.",
+              "frame": "object=Mittagessen; quantity=4,50 Euro; status=normalerweise"
+            },
+            {
+              "id": "F8",
+              "statement": "Im ersten Monat ist das Mittagessen dank Gutscheinen kostenlos.",
+              "frame": "object=Mittagessen; quantity=0 Euro; time=erster Monat; cause=Essensgutscheine"
+            },
+            {
+              "id": "F9",
+              "statement": "Kaffee am Automaten kostet 50 Cent pro Tasse.",
+              "frame": "object=Kaffee; place=Automaten auf jeder Etage; quantity=50 Cent"
+            },
+            {
+              "id": "F10",
+              "statement": "Die Laptops für das Büro kommen morgen früh an den Arbeitsplatz.",
+              "frame": "agent=IT-Abteilung; object=Laptops; time=morgen früh; place=Arbeitsplatz"
+            },
+            {
+              "id": "F11",
+              "statement": "Arbeitskleidung gibt es jetzt bei Frau Yilmaz im Raum neben der Werkstatt.",
+              "frame": "agent=Frau Yilmaz; object=Arbeitskleidung; place=Raum neben der Werkstatt; status=aktuell"
+            },
+            {
+              "id": "F12",
+              "statement": "Früher holte man die Arbeitskleidung im Lager in Halle 2.",
+              "frame": "object=Arbeitskleidung; place=Lager in Halle 2; status=früher, nicht mehr gültig"
+            },
+            {
+              "id": "F13",
+              "statement": "Die Schlüssel für die Spinde gibt es am Empfang.",
+              "frame": "object=Spindschlüssel und Ausweis; place=Empfang"
+            },
+            {
+              "id": "F14",
+              "statement": "Vor dem Haupteingang dürfen Mitarbeiter keine Fahrräder abstellen; der Platz ist für Kunden.",
+              "frame": "object=Fahrrad; place=vor dem Haupteingang; polarity=nicht für Mitarbeiter; recipient=Kunden"
+            },
+            {
+              "id": "F15",
+              "statement": "Mitarbeiter stellen ihr Fahrrad im Fahrradkeller unter Halle 1 ab.",
+              "frame": "agent=Mitarbeiter; object=Fahrrad; place=Fahrradkeller unter Halle 1"
+            },
+            {
+              "id": "F16",
+              "statement": "Mitarbeiter mit Auto parken auf dem Parkplatz hinter dem Gebäude.",
+              "frame": "agent=Mitarbeiter mit Auto; action=parken; place=Parkplatz hinter dem Gebäude"
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "S1",
+              "text": "Guten Morgen und herzlich willkommen bei Rademacher Fahrradbau. Mein Name ist Jonas Brandt, ich arbeite in der Personalabteilung und begleite Sie heute durch Ihren ersten Tag. Sie sind insgesamt zwölf neue Kolleginnen und Kollegen, einige für die Werkstatt, einige für das Büro. Ich erkläre Ihnen jetzt kurz die wichtigsten Dinge, danach machen wir zusammen einen Rundgang durch das Gebäude. Fragen können Sie gern am Ende stellen."
+            },
+            {
+              "speaker": "S1",
+              "text": "Zuerst zu den Unterlagen. Einige von Ihnen haben mich gefragt, ob Sie heute noch den Arbeitsvertrag unterschreiben müssen. Nein, das haben Sie ja alle schon per Post erledigt. Ihre Steuernummer brauchen wir auch, aber dafür haben Sie noch Zeit bis Ende des Monats. Heute fehlt mir nur noch eine Sache. Bitte geben Sie mir vor dem Rundgang Ihre Kontodaten, damit Ihr Gehalt pünktlich ankommt."
+            },
+            {
+              "speaker": "S1",
+              "text": "Nun zur Arbeitszeit. Bei uns gibt es Gleitzeit. Das heißt, Sie können normalerweise schon ab 7 Uhr anfangen. Wichtig ist nur die Kernzeit von 9 bis 15 Uhr, dann müssen alle im Haus sein. In der ersten Woche ist es aber anders. Da beginnen alle neuen Kolleginnen und Kollegen gemeinsam um 8:30 Uhr, weil jeden Morgen eine kurze Einführung stattfindet."
+            },
+            {
+              "speaker": "S1",
+              "text": "Mittagessen gibt es in unserer Kantine im Erdgeschoss, von 11:30 bis 14 Uhr. Ein Essen kostet normalerweise 4,50 Euro. Im ersten Monat müssen Sie aber nichts bezahlen, denn Sie bekommen von mir gleich Essensgutscheine. Kaffee und Tee gibt es an den Automaten auf jeder Etage, eine Tasse kostet 50 Cent. Wasser steht übrigens in allen Besprechungsräumen."
+            },
+            {
+              "speaker": "S1",
+              "text": "Für die Kolleginnen und Kollegen im Büro noch eine Information. Ihre Laptops richtet die IT-Abteilung gerade ein. Sie bekommen sie morgen früh direkt an Ihren Arbeitsplatz. Wenn Sie später Probleme mit dem Passwort haben, rufen Sie einfach die Nummer 200 an. Das ist die Hotline der IT, sie ist von 8 bis 17 Uhr erreichbar."
+            },
+            {
+              "speaker": "S1",
+              "text": "Jetzt zu den Kolleginnen und Kollegen in der Werkstatt. Sie brauchen Arbeitskleidung und Sicherheitsschuhe. Früher hat man diese Sachen im Lager in Halle 2 abgeholt. Das ist seit diesem Jahr anders. Frau Yilmaz gibt die Kleidung jetzt in dem kleinen Raum direkt neben der Werkstatt aus. Die Schlüssel für Ihre Spinde bekommen Sie dagegen am Empfang, zusammen mit Ihrem Ausweis."
+            },
+            {
+              "speaker": "S1",
+              "text": "Zum Schluss noch etwas zur Anreise. Viele von Ihnen kommen mit dem Fahrrad, das freut uns als Fahrradfirma natürlich besonders. Bitte stellen Sie Ihr Rad aber nicht vor den Haupteingang, dort ist nur Platz für Kunden. Für Mitarbeiter gibt es einen Fahrradkeller unter Halle 1, mit Duschen gleich daneben. Wer mit dem Auto kommt, parkt auf dem großen Parkplatz hinter dem Gebäude."
+            },
+            {
+              "speaker": "S1",
+              "text": "So, das waren die wichtigsten Informationen. Sie finden alles noch einmal schriftlich in Ihrer Willkommensmappe. Jetzt sammle ich kurz Ihre Kontodaten ein, und dann gehen wir zusammen los. Wir beginnen den Rundgang in der Werkstatt und sind gegen 12 Uhr in der Kantine. Dort essen wir dann alle gemeinsam."
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "number": 11,
+              "prompt": "Was sollen die neuen Mitarbeiter heute abgeben?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "den Arbeitsvertrag",
+                  "fact_id": "F1",
+                  "why_wrong": "status: already done by post"
+                },
+                {
+                  "id": "b",
+                  "text": "die Steuernummer",
+                  "fact_id": "F2",
+                  "why_wrong": "time: due by end of month, not today"
+                },
+                {
+                  "id": "c",
+                  "text": "die Bankverbindung",
+                  "fact_id": "F3",
+                  "why_wrong": ""
+                }
+              ],
+              "answer": "c",
+              "target_fact": "F3",
+              "evidence_quote": "Bitte geben Sie mir vor dem Rundgang Ihre Kontodaten, damit Ihr Gehalt pünktlich ankommt.",
+              "trap": "MENTIONED_TRUE",
+              "slot": "WHAT",
+              "difficulty": 5,
+              "explanation": "Heute fehlen nur die Kontodaten. Der Vertrag ist schon unterschrieben, die Steuernummer muss erst bis Ende des Monats abgegeben werden."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 12,
+              "prompt": "Wann beginnt die Arbeit in der ersten Woche?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "um 8:30 Uhr",
+                  "fact_id": "F6",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "b",
+                  "text": "um 7 Uhr",
+                  "fact_id": "F4",
+                  "why_wrong": "status: normal earliest start, not first week"
+                },
+                {
+                  "id": "c",
+                  "text": "um 9 Uhr",
+                  "fact_id": "F5",
+                  "why_wrong": "scope: start of core time, not first week"
+                }
+              ],
+              "answer": "a",
+              "target_fact": "F6",
+              "evidence_quote": "Da beginnen alle neuen Kolleginnen und Kollegen gemeinsam um 8:30 Uhr",
+              "trap": "DISTRACTOR_DENSITY",
+              "slot": "WHEN",
+              "difficulty": 4,
+              "explanation": "In der ersten Woche beginnen alle um 8:30 Uhr. Ab 7 Uhr darf man sonst anfangen, und um 9 Uhr beginnt die Kernzeit."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 13,
+              "prompt": "Was kostet das Mittagessen im ersten Monat?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "4,50 Euro",
+                  "fact_id": "F7",
+                  "why_wrong": "status: normal price, not first month"
+                },
+                {
+                  "id": "b",
+                  "text": "nichts",
+                  "fact_id": "F8",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "c",
+                  "text": "50 Cent",
+                  "fact_id": "F9",
+                  "why_wrong": "object: price of coffee, not lunch"
+                }
+              ],
+              "answer": "b",
+              "target_fact": "F8",
+              "evidence_quote": "Im ersten Monat müssen Sie aber nichts bezahlen, denn Sie bekommen von mir gleich Essensgutscheine.",
+              "trap": "DISTRACTOR_DENSITY",
+              "slot": "HOW_MUCH",
+              "difficulty": 3,
+              "explanation": "Im ersten Monat gibt es Gutscheine, das Essen ist also gratis. 4,50 Euro ist der normale Preis, und 50 Cent kostet ein Kaffee."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 14,
+              "prompt": "Wo bekommt man die Arbeitskleidung?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "im Raum neben der Werkstatt",
+                  "fact_id": "F11",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "b",
+                  "text": "im Lager in Halle 2",
+                  "fact_id": "F12",
+                  "why_wrong": "status: old place, no longer valid"
+                },
+                {
+                  "id": "c",
+                  "text": "am Empfang",
+                  "fact_id": "F13",
+                  "why_wrong": "object: locker keys, not clothes"
+                }
+              ],
+              "answer": "a",
+              "target_fact": "F11",
+              "evidence_quote": "Frau Yilmaz gibt die Kleidung jetzt in dem kleinen Raum direkt neben der Werkstatt aus.",
+              "trap": "PLACE_SWAP",
+              "slot": "WHERE",
+              "difficulty": 4,
+              "explanation": "Die Kleidung gibt es jetzt im Raum neben der Werkstatt. Das Lager in Halle 2 war früher, am Empfang holt man die Schlüssel."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 15,
+              "prompt": "Wo sollen die Mitarbeiter ihr Fahrrad abstellen?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "vor dem Haupteingang",
+                  "fact_id": "F14",
+                  "why_wrong": "recipient: place is only for customers"
+                },
+                {
+                  "id": "b",
+                  "text": "im Keller unter Halle 1",
+                  "fact_id": "F15",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "c",
+                  "text": "hinter dem Gebäude",
+                  "fact_id": "F16",
+                  "why_wrong": "object: car park, not bicycles"
+                }
+              ],
+              "answer": "b",
+              "target_fact": "F15",
+              "evidence_quote": "Für Mitarbeiter gibt es einen Fahrradkeller unter Halle 1, mit Duschen gleich daneben.",
+              "trap": "PLACE_SWAP",
+              "slot": "WHERE",
+              "difficulty": 3,
+              "explanation": "Fahrräder kommen in den Keller unter Halle 1. Vor dem Eingang parken Kunden, hinter dem Gebäude parken die Autos."
+            }
+          ]
+        }
+      ],
+      "validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "cost_usd": 0.2879
+    },
+    "3": {
+      "part": 3,
+      "instruction": "Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen richtig oder falsch?",
+      "plays": 1,
+      "situation": "Sie hören ein Gespräch zwischen zwei Kollegen im Bus über einen Umzug.",
+      "topic": "colleagues on the bus: moving into a new flat without a removal firm",
+      "units": [
+        {
+          "id": "teil3",
+          "title": null,
+          "topic": "colleagues on the bus: moving into a new flat without a removal firm",
+          "speakers": [
+            {
+              "id": "f",
+              "name": "Katrin",
+              "gender": "f",
+              "role": "Kollegin, ist gerade umgezogen, erzählt",
+              "voice": "anna"
+            },
+            {
+              "id": "m",
+              "name": "Jonas",
+              "gender": "m",
+              "role": "Kollege, fragt nach und reagiert",
+              "voice": "markus"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "statement": "Katrin und Timo haben keine Umzugsfirma genommen, weil die Angebote zu teuer waren.",
+              "frame": "agent=Katrin und Timo; action=Umzugsfirma nehmen; polarity=nein; cause=zu teuer; status=nicht gewählt"
+            },
+            {
+              "id": "F2",
+              "statement": "Katrins Schwager hat den Transporter besorgt und ist gefahren; der Bruder war krank.",
+              "frame": "agent=Schwager (Mann der Schwester); action=Transporter besorgen; object=Transporter; note=Bruder wollte kommen, war krank"
+            },
+            {
+              "id": "F3",
+              "statement": "Der Wetterbericht sagte Regen den ganzen Tag, aber es blieb trocken.",
+              "frame": "object=Wetter am Samstag; forecast=Regen den ganzen Tag; actual=trocken, Regen erst nachts"
+            },
+            {
+              "id": "F4",
+              "statement": "Katrin wollte vor dem Umzug streichen, hatte aber keine Zeit.",
+              "frame": "agent=Katrin; action=Wände streichen; time=vor dem Umzug; status=nur gewollt, nicht gemacht; later=vielleicht nächstes Wochenende"
+            },
+            {
+              "id": "F5",
+              "statement": "Die neue Nachbarin von gegenüber hat einen Apfelkuchen gebracht; die alte Nachbarin half beim Kistentragen.",
+              "frame": "agent=neue Nachbarin; action=Kuchen bringen; recipient=Katrin; time=Sonntag; contrast=alte Nachbarin half beim Tragen"
+            },
+            {
+              "id": "F6",
+              "statement": "Im Haus gibt es einen kleinen Aufzug, das Sofa passte nicht hinein.",
+              "frame": "place=neues Haus, 3. Stock; object=Aufzug; polarity=vorhanden; condition=zu klein für Sofa; agent=Timo Rücken"
+            },
+            {
+              "id": "F7",
+              "statement": "Katrin fährt nicht mehr mit dem Rad zur Arbeit, sondern mit dem Bus.",
+              "frame": "agent=Katrin; action=zur Arbeit fahren; old=Fahrrad, 10 Minuten; new=Bus, 25 Minuten; scope=am Wochenende weiter Rad"
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "m",
+              "text": "Hallo Katrin. Dich sehe ich ja sonst nie in diesem Bus. Was machst du denn hier?"
+            },
+            {
+              "speaker": "f",
+              "text": "Hallo Jonas. Ich wohne seit Samstag in der Gartenstraße. Timo und ich sind endlich umgezogen."
+            },
+            {
+              "speaker": "m",
+              "text": "Stimmt, du hast davon erzählt. Und, hat alles geklappt? Habt ihr eine Umzugsfirma genommen?"
+            },
+            {
+              "speaker": "f",
+              "text": "Nein, eine Firma haben wir nicht genommen. Wir hatten zwei Angebote, aber beide waren viel zu teuer. Wir haben alles selbst gemacht, mit ein paar Freunden."
+            },
+            {
+              "speaker": "m",
+              "text": "Und wie habt ihr die Möbel transportiert? Ihr habt doch gar kein Auto."
+            },
+            {
+              "speaker": "f",
+              "text": "Mein Schwager, also der Mann von meiner Schwester, hat einen Transporter besorgt. Er kennt jemanden bei einer Autovermietung, deshalb war es billiger. Er ist auch selbst gefahren. Mein Bruder wollte eigentlich auch helfen, aber er war leider krank."
+            },
+            {
+              "speaker": "m",
+              "text": "Das war nett von deinem Schwager. Und das Wetter? Am Samstag sollte es doch den ganzen Tag regnen."
+            },
+            {
+              "speaker": "f",
+              "text": "Genau, davor hatte ich richtig Angst. Im Wetterbericht hieß es, Regen von morgens bis abends. Wir hatten sogar schon Plastikfolie für die Matratzen gekauft. Aber am Ende blieb es trocken, erst in der Nacht hat es angefangen."
+            },
+            {
+              "speaker": "m",
+              "text": "Da hattet ihr aber Glück. Und die neue Wohnung, wie ist sie?"
+            },
+            {
+              "speaker": "f",
+              "text": "Schön hell, mit Balkon. Nur die Wände sind noch so grau. Ich wollte eigentlich vor dem Umzug alles weiß streichen, die Farbe steht auch schon im Flur. Aber ich hatte einfach keine Zeit. Das mache ich vielleicht nächstes Wochenende."
+            },
+            {
+              "speaker": "m",
+              "text": "Wenn du Hilfe brauchst, sag Bescheid. Ich streiche gern. Und die Nachbarn, hast du schon jemanden kennengelernt?"
+            },
+            {
+              "speaker": "f",
+              "text": "Ja, das war nett. Am Sonntag hat es geklingelt, und die Frau von gegenüber, also meine neue Nachbarin, stand mit einem Apfelkuchen vor der Tür. Sie wohnt schon zwanzig Jahre in dem Haus."
+            },
+            {
+              "speaker": "m",
+              "text": "So etwas gibt es noch? In meinem Haus kenne ich fast niemanden."
+            },
+            {
+              "speaker": "f",
+              "text": "Ich war auch überrascht. Meine alte Nachbarin in der Bergstraße hat in fünf Jahren kaum mit mir gesprochen. Obwohl, am Samstag hat sie uns tatsächlich beim Tragen der Kisten geholfen."
+            },
+            {
+              "speaker": "m",
+              "text": "Und wohnt ihr jetzt wieder so weit oben? Da musstet ihr ja alles hochtragen."
+            },
+            {
+              "speaker": "f",
+              "text": "Im dritten Stock. Es gibt zwar einen Aufzug, aber der ist sehr klein. Die Kisten gingen gut, aber das Sofa passte natürlich nicht hinein. Das mussten wir die Treppe hochtragen. Timo hat danach zwei Tage über seinen Rücken geklagt."
+            },
+            {
+              "speaker": "m",
+              "text": "Das glaube ich sofort. Und wie lange brauchst du jetzt zur Arbeit?"
+            },
+            {
+              "speaker": "f",
+              "text": "Ungefähr 25 Minuten mit dem Bus. Früher bin ich jeden Tag mit dem Fahrrad gekommen, das waren nur zehn Minuten. Aber von der Gartenstraße ist es zu weit, und es gibt viel Verkehr. Deshalb lasse ich das Rad jetzt zu Hause."
+            },
+            {
+              "speaker": "m",
+              "text": "Schade, du bist doch immer so gern Rad gefahren."
+            },
+            {
+              "speaker": "f",
+              "text": "Am Wochenende fahre ich ja weiter. Und im Bus kann ich wenigstens lesen. Oder mit dir reden."
+            },
+            {
+              "speaker": "m",
+              "text": "Dann sehen wir uns ab jetzt jeden Morgen. Ich muss an der nächsten Haltestelle aussteigen. Bis später im Büro."
+            },
+            {
+              "speaker": "f",
+              "text": "Bis später, Jonas. Und danke für dein Angebot mit dem Streichen."
+            }
+          ],
+          "questions": [
+            {
+              "type": "true_false",
+              "number": 16,
+              "prompt": "Katrin und Timo haben eine Umzugsfirma bezahlt.",
+              "options": [],
+              "answer": "falsch",
+              "target_fact": "F1",
+              "evidence_quote": "Nein, eine Firma haben wir nicht genommen. Wir hatten zwei Angebote, aber beide waren viel zu teuer.",
+              "trap": "NEGATION",
+              "slot": "POLARITY",
+              "difficulty": 3,
+              "explanation": "Es gab zwei Angebote, aber Katrin und Timo haben keine Firma genommen, sondern alles selbst gemacht."
+            },
+            {
+              "type": "true_false",
+              "number": 17,
+              "prompt": "Katrins Bruder hat den Transporter besorgt.",
+              "options": [],
+              "answer": "falsch",
+              "target_fact": "F2",
+              "evidence_quote": "Mein Schwager, also der Mann von meiner Schwester, hat einen Transporter besorgt.",
+              "trap": "ROLE_SWAP",
+              "slot": "WHO",
+              "difficulty": 2,
+              "explanation": "Den Transporter hat der Schwager besorgt. Der Bruder wollte helfen, war aber krank."
+            },
+            {
+              "type": "true_false",
+              "number": 18,
+              "prompt": "Das Wetter beim Umzug war besser als angekündigt.",
+              "options": [],
+              "answer": "richtig",
+              "target_fact": "F3",
+              "evidence_quote": "Im Wetterbericht hieß es, Regen von morgens bis abends.",
+              "trap": "FORECAST_ACTUAL",
+              "slot": "STATUS",
+              "difficulty": 5,
+              "explanation": "Angekündigt war Regen den ganzen Tag, aber es blieb trocken. Erst in der Nacht hat es geregnet."
+            },
+            {
+              "type": "true_false",
+              "number": 19,
+              "prompt": "Katrin hat die Wände vor dem Umzug gestrichen.",
+              "options": [],
+              "answer": "falsch",
+              "target_fact": "F4",
+              "evidence_quote": "Ich wollte eigentlich vor dem Umzug alles weiß streichen, die Farbe steht auch schon im Flur. Aber ich hatte einfach keine Zeit.",
+              "trap": "WANT_DO",
+              "slot": "STATUS",
+              "difficulty": 4,
+              "explanation": "Katrin wollte streichen und hat schon Farbe, hatte aber keine Zeit. Die Wände sind noch grau."
+            },
+            {
+              "type": "true_false",
+              "number": 20,
+              "prompt": "Katrin hat von ihrer neuen Nachbarin Kuchen bekommen.",
+              "options": [],
+              "answer": "richtig",
+              "target_fact": "F5",
+              "evidence_quote": "die Frau von gegenüber, also meine neue Nachbarin, stand mit einem Apfelkuchen vor der Tür.",
+              "trap": "ROLE_SWAP",
+              "slot": "WHO",
+              "difficulty": 2,
+              "explanation": "Die neue Nachbarin brachte einen Apfelkuchen. Die alte Nachbarin hat nur beim Tragen geholfen."
+            },
+            {
+              "type": "true_false",
+              "number": 21,
+              "prompt": "In Katrins neuem Haus gibt es keinen Aufzug.",
+              "options": [],
+              "answer": "falsch",
+              "target_fact": "F6",
+              "evidence_quote": "Es gibt zwar einen Aufzug, aber der ist sehr klein.",
+              "trap": "NEGATION",
+              "slot": "POLARITY",
+              "difficulty": 4,
+              "explanation": "Es gibt einen Aufzug, er ist nur zu klein für das Sofa. Deshalb mussten sie es die Treppe hochtragen."
+            },
+            {
+              "type": "true_false",
+              "number": 22,
+              "prompt": "Katrin fährt nicht mehr mit dem Rad zur Arbeit.",
+              "options": [],
+              "answer": "richtig",
+              "target_fact": "F7",
+              "evidence_quote": "Aber von der Gartenstraße ist es zu weit, und es gibt viel Verkehr. Deshalb lasse ich das Rad jetzt zu Hause.",
+              "trap": "NEGATION",
+              "slot": "POLARITY",
+              "difficulty": 4,
+              "explanation": "Früher kam Katrin mit dem Rad, jetzt nimmt sie den Bus. Mit dem Rad fährt sie nur noch am Wochenende."
+            }
+          ]
+        }
+      ],
+      "validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "cost_usd": 0.2556
+    },
+    "4": {
+      "part": 4,
+      "instruction": "Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was?",
+      "plays": 2,
+      "situation": "Sie hören eine Diskussion im Radio. Der Moderator der Sendung „Arbeit und Leben“ diskutiert mit einer Karriereberaterin und einer Bäckereiinhaberin darüber, ob Teilzeit ein gutes Modell für alle ist.",
+      "topic": "Radio discussion: part-time work – career advisor vs. bakery owner",
+      "units": [
+        {
+          "id": "teil4",
+          "title": null,
+          "topic": "Radio discussion: part-time work – career advisor vs. bakery owner",
+          "speakers": [
+            {
+              "id": "moderator",
+              "name": "Jonas Brandt",
+              "gender": "m",
+              "role": "Moderator",
+              "voice": "markus"
+            },
+            {
+              "id": "guest1",
+              "name": "Petra Lindner",
+              "gender": "f",
+              "role": "Karriereberaterin",
+              "voice": "petra"
+            },
+            {
+              "id": "guest2",
+              "name": "Sabine Keller",
+              "gender": "f",
+              "role": "Inhaberin einer Bäckerei mit zwölf Angestellten",
+              "voice": "anna"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "statement": "Frau Lindner: Wer weniger Stunden arbeitet, hat mehr Zeit für Familie, Sport und Ehrenamt.",
+              "frame": "source=guest1; claim=Teilzeit gibt mehr Zeit für Familie und Freizeit; polarity=pro"
+            },
+            {
+              "id": "F2",
+              "statement": "Frau Keller erkennt an, dass Zeit für die Familie wichtig ist, sieht aber Probleme für ihren Betrieb.",
+              "frame": "source=guest2; claim=Familie wichtig; stance=Zugeständnis, aber kritisch"
+            },
+            {
+              "id": "F3",
+              "statement": "Frau Keller: In einer kleinen Bäckerei ist Teilzeit schwer zu organisieren; sie plant abends selbst.",
+              "frame": "source=guest2; claim=kleine Betriebe haben Probleme mit Teilzeit-Planung; place=kleine Bäckerei"
+            },
+            {
+              "id": "F4",
+              "statement": "Frau Lindner: Auch kleine Firmen können Teilzeit gut organisieren, wenn Kollegen sich absprechen.",
+              "frame": "source=guest1; claim=kleine Firmen können Teilzeit organisieren; polarity=Gegenposition zu F3"
+            },
+            {
+              "id": "F5",
+              "statement": "Frau Keller ist nicht grundsätzlich gegen Teilzeit; für Eltern kleiner Kinder oder Pflegende hält sie sie für richtig.",
+              "frame": "source=guest2; claim=Teilzeit sinnvoll in bestimmten Lebensphasen; condition=kleine Kinder, Pflege; stance=teilweise Zustimmung"
+            },
+            {
+              "id": "F6",
+              "statement": "Der Moderator berichtet, viele sagen, Teilzeitkräfte kämen beruflich nicht weiter.",
+              "frame": "source=moderator; claim=Teilzeit schadet Karriere; status=zitiert, nicht eigene Meinung"
+            },
+            {
+              "id": "F7",
+              "statement": "Frau Keller: Eine Führungsaufgabe kann man nicht in Teilzeit machen.",
+              "frame": "source=guest2; claim=Führung braucht Vollzeit"
+            },
+            {
+              "id": "F8",
+              "statement": "Frau Lindner: Führen geht auch in Teilzeit, aber in der Praxis bekommen Teilzeitkräfte seltener eine höhere Stelle.",
+              "frame": "source=guest1; claim=Teilzeitkräfte steigen seltener auf; stance=Zugeständnis; cause=alte Vorstellungen der Chefs"
+            },
+            {
+              "id": "F9",
+              "statement": "Frau Lindner gibt zu: Für Menschen mit kleinem Lohn ist Teilzeit oft nicht realistisch.",
+              "frame": "source=guest1; claim=Geringverdiener können sich Teilzeit nicht leisten; stance=Zugeständnis"
+            },
+            {
+              "id": "F10",
+              "statement": "Frau Keller: Wer lange Teilzeit arbeitet, bekommt im Alter weniger Rente.",
+              "frame": "source=guest2; claim=lange Teilzeit führt zu kleinerer Rente; time=im Alter"
+            },
+            {
+              "id": "F11",
+              "statement": "Der Moderator erwähnt, dass Hörer oft zum Thema Rente schreiben.",
+              "frame": "source=moderator; claim=Rente ist häufiges Hörerthema; status=Überleitung"
+            },
+            {
+              "id": "F12",
+              "statement": "Frau Keller: Vollzeitkräfte müssen die Arbeit der Teilzeitkräfte übernehmen und werden sauer.",
+              "frame": "source=guest2; claim=Vollzeitkollegen übernehmen zusätzliche Arbeit"
+            },
+            {
+              "id": "F13",
+              "statement": "Frau Lindner: Wenn Aufgaben neu verteilt werden, haben die Kollegen kein Problem.",
+              "frame": "source=guest1; claim=Kollegen kein Problem; condition=Aufgaben angepasst"
+            },
+            {
+              "id": "F14",
+              "statement": "Der Moderator glaubt, jeder sollte seine Stunden je nach Lebensphase selbst wählen können.",
+              "frame": "source=moderator; claim=flexible Arbeitszeit je nach Lebensphase; polarity=eigene Meinung"
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "moderator",
+              "text": "Guten Abend und herzlich willkommen zu Arbeit und Leben. Immer mehr Menschen in Deutschland arbeiten Teilzeit, also weniger als die normale Wochenarbeitszeit. Aber ist das wirklich ein gutes Modell für alle? Darüber spreche ich heute mit zwei Gästen. Petra Lindner ist Karriereberaterin und hilft Menschen bei der Planung ihres Berufslebens. Sabine Keller führt eine Bäckerei mit zwölf Angestellten. Frau Lindner, warum ist Teilzeit eigentlich so beliebt?"
+            },
+            {
+              "speaker": "guest1",
+              "text": "Ganz einfach: Die Menschen wollen nicht mehr nur für die Arbeit leben. Wer weniger Stunden arbeitet, hat mehr Zeit für die Familie, für Sport oder für ein Ehrenamt. Das höre ich in meinen Beratungen jeden Tag. Und viele erzählen mir, dass sie danach weniger gestresst sind und sogar seltener krank werden."
+            },
+            {
+              "speaker": "moderator",
+              "text": "Frau Keller, Sie haben einen eigenen Betrieb. Wie sehen Sie das?"
+            },
+            {
+              "speaker": "guest2",
+              "text": "Etwas kritischer. Ich verstehe gut, dass die Leute mehr Zeit für die Familie wollen. Aber in einer kleinen Bäckerei ist das ein echtes Problem. Wenn fünf von zwölf Leuten nur halbtags kommen, muss ich jeden Dienstplan dreimal ändern. Ein großer Konzern hat dafür eine eigene Personalabteilung. Ich mache das abends am Küchentisch."
+            },
+            {
+              "speaker": "moderator",
+              "text": "Frau Lindner, ist das nicht ein berechtigter Einwand?"
+            },
+            {
+              "speaker": "guest1",
+              "text": "Teilweise schon. Aber ich kenne auch viele kleine Firmen, die Teilzeit sehr gut organisieren. Da sprechen sich die Kollegen einfach untereinander ab, wer wann kommt. Das funktioniert oft besser, als man denkt, und die Chefin muss nicht alles allein planen."
+            },
+            {
+              "speaker": "moderator",
+              "text": "Frau Keller, sind Sie denn grundsätzlich gegen Teilzeit?"
+            },
+            {
+              "speaker": "guest2",
+              "text": "Nein, das nicht. Wenn jemand kleine Kinder hat oder die kranke Mutter pflegt, dann ist Teilzeit richtig, und dann mache ich das in meinem Betrieb auch möglich. In bestimmten Lebensphasen braucht man das einfach. Ich habe nur ein Problem damit, wenn man es als Modell für das ganze Leben sieht."
+            },
+            {
+              "speaker": "moderator",
+              "text": "Ein anderer Punkt ist die Karriere. Viele sagen ja, wer Teilzeit arbeitet, kommt beruflich nicht weiter. Frau Keller?"
+            },
+            {
+              "speaker": "guest2",
+              "text": "Eine Führungsaufgabe kann man meiner Meinung nach nicht mit zwanzig Stunden machen. Wer ein Team leitet, muss jeden Tag ansprechbar sein. Meine Mitarbeiter kommen morgens um fünf mit ihren Fragen, und dann muss jemand da sein."
+            },
+            {
+              "speaker": "guest1",
+              "text": "Da widerspreche ich. Führen geht auch in Teilzeit, zum Beispiel zu zweit, mit einer geteilten Leitung. Ich muss aber zugeben: In der Praxis bekommen Teilzeitkräfte seltener eine höhere Stelle. Das liegt aber eher an alten Vorstellungen in den Chefetagen als an der Arbeitszeit selbst."
+            },
+            {
+              "speaker": "moderator",
+              "text": "Kommen wir zum Geld. Frau Lindner, kann sich denn jeder Teilzeit leisten?"
+            },
+            {
+              "speaker": "guest1",
+              "text": "Ehrlich gesagt, nein. Das ist der schwache Punkt. Für jemanden mit einem guten Gehalt ist eine Vier-Tage-Woche kein Problem. Aber eine Verkäuferin oder ein Lagerarbeiter braucht jeden Euro. Für diese Menschen ist Teilzeit oft kein realistisches Modell, das gebe ich offen zu. Trotzdem sollte man es denen, die es sich leisten können, nicht schwer machen."
+            },
+            {
+              "speaker": "moderator",
+              "text": "Das Thema Rente kommt übrigens in den Briefen unserer Hörer sehr oft vor. Frau Keller, was meinen Sie dazu?"
+            },
+            {
+              "speaker": "guest2",
+              "text": "Man darf eben nicht nur an heute denken. Wer zwanzig Jahre lang weniger verdient, zahlt auch weniger in die Rentenkasse ein. Im Alter fehlt dann das Geld, und das kann man später nicht mehr nachholen. Das hören viele junge Leute nicht gern, aber so ist es."
+            },
+            {
+              "speaker": "moderator",
+              "text": "Frau Keller, wie reagieren eigentlich die Kollegen, die Vollzeit arbeiten?"
+            },
+            {
+              "speaker": "guest2",
+              "text": "Das ist bei uns ehrlich gesagt der größte Streitpunkt. Wenn nachmittags jemand nach Hause geht, bleibt die Arbeit ja nicht einfach liegen. Dann müssen die Vollzeitkräfte das übernehmen, und die sind irgendwann sauer auf ihre Kollegen."
+            },
+            {
+              "speaker": "guest1",
+              "text": "Das passiert aber nur, wenn die Arbeit nicht neu verteilt wird. Wenn eine Stelle von vierzig auf dreißig Stunden geht, muss der Chef auch die Aufgaben anpassen. Dann haben die Kollegen damit normalerweise kein Problem."
+            },
+            {
+              "speaker": "moderator",
+              "text": "Vielen Dank. Ich fasse zusammen: Teilzeit bringt mehr Freizeit, kostet aber Geld und ist für kleine Betriebe nicht immer leicht. Ich persönlich glaube, dass die feste Grenze zwischen Vollzeit und Teilzeit bald verschwinden wird. Jeder sollte seine Stunden je nach Lebensphase selbst wählen können, mal mehr, mal weniger. Frau Lindner, Frau Keller, danke für das Gespräch."
+            }
+          ],
+          "questions": [
+            {
+              "type": "speaker_matching",
+              "number": 23,
+              "prompt": "Mit weniger Arbeitsstunden bleibt mehr Zeit für Familie und Freizeit.",
+              "options": [],
+              "answer": "guest1",
+              "target_fact": "F1",
+              "evidence_quote": "Wer weniger Stunden arbeitet, hat mehr Zeit für die Familie, für Sport oder für ein Ehrenamt.",
+              "trap": "KEYWORD_OVERLAP",
+              "slot": "SOURCE",
+              "difficulty": 2,
+              "explanation": "Frau Lindner nennt mehr Zeit für Familie und Freizeit als Vorteil. Frau Keller sagt auch „Familie“, sieht Teilzeit aber kritisch."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 24,
+              "prompt": "In der Realität steigen Teilzeitkräfte beruflich seltener auf.",
+              "options": [],
+              "answer": "guest1",
+              "target_fact": "F8",
+              "evidence_quote": "Ich muss aber zugeben: In der Praxis bekommen Teilzeitkräfte seltener eine höhere Stelle.",
+              "trap": "STANCE_QUALIFIER",
+              "slot": "SOURCE",
+              "difficulty": 5,
+              "explanation": "Frau Lindner gibt das zu, obwohl sie für Teilzeit ist. Frau Keller sagt nur, dass Führung Vollzeit braucht."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 25,
+              "prompt": "Für kleine Betriebe ist Teilzeit schwierig zu planen.",
+              "options": [],
+              "answer": "guest2",
+              "target_fact": "F3",
+              "evidence_quote": "Aber in einer kleinen Bäckerei ist das ein echtes Problem.",
+              "trap": "KEYWORD_OVERLAP",
+              "slot": "SOURCE",
+              "difficulty": 4,
+              "explanation": "Frau Keller hat mit den Dienstplänen Probleme. Frau Lindner spricht auch über kleine Firmen, meint aber, dass es dort gut klappt."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 26,
+              "prompt": "In manchen Lebenssituationen ist Teilzeit durchaus sinnvoll.",
+              "options": [],
+              "answer": "guest2",
+              "target_fact": "F5",
+              "evidence_quote": "Wenn jemand kleine Kinder hat oder die kranke Mutter pflegt, dann ist Teilzeit richtig",
+              "trap": "STANCE_QUALIFIER",
+              "slot": "CONDITION",
+              "difficulty": 2,
+              "explanation": "Frau Keller ist eher kritisch, hält Teilzeit aber bei kleinen Kindern oder Pflege für richtig. Sie stimmt also nur teilweise zu."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 27,
+              "prompt": "Wer wenig verdient, kann sich Teilzeit oft nicht leisten.",
+              "options": [],
+              "answer": "guest1",
+              "target_fact": "F9",
+              "evidence_quote": "Für diese Menschen ist Teilzeit oft kein realistisches Modell, das gebe ich offen zu.",
+              "trap": "STANCE_QUALIFIER",
+              "slot": "SOURCE",
+              "difficulty": 5,
+              "explanation": "Diesen Nachteil gibt die Befürworterin Frau Lindner selbst zu. Frau Keller spricht später auch über Geld, aber über die Rente."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 28,
+              "prompt": "Jahrelange Teilzeit bedeutet später weniger Geld im Ruhestand.",
+              "options": [],
+              "answer": "guest2",
+              "target_fact": "F10",
+              "evidence_quote": "Wer zwanzig Jahre lang weniger verdient, zahlt auch weniger in die Rentenkasse ein.",
+              "trap": "SOURCE_ATTRIBUTION",
+              "slot": "SOURCE",
+              "difficulty": 2,
+              "explanation": "Frau Keller warnt vor einer kleineren Rente. Der Moderator nennt das Thema Rente nur, äußert aber keine eigene Meinung dazu."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 29,
+              "prompt": "Vollzeitkräfte müssen oft Aufgaben der Teilzeitkräfte übernehmen.",
+              "options": [],
+              "answer": "guest2",
+              "target_fact": "F12",
+              "evidence_quote": "Dann müssen die Vollzeitkräfte das übernehmen, und die sind irgendwann sauer auf ihre Kollegen.",
+              "trap": "KEYWORD_OVERLAP",
+              "slot": "SOURCE",
+              "difficulty": 4,
+              "explanation": "Das sagt Frau Keller. Frau Lindner spricht auch über Kollegen, meint aber: Wenn man die Aufgaben neu verteilt, gibt es kein Problem."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 30,
+              "prompt": "Die Arbeitszeit sollte je nach Lebensphase frei wählbar sein.",
+              "options": [],
+              "answer": "moderator",
+              "target_fact": "F14",
+              "evidence_quote": "Jeder sollte seine Stunden je nach Lebensphase selbst wählen können, mal mehr, mal weniger.",
+              "trap": "KEYWORD_OVERLAP",
+              "slot": "SOURCE",
+              "difficulty": 3,
+              "explanation": "Das ist die Meinung des Moderators. Frau Keller sagt auch „Lebensphasen“, meint aber nur Teilzeit bei Kindern oder Pflege."
+            }
+          ]
+        }
+      ],
+      "validation": {
+        "errors": [],
+        "warnings": [
+          "item 25: evidence comes earlier in the audio than the previous item's; items must follow audio order",
+          "item 26: evidence comes earlier in the audio than the previous item's; items must follow audio order"
+        ]
+      },
+      "cost_usd": 0.3626
+    }
+  }
+}

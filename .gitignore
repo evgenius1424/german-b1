@@ -1,0 +1,14 @@
+# Local and generated artifacts.
+materials/private/
+materials/generated/
+exams/*/audio/
+exams/*/published.json
+.venv-tts/
+.tts-models/
+.env
+
+# Python, operating-system, and editor files.
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
