@@ -46,6 +46,19 @@ def _load_manifest(exam_dir):
     return manifest
 
 
+def _exam_file(exam_dir, rel, post_id):
+    """Resolve a manifest file while keeping uploads inside the exam directory."""
+    if not isinstance(rel, str) or not rel:
+        raise PublishError(f"missing audio file for {post_id}")
+    root = exam_dir.resolve()
+    path = (exam_dir / rel).resolve()
+    if not path.is_relative_to(root):
+        raise PublishError(f"audio file for {post_id} is outside the exam directory")
+    if not path.is_file():
+        raise PublishError(f"missing audio file for {post_id}")
+    return path
+
+
 def validate_manifest(manifest, exam_dir):
     posts = manifest["posts"]
     if len(posts) != 4:
@@ -61,17 +74,14 @@ def validate_manifest(manifest, exam_dir):
             raise PublishError(f"caption on {post.get('id')} exceeds {TG_CAPTION} chars")
         if post.get("method") == "sendAudio":
             rel = post.get("files", {}).get("audio")
-            if not rel or not (exam_dir / rel).is_file():
-                raise PublishError(f"missing audio file for {post.get('id')}")
+            _exam_file(exam_dir, rel, post.get("id"))
             audio_files += 1
         if post.get("method") == "sendMediaGroup":
             media = post.get("media", [])
             if not 2 <= len(media) <= 10:
                 raise PublishError(f"invalid media group size for {post.get('id')}")
             for item in media:
-                rel = item.get("file")
-                if not rel or not (exam_dir / rel).is_file():
-                    raise PublishError(f"missing audio file for {post.get('id')}")
+                _exam_file(exam_dir, item.get("file"), post.get("id"))
                 audio_files += 1
         for comment in post.get("comments", []):
             if visible_len(comment.get("text", "")) > TG_MESSAGE:
@@ -137,7 +147,7 @@ class Publisher:
             params = dict(post["params"])
             params["chat_id"] = self.chat_id
             rel = post["files"]["audio"]
-            path = self.exam_dir / rel
+            path = _exam_file(self.exam_dir, rel, post.get("id"))
             with path.open("rb") as audio:
                 files = {"audio": (_upload_name(post["params"], path), audio, mimetypes.guess_type(path.name)[0] or "audio/mpeg")}
                 return [self._request(method, params=params, files=files)]
@@ -147,7 +157,7 @@ class Publisher:
             files = {}
             try:
                 for i, item in enumerate(post["media"]):
-                    path = self.exam_dir / item["file"]
+                    path = _exam_file(self.exam_dir, item.get("file"), post.get("id"))
                     handle = path.open("rb")
                     handles.append(handle)
                     field = f"audio{i}"

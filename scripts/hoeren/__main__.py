@@ -45,6 +45,42 @@ def summary(exam):
     return errors
 
 
+def validate_exam(exam, path):
+    expected = {"1", "2", "3", "4"}
+    actual = set(exam["parts"])
+    if actual != expected:
+        missing = ", ".join(sorted(expected - actual)) or "none"
+        extra = ", ".join(sorted(actual - expected)) or "none"
+        sys.exit(f"exam must contain parts 1–4 (missing: {missing}; unexpected: {extra})")
+    for part in exam["parts"].values():
+        errors, warnings = check_part(part, exam["blueprint"])
+        part["validation"] = {"errors": errors, "warnings": warnings}
+    save(path, exam)
+    return summary(exam)
+
+
+def require_valid(exam, path, action):
+    errors = validate_exam(exam, path)
+    if errors:
+        sys.exit(f"validation errors remain; refusing to {action}")
+
+
+def create_exam_dir(seed):
+    """Create a fresh exam directory without ever replacing an earlier run."""
+    base_id = f"{datetime.date.today()}-{seed:06d}"
+    EXAMS.mkdir(parents=True, exist_ok=True)
+    attempt = 1
+    while True:
+        exam_id = base_id if attempt == 1 else f"{base_id}-{attempt}"
+        path = EXAMS / exam_id
+        try:
+            path.mkdir(parents=True, exist_ok=False)
+        except FileExistsError:
+            attempt += 1
+            continue
+        return exam_id, path
+
+
 def generate(exam, path, parts, args):
     def one(n):
         return n, generate_part(n, exam["blueprint"], args.model, args.effort, args.retries, stderr_log)
@@ -58,9 +94,7 @@ def generate(exam, path, parts, args):
 
 def cmd_new(args):
     seed = args.seed if args.seed is not None else random.randrange(10**6)
-    exam_id = f"{datetime.date.today()}-{seed:06d}"
-    path = EXAMS / exam_id
-    path.mkdir(parents=True, exist_ok=True)
+    exam_id, path = create_exam_dir(seed)
     exam = {
         "id": exam_id,
         "created": datetime.datetime.now().isoformat(timespec="seconds"),
@@ -78,12 +112,12 @@ def cmd_new(args):
     with index.open("a") as f:
         f.write(f"- {datetime.date.today()} `{exam_id}` — origin: generated\n")
     errors = summary(exam)
-    if not args.no_audio:
-        audio.render(exam, path)
-        write_telegram(exam, path)
     print(path)
     if errors:
         sys.exit(f"validation errors remain; fix with: scripts/exam regen {exam_id} --parts <n>")
+    if not args.no_audio:
+        audio.render(exam, path)
+        write_telegram(exam, path)
 
 
 def cmd_regen(args):
@@ -98,17 +132,15 @@ def cmd_regen(args):
     for n in parts:
         for unit in exam["parts"][str(n)]["units"]:
             audio.unit_path(path, unit).unlink(missing_ok=True)
-    summary(exam)
+    errors = summary(exam)
+    if errors:
+        sys.exit(f"validation errors remain; fix with: scripts/exam regen {exam['id']} --parts <n>")
 
 
 def cmd_validate(args):
     path = exam_dir(args.exam)
     exam = load(path)
-    for key, part in exam["parts"].items():
-        errors, warnings = check_part(part, exam["blueprint"])
-        part["validation"] = {"errors": errors, "warnings": warnings}
-    save(path, exam)
-    errors = summary(exam)
+    errors = validate_exam(exam, path)
     if args.details:
         for key, part in exam["parts"].items():
             for e in part["validation"]["errors"]:
@@ -121,6 +153,7 @@ def cmd_validate(args):
 def cmd_audio(args):
     path = exam_dir(args.exam)
     exam = load(path)
+    require_valid(exam, path, "render audio")
     audio.render(exam, path, parse_parts(args.parts) if args.parts else None, args.force,
                  args.speed, args.temperature)
     write_telegram(exam, path)
@@ -142,11 +175,16 @@ def write_telegram(exam, path):
 
 def cmd_telegram(args):
     path = exam_dir(args.exam)
-    write_telegram(load(path), path)
+    exam = load(path)
+    require_valid(exam, path, "build the Telegram manifest")
+    write_telegram(exam, path)
 
 
 def cmd_publish(args):
     path = exam_dir(args.exam)
+    exam = load(path)
+    require_valid(exam, path, "publish")
+    write_telegram(exam, path)
     publish.publish(path, args.chat, args.dry_run)
 
 
