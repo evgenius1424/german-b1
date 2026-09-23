@@ -131,7 +131,7 @@ DIALOGUE = {"f": "anna", "m": "markus"}
 # Soft length targets in words (warnings only).
 WORDS = {
     "unit1": (55, 120),
-    2: (420, 650),
+    2: (380, 450),
     3: (480, 750),
     4: (620, 950),
     "turn_max": 90,

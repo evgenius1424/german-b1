@@ -19,8 +19,10 @@ agent · action/state · object · recipient · time · place · cause
 quantity · modality · polarity · status · condition · source/speaker
 ```
 
-A good distractor is a **true fact with a corrupted slot** ("fact preservation + slot corruption"). All three options of
-a multiple-choice item normally occur in the audio, but only one occupies the asked slot.
+A good distractor often starts from a **true fact with a corrupted slot** ("fact preservation + slot corruption"). In
+denser items, all three option concepts may occur in the audio, but only one occupies the asked slot. In more direct
+items, a wrong option may instead be a plausible unsupported inference or a one-slot near-miss. Do not force the same
+distractor construction into every item.
 
 Example (invented): a bus announcement mentions line 12 to Nordpark (running normally), line 7 to Klinikum (cancelled)
 and a replacement via Schillerplatz. Asked "Welche Linie fällt aus?", the options are 12 / 7 / the replacement, not
@@ -53,6 +55,10 @@ action → optional extra information.
 - Adjacent places (meet at X, café opposite X, lockers next to X), adjacent times (07:00 activity, 08:00 breakfast), and
   modality (recommended ≠ compulsory; register the day before vs. the same morning).
 - Options are short, parallel and of the same semantic class (three times, three places, three statuses).
+- Across the five items, vary density and construction. Use the full three-related-truth pattern only two or three times;
+  let the other items have one clear evidence statement with simpler near-misses.
+- One decisive contrast normally settles an item. Do not combine several changes, conditions, exceptions or competing
+  values in every block. Most surrounding prose should communicate ordinary context rather than serve as a trap.
 
 ### Teil 3
 
