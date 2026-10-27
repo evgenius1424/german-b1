@@ -15,6 +15,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 PIPER_DIR = ROOT / ".tts-models" / "piper"
 QWEN_MODEL = "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-8bit"
+CHATTERBOX_MODEL = ROOT / ".tts-models" / "chatterbox" / "mlx-v3"
+# Reference clips stay local (materials/private is gitignored): private study only.
+CHATTERBOX_REFS = {"laura": ROOT / "materials" / "private" / "voices" / "laura_ref.wav"}
+# Low exaggeration keeps the clone calm; approved by ear on 2026-10-27.
+CHATTERBOX_STYLE = {"exaggeration": 0.25, "cfg_weight": 0.5, "temperature": 0.8}
 RATE = 24000
 # Keeps Qwen from acting: no laughing, sighing or exaggerated emphasis.
 NEUTRAL = (
@@ -26,18 +31,12 @@ NEUTRAL = (
 # Approved roles: Petra = solo female,
 # Markus = solo male, Anna = dialogues with Markus only (too emotional solo).
 # Jonas, Herr Weber, Sabine and Thomas are untested extras.
-# Qwen Vivian reads too emotionally with NEUTRAL, so she gets a flatter prompt.
-QWEN_STYLE = {
-    "Vivian": (
-        "Lies den Text flach und gleichmäßig, in ruhigem, gleichbleibendem Tonfall. "
-        "Keine Betonung, keine Emotion, kein Lächeln in der Stimme, normales Sprechtempo."
-    ),
-}
-# Piper "low" voices are 16 kHz and sound thin and phone-like, so Anna (the
-# female dialogue voice) moved to Qwen on 2026-10-25. Markus stays on Piper.
+# Anna is a Chatterbox voice clone since 2026-10-27: Qwen Vivian stayed too
+# emotional with every prompt, and Piper female voices are 16 kHz and phone-like.
+# Markus and Petra stay on Piper.
 # Do not put a Piper "low" voice in a dialogue; only the 22 kHz "high" models qualify.
 VOICES = {
-    "anna": ("qwen", "Vivian"),
+    "anna": ("chatterbox", "laura"),
     "markus": ("piper", "de_DE-thorsten-high"),
     "jonas": ("qwen", "Aiden"),
     "herr weber": ("qwen", "Uncle_Fu"),
@@ -126,6 +125,7 @@ class Synth:
         self.temperature = temperature
         self.instruct = instruct
         self._qwen = None
+        self._chatterbox = None
         self._piper = {}
 
     def qwen(self, text, voice, out):
@@ -154,7 +154,7 @@ class Synth:
                         lang_code="german",
                         speed=self.speed,
                         temperature=self.temperature,
-                        instruct=QWEN_STYLE.get(voice, self.instruct) or None,
+                        instruct=self.instruct or None,
                     )
                 ]), sr)
                 dur = len(audio) / sr
@@ -164,6 +164,32 @@ class Synth:
                     break
                 print(f"  retry: {dur:.1f}s for {n} words (expected ~{expected:.1f}s)", file=sys.stderr)
             pieces += [best, pause]
+        sf.write(out, np.concatenate(pieces[:-1]), sr)
+
+    def chatterbox(self, text, voice, out):
+        """Clone the reference clip for `voice`, one sentence chunk at a time."""
+        if self._chatterbox is None:
+            from mlx_audio.tts.utils import load_model
+
+            self._chatterbox = load_model(CHATTERBOX_MODEL)
+        import numpy as np
+        import soundfile as sf
+
+        ref = CHATTERBOX_REFS[voice]
+        if not ref.exists():
+            sys.exit(f"missing Chatterbox reference clip: {ref}")
+        sr = self._chatterbox.sample_rate
+        pause = np.zeros(int(0.3 * sr), dtype=np.float32)
+        pieces = []
+        for chunk in sentence_chunks(text):
+            audio = np.concatenate([
+                np.array(r.audio, dtype=np.float32).reshape(-1)
+                for r in self._chatterbox.generate(
+                    text=chunk, ref_audio=str(ref), lang_code="de", verbose=False,
+                    **CHATTERBOX_STYLE,
+                )
+            ])
+            pieces += [trim_silence(audio, sr), pause]
         sf.write(out, np.concatenate(pieces[:-1]), sr)
 
     def piper(self, text, voice, out):
