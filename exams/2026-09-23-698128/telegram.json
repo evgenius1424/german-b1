@@ -114,6 +114,17 @@
       "files": {
         "audio": "audio/teil4.mp3"
       }
+    },
+    {
+      "id": "vocab",
+      "method": "sendMessage",
+      "params": {
+        "text": "🎧 <b>B1 Hören | Words Worth Knowing</b>\n15 high-value expressions from today's listening practice\n\n<b>🔀 Corrections &amp; contrasts</b>\n1. <b>lieber</b> — rather, preferably\n\n<b>⏱ Time &amp; sequence</b>\n2. <b>dauern</b> — last, take (time)\n\n<b>🔗 Reasons &amp; consequences</b>\n3. <b>Grund</b> — reason\n4. <b>trotzdem</b> — nevertheless, still\n5. <b>sonst</b> — otherwise, or else\n\n<b>⚖️ Conditions &amp; limits</b>\n6. <b>falls</b> — in case, if\n7. <b>kaum</b> — hardly any\n\n<b>🔄 Changes &amp; cancellations</b>\n8. <b>verschieben</b> — postpone, reschedule\n9. <b>ausverkauft</b> — sold out\n10. <b>einspringen</b> — step in, fill in\n\n<b>📋 Rules &amp; instructions</b>\n11. <b>abgeben</b> — hand in, leave with\n\n<b>🎯 Answer-bearing words</b>\n12. <b>enthalten sein</b> — included (in the price)\n13. <b>gelten</b> — be valid\n14. <b>zusätzlich</b> — in addition, extra\n15. <b>kostenlos</b> — free of charge\n\n💡 <b>Listening trap</b>\n„Dort können Sie gern etwas essen, aber das Essen ist nicht im Preis <b>enthalten</b>.“\nNicht im Preis enthalten means you pay extra; the food is not free.\n\nRecognize the signal. Find the answer.",
+        "parse_mode": "HTML",
+        "link_preview_options": {
+          "is_disabled": true
+        }
+      }
     }
   ]
 }

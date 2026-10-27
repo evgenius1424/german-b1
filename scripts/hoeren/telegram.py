@@ -3,12 +3,13 @@
 One channel post per Teil: the audio with the questions as its caption
 (Teil 1: an album of five audio files, each captioned with its own two items).
 The first comment under each post holds the answer key and the transcript.
+If exams/<id>/vocab.json exists, a plain text vocabulary post follows the four Teil posts.
 """
 
 import re
 from html import escape, unescape
 
-from .spec import MC, SPEAKER, TF, TG_MESSAGE
+from .spec import MC, SPEAKER, TF, TG_MESSAGE, VOCAB_ENABLED
 
 TG_CAPTION = 1024
 SPEAKER_ORDER = ["moderator", "guest1", "guest2"]
@@ -163,7 +164,21 @@ def _audio_post(part, exam_dir):
     return post | {"method": "sendMediaGroup", "media": media}
 
 
-def build(exam, exam_dir):
+def _vocab_post(exam, exam_dir):
+    from . import vocab, vocab_post  # vocab_post imports this module
+    data = vocab.load(exam_dir)
+    if not data or not data.get("items"):
+        return None
+    if data.get("exam_id") != exam["id"]:
+        raise ValueError(f"{exam_dir / vocab.FILE} belongs to {data.get('exam_id')}")
+    return {"id": "vocab", "method": "sendMessage",
+            "params": {"text": vocab_post.render(data), "parse_mode": "HTML",
+                       "link_preview_options": {"is_disabled": True}}}
+
+
+def build(exam, exam_dir, with_vocab=VOCAB_ENABLED):
     parts = sorted(exam["parts"].values(), key=lambda p: p["part"])
+    posts = [_audio_post(part, exam_dir) for part in parts]
+    extra = with_vocab and _vocab_post(exam, exam_dir)
     return {"exam_id": exam["id"], "channel": "@german_b1_horen",
-            "posts": [_audio_post(part, exam_dir) for part in parts]}
+            "posts": posts + ([extra] if extra else [])}

@@ -1,0 +1,317 @@
+{
+  "exam_id": "2026-10-25-152061",
+  "created": "2026-10-27T18:44:40",
+  "model": "default",
+  "count": 15,
+  "cost_usd": 0.2227,
+  "items": [
+    {
+      "expression": "dafür",
+      "surface": [
+        "Dafür"
+      ],
+      "english": "instead, in its place",
+      "category": "contrast",
+      "example": "Dafür öffnen wir Kasse 5 am Ausgang.",
+      "trap_note": "Here, dafür means 'instead', not 'for it', so it names the replacement.",
+      "answer_relevance": 9,
+      "cross_scenario": 8,
+      "b1_likelihood": 8,
+      "learner_confusion": 8,
+      "context_clarity": 8,
+      "score": 8.85,
+      "repeat": false
+    },
+    {
+      "expression": "hätte am liebsten",
+      "surface": [
+        "hätte",
+        "am liebsten"
+      ],
+      "english": "would most have liked",
+      "category": "condition",
+      "example": "Eigentlich hätte ich am liebsten noch einen Tag länger geblieben.",
+      "trap_note": "The Konjunktiv expresses a wish that did not happen; she did not actually stay longer.",
+      "answer_relevance": 9,
+      "cross_scenario": 7,
+      "b1_likelihood": 8,
+      "learner_confusion": 8,
+      "context_clarity": 8,
+      "score": 8.55,
+      "repeat": false
+    },
+    {
+      "expression": "doch",
+      "surface": [
+        "Doch"
+      ],
+      "english": "yes, actually (contradicting a negative)",
+      "category": "contrast",
+      "example": "Doch, Lust hatten wir schon.",
+      "trap_note": "After a negative question, 'Doch' means yes, so they did still want to stay.",
+      "answer_relevance": 8,
+      "cross_scenario": 8,
+      "b1_likelihood": 8,
+      "learner_confusion": 7,
+      "context_clarity": 8,
+      "score": 8.4,
+      "repeat": false
+    },
+    {
+      "expression": "aufgeben",
+      "surface": [
+        "aufgegeben"
+      ],
+      "english": "give up",
+      "category": "change",
+      "example": "Ich wollte unbedingt hoch, aber die Schlange war so lang, dass ich aufgegeben habe.",
+      "trap_note": "She wanted to go up but gave up, so she never went up the tower; it does not mean she posted something.",
+      "answer_relevance": 9,
+      "cross_scenario": 7,
+      "b1_likelihood": 7,
+      "learner_confusion": 7,
+      "context_clarity": 8,
+      "score": 8.25,
+      "repeat": false
+    },
+    {
+      "expression": "gar nicht",
+      "surface": [
+        "gar nicht"
+      ],
+      "english": "not at all",
+      "category": "contrast",
+      "example": "Das war im Preis drin, aber wir haben es gar nicht gegessen.",
+      "trap_note": "Breakfast was included, but 'gar nicht' means they did not eat it at all.",
+      "answer_relevance": 8,
+      "cross_scenario": 8,
+      "b1_likelihood": 8,
+      "learner_confusion": 5,
+      "context_clarity": 9,
+      "score": 8.25,
+      "repeat": false
+    },
+    {
+      "expression": "seit … wieder",
+      "surface": [
+        "Seit",
+        "wieder"
+      ],
+      "english": "open again since",
+      "category": "change",
+      "example": "Seit Montag ist er wieder offen, und Sie können ihn täglich von 8 bis 18 Uhr benutzen.",
+      "trap_note": "'Wieder' shows the earlier closure is over, so the July state is out of date.",
+      "answer_relevance": 8,
+      "cross_scenario": 8,
+      "b1_likelihood": 8,
+      "learner_confusion": 5,
+      "context_clarity": 9,
+      "score": 8.25,
+      "repeat": false
+    },
+    {
+      "expression": "zuständig",
+      "surface": [
+        "zuständig"
+      ],
+      "english": "responsible, in charge",
+      "category": "concept",
+      "example": "Der Shop in der Lindenstraße ist für dieses Paket nicht zuständig.",
+      "trap_note": "'Nicht zuständig' rules this shop out, even though it was mentioned by name.",
+      "answer_relevance": 9,
+      "cross_scenario": 8,
+      "b1_likelihood": 7,
+      "learner_confusion": 7,
+      "context_clarity": 8,
+      "score": 8.05,
+      "repeat": false
+    },
+    {
+      "expression": "unbedingt",
+      "surface": [
+        "unbedingt"
+      ],
+      "english": "definitely, absolutely",
+      "category": "instruction",
+      "example": "Ohne dich schaffe ich den Umzug echt nicht, also bitte komm unbedingt.",
+      "trap_note": "Unbedingt strengthens the request: her help is really needed, not optional.",
+      "answer_relevance": 7,
+      "cross_scenario": 8,
+      "b1_likelihood": 8,
+      "learner_confusion": 6,
+      "context_clarity": 8,
+      "score": 7.95,
+      "repeat": false
+    },
+    {
+      "expression": "bis einschließlich",
+      "surface": [
+        "bis einschließlich"
+      ],
+      "english": "up to and including",
+      "category": "time",
+      "example": "Die Sauna bleibt wegen einer Reparatur bis einschließlich Freitag geschlossen.",
+      "trap_note": "Einschließlich means Friday itself is included, so the sauna is also closed on Friday.",
+      "answer_relevance": 8,
+      "cross_scenario": 7,
+      "b1_likelihood": 7,
+      "learner_confusion": 7,
+      "context_clarity": 8,
+      "score": 7.9,
+      "repeat": false
+    },
+    {
+      "expression": "außer Betrieb",
+      "surface": [
+        "außer Betrieb"
+      ],
+      "english": "out of order",
+      "category": "change",
+      "example": "Die Selbstbedienungskasse 7 ist weiterhin außer Betrieb.",
+      "trap_note": "Learners may hear 'Betrieb' (operation) and think it is working, but 'außer' means it is not.",
+      "answer_relevance": 8,
+      "cross_scenario": 8,
+      "b1_likelihood": 8,
+      "learner_confusion": 7,
+      "context_clarity": 8,
+      "score": 7.9,
+      "repeat": false
+    },
+    {
+      "expression": "sich eintragen",
+      "surface": [
+        "sich",
+        "eintragen"
+      ],
+      "english": "sign up, register",
+      "category": "condition",
+      "example": "Sie können eines ausleihen, wenn Sie sich bis Donnerstag im Büro eintragen.",
+      "trap_note": "Signing up by Thursday is the condition; without it you get no bike.",
+      "answer_relevance": 8,
+      "cross_scenario": 7,
+      "b1_likelihood": 7,
+      "learner_confusion": 6,
+      "context_clarity": 8,
+      "score": 7.8,
+      "repeat": false
+    },
+    {
+      "expression": "ohne Ausnahme",
+      "surface": [
+        "ohne Ausnahme"
+      ],
+      "english": "without exception",
+      "category": "condition",
+      "example": "Im Unterricht muss das Handy ohne Ausnahme weg.",
+      "trap_note": "This marks a strict, absolute rule, not a general recommendation.",
+      "answer_relevance": 8,
+      "cross_scenario": 7,
+      "b1_likelihood": 7,
+      "learner_confusion": 5,
+      "context_clarity": 9,
+      "score": 7.75,
+      "repeat": false
+    },
+    {
+      "expression": "ich persönlich",
+      "surface": [
+        "Ich persönlich"
+      ],
+      "english": "in my own opinion",
+      "category": "concept",
+      "example": "Ich persönlich denke, die Eltern müssten bei den Handyregeln viel stärker mitreden.",
+      "trap_note": "This marks the moderator's own opinion, which can be an answer in Teil 4.",
+      "answer_relevance": 8,
+      "cross_scenario": 6,
+      "b1_likelihood": 7,
+      "learner_confusion": 6,
+      "context_clarity": 9,
+      "score": 7.55,
+      "repeat": false
+    },
+    {
+      "expression": "bisher",
+      "surface": [
+        "bisher"
+      ],
+      "english": "so far, until now",
+      "category": "time",
+      "example": "Studien zeigen bisher kein eindeutiges Bild.",
+      "trap_note": "Bisher limits the statement to the present state of research; it is not a final verdict.",
+      "answer_relevance": 6,
+      "cross_scenario": 8,
+      "b1_likelihood": 8,
+      "learner_confusion": 5,
+      "context_clarity": 8,
+      "score": 7.5,
+      "repeat": false
+    },
+    {
+      "expression": "inzwischen",
+      "surface": [
+        "inzwischen"
+      ],
+      "english": "by now, in the meantime",
+      "category": "time",
+      "example": "Die Polizei hat die Brücke inzwischen wieder freigegeben.",
+      "trap_note": "Inzwischen tells you the situation has already changed, so the earlier problem no longer applies.",
+      "answer_relevance": 7,
+      "cross_scenario": 8,
+      "b1_likelihood": 8,
+      "learner_confusion": 6,
+      "context_clarity": 8,
+      "score": 7.45,
+      "repeat": false
+    }
+  ],
+  "trap": {
+    "expression": "dafür",
+    "surface": [
+      "Dafür"
+    ],
+    "quote": "Dafür öffnen wir Kasse 5 am Ausgang.",
+    "note": "Here, dafür means 'instead', not 'for it', so it names the replacement."
+  },
+  "rejected": [
+    {
+      "expression": "aufbewahren",
+      "reason": "duplicate or synonym"
+    },
+    {
+      "expression": "zustimmen",
+      "reason": "duplicate or synonym"
+    },
+    {
+      "expression": "halten … für",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "reichen",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "bestreiten",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "weiterhin",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "das anders sehen",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "zuerst hieß es",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "verlängern",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "darauf bestehen",
+      "reason": "ranked out"
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "exam_id": "2026-09-23-698128",
+  "created": "2026-10-27T18:43:43",
+  "model": "default",
+  "count": 15,
+  "cost_usd": 0.2039,
+  "items": [
+    {
+      "expression": "enthalten sein",
+      "surface": [
+        "enthalten"
+      ],
+      "english": "included (in the price)",
+      "category": "concept",
+      "example": "Dort können Sie gern etwas essen, aber das Essen ist nicht im Preis enthalten.",
+      "trap_note": "Nicht im Preis enthalten means you pay extra; the food is not free.",
+      "answer_relevance": 9,
+      "cross_scenario": 8,
+      "b1_likelihood": 9,
+      "learner_confusion": 6,
+      "context_clarity": 9,
+      "score": 8.9,
+      "repeat": false
+    },
+    {
+      "expression": "dauern",
+      "surface": [
+        "dauert"
+      ],
+      "english": "last, take (time)",
+      "category": "time",
+      "example": "Jeder von Ihnen macht zwei Schichten, und eine Schicht dauert vier Stunden.",
+      "trap_note": "Vier is how long one shift lasts, not how many shifts each helper does.",
+      "answer_relevance": 8,
+      "cross_scenario": 9,
+      "b1_likelihood": 9,
+      "learner_confusion": 5,
+      "context_clarity": 9,
+      "score": 8.75,
+      "repeat": false
+    },
+    {
+      "expression": "abgeben",
+      "surface": [
+        "abgeben"
+      ],
+      "english": "hand in, leave with",
+      "category": "instruction",
+      "example": "Wenn Sie am Vormittag nicht zu Hause sind, können Sie den Schlüssel beim Hausmeister abgeben.",
+      "trap_note": "Abgeben means leaving the key with someone, so she doesn't have to be at home.",
+      "answer_relevance": 8,
+      "cross_scenario": 8,
+      "b1_likelihood": 9,
+      "learner_confusion": 5,
+      "context_clarity": 9,
+      "score": 8.45,
+      "repeat": false
+    },
+    {
+      "expression": "verschieben",
+      "surface": [
+        "verschieben"
+      ],
+      "english": "postpone, reschedule",
+      "category": "change",
+      "example": "Das müssen wir leider verschieben.",
+      "trap_note": "Verschieben means the meeting moves to another time, not that it is cancelled.",
+      "answer_relevance": 8,
+      "cross_scenario": 9,
+      "b1_likelihood": 9,
+      "learner_confusion": 6,
+      "context_clarity": 9,
+      "score": 8.35,
+      "repeat": false
+    },
+    {
+      "expression": "falls",
+      "surface": [
+        "Falls"
+      ],
+      "english": "in case, if",
+      "category": "condition",
+      "example": "Falls der Termin nicht passt, rufen Sie mich bitte bis Freitag an.",
+      "trap_note": "Calling is only needed if the date doesn't suit her, so it isn't a general task.",
+      "answer_relevance": 8,
+      "cross_scenario": 9,
+      "b1_likelihood": 9,
+      "learner_confusion": 6,
+      "context_clarity": 9,
+      "score": 8.35,
+      "repeat": false
+    },
+    {
+      "expression": "lieber",
+      "surface": [
+        "lieber"
+      ],
+      "english": "rather, preferably",
+      "category": "contrast",
+      "example": "Für ein Brötchen nehme ich aber lieber Münzen.",
+      "trap_note": "Lieber shows a preference, not a refusal; he still accepts cards for bigger amounts.",
+      "answer_relevance": 7,
+      "cross_scenario": 8,
+      "b1_likelihood": 9,
+      "learner_confusion": 5,
+      "context_clarity": 8,
+      "score": 8.05,
+      "repeat": false
+    },
+    {
+      "expression": "gelten",
+      "surface": [
+        "gilt"
+      ],
+      "english": "be valid",
+      "category": "concept",
+      "example": "Sie gilt für alle drei Festtage in der ganzen Stadt.",
+      "trap_note": "Gilt is a form of gelten, 'to be valid'; it has nothing to do with Geld.",
+      "answer_relevance": 7,
+      "cross_scenario": 9,
+      "b1_likelihood": 9,
+      "learner_confusion": 7,
+      "context_clarity": 8,
+      "score": 8.05,
+      "repeat": false
+    },
+    {
+      "expression": "Grund",
+      "surface": [
+        "Grund"
+      ],
+      "english": "reason",
+      "category": "cause",
+      "example": "Ich habe zwar Freitag einen Arzttermin, aber das ist nicht der Grund.",
+      "trap_note": "The doctor's appointment is mentioned but then ruled out as the reason, which makes it a distractor.",
+      "answer_relevance": 9,
+      "cross_scenario": 7,
+      "b1_likelihood": 8,
+      "learner_confusion": 6,
+      "context_clarity": 10,
+      "score": 7.95,
+      "repeat": false
+    },
+    {
+      "expression": "trotzdem",
+      "surface": [
+        "trotzdem"
+      ],
+      "english": "nevertheless, still",
+      "category": "cause",
+      "example": "Dann kann die Firma trotzdem in die Wohnung.",
+      "trap_note": "Trotzdem means the firm can still get in even though she is away.",
+      "answer_relevance": 7,
+      "cross_scenario": 9,
+      "b1_likelihood": 9,
+      "learner_confusion": 6,
+      "context_clarity": 8,
+      "score": 7.95,
+      "repeat": false
+    },
+    {
+      "expression": "ausverkauft",
+      "surface": [
+        "ausverkauft"
+      ],
+      "english": "sold out",
+      "category": "change",
+      "example": "Ich hab's versucht, aber als ich am Donnerstag angerufen habe, waren die schon ausverkauft.",
+      "trap_note": "He only tried to reserve; ausverkauft means he got no VIP tickets.",
+      "answer_relevance": 8,
+      "cross_scenario": 7,
+      "b1_likelihood": 8,
+      "learner_confusion": 5,
+      "context_clarity": 9,
+      "score": 7.95,
+      "repeat": false
+    },
+    {
+      "expression": "zusätzlich",
+      "surface": [
+        "zusätzlich"
+      ],
+      "english": "in addition, extra",
+      "category": "concept",
+      "example": "Die Kolleginnen und Kollegen am Informationsstand bekommen zusätzlich eine Jacke, weil sie draußen stehen und es abends kalt wird.",
+      "trap_note": "Zusätzlich applies only to the information stand team, not to all helpers.",
+      "answer_relevance": 8,
+      "cross_scenario": 8,
+      "b1_likelihood": 8,
+      "learner_confusion": 6,
+      "context_clarity": 8,
+      "score": 7.8,
+      "repeat": false
+    },
+    {
+      "expression": "kostenlos",
+      "surface": [
+        "kostenlos"
+      ],
+      "english": "free of charge",
+      "category": "concept",
+      "example": "Im letzten Jahr konnten Helfer kostenlos im Parkhaus am Rathaus parken.",
+      "trap_note": "Free parking was only last year; this year it no longer exists.",
+      "answer_relevance": 7,
+      "cross_scenario": 9,
+      "b1_likelihood": 9,
+      "learner_confusion": 4,
+      "context_clarity": 9,
+      "score": 7.8,
+      "repeat": false
+    },
+    {
+      "expression": "sonst",
+      "surface": [
+        "sonst"
+      ],
+      "english": "otherwise, or else",
+      "category": "cause",
+      "example": "Nee, wir mussten leider los, sonst wäre uns der letzte Bus weggefahren.",
+      "trap_note": "Sonst gives the consequence they avoided by leaving early: missing the bus.",
+      "answer_relevance": 6,
+      "cross_scenario": 8,
+      "b1_likelihood": 8,
+      "learner_confusion": 7,
+      "context_clarity": 8,
+      "score": 7.7,
+      "repeat": false
+    },
+    {
+      "expression": "einspringen",
+      "surface": [
+        "eingesprungen"
+      ],
+      "english": "step in, fill in",
+      "category": "change",
+      "example": "Zum Glück bin ich dann kurzfristig eingesprungen.",
+      "trap_note": "Eingesprungen means Tobias took Mira's place; it has nothing to do with jumping.",
+      "answer_relevance": 8,
+      "cross_scenario": 6,
+      "b1_likelihood": 6,
+      "learner_confusion": 8,
+      "context_clarity": 7,
+      "score": 7.45,
+      "repeat": false
+    },
+    {
+      "expression": "kaum",
+      "surface": [
+        "kaum"
+      ],
+      "english": "hardly any",
+      "category": "condition",
+      "example": "Bitte lassen Sie das Auto möglichst zu Hause, denn im Zentrum gibt es kaum Parkplätze.",
+      "trap_note": "Kaum means almost none, a negative meaning that is easy to miss.",
+      "answer_relevance": 6,
+      "cross_scenario": 8,
+      "b1_likelihood": 8,
+      "learner_confusion": 8,
+      "context_clarity": 8,
+      "score": 7.3,
+      "repeat": false
+    }
+  ],
+  "trap": {
+    "expression": "enthalten sein",
+    "surface": [
+      "enthalten"
+    ],
+    "quote": "Dort können Sie gern etwas essen, aber das Essen ist nicht im Preis enthalten.",
+    "note": "Nicht im Preis enthalten means you pay extra; the food is not free."
+  },
+  "rejected": [
+    {
+      "expression": "schon (früher als geplant)",
+      "surface": [
+        "schon"
+      ],
+      "reason": "expression does not match its transcript form"
+    },
+    {
+      "expression": "ab (Betrag/Zeit)",
+      "surface": [
+        "Ab"
+      ],
+      "reason": "expression does not match its transcript form"
+    },
+    {
+      "expression": "dafür",
+      "reason": "duplicate or synonym"
+    },
+    {
+      "expression": "Schicht",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "kurzfristig",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "wie immer",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "behalten",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "etwas anders sehen",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "nachher",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "ansonsten",
+      "reason": "ranked out"
+    }
+  ]
+}

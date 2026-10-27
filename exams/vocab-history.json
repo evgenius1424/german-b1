@@ -1,0 +1,190 @@
+{
+  "exams": {
+    "2026-09-21-264053": [
+      {
+        "expression": "nicht … sondern",
+        "key": "ncht sndrn"
+      },
+      {
+        "expression": "eigentlich",
+        "key": "gntlch"
+      },
+      {
+        "expression": "nicht mehr",
+        "key": "ncht mhr"
+      },
+      {
+        "expression": "bitten",
+        "key": "bttn"
+      },
+      {
+        "expression": "nämlich",
+        "key": "nmlch"
+      },
+      {
+        "expression": "zwar … aber",
+        "key": "zwr br"
+      },
+      {
+        "expression": "noch nicht",
+        "key": "nch ncht"
+      },
+      {
+        "expression": "deshalb",
+        "key": "dshlb"
+      },
+      {
+        "expression": "erst",
+        "key": "rst"
+      },
+      {
+        "expression": "ausnahmsweise",
+        "key": "snhmsws"
+      },
+      {
+        "expression": "normalerweise",
+        "key": "nrmlrws"
+      },
+      {
+        "expression": "Verspätung",
+        "key": "vrsptng"
+      },
+      {
+        "expression": "geschlossen bleiben",
+        "key": "gschlssn blbn"
+      },
+      {
+        "expression": "früher",
+        "key": "frhr"
+      },
+      {
+        "expression": "zugeben",
+        "key": "zgbn"
+      }
+    ],
+    "2026-09-23-698128": [
+      {
+        "expression": "enthalten sein",
+        "key": "nthltn"
+      },
+      {
+        "expression": "dauern",
+        "key": "drn"
+      },
+      {
+        "expression": "abgeben",
+        "key": "bgbn"
+      },
+      {
+        "expression": "verschieben",
+        "key": "vrschbn"
+      },
+      {
+        "expression": "falls",
+        "key": "flls"
+      },
+      {
+        "expression": "lieber",
+        "key": "lbr"
+      },
+      {
+        "expression": "gelten",
+        "key": "gltn"
+      },
+      {
+        "expression": "Grund",
+        "key": "grnd"
+      },
+      {
+        "expression": "trotzdem",
+        "key": "trtzdm"
+      },
+      {
+        "expression": "ausverkauft",
+        "key": "svrkft"
+      },
+      {
+        "expression": "zusätzlich",
+        "key": "zstzlch"
+      },
+      {
+        "expression": "kostenlos",
+        "key": "kstnls"
+      },
+      {
+        "expression": "sonst",
+        "key": "snst"
+      },
+      {
+        "expression": "einspringen",
+        "key": "nsprngn"
+      },
+      {
+        "expression": "kaum",
+        "key": "km"
+      }
+    ],
+    "2026-10-25-152061": [
+      {
+        "expression": "dafür",
+        "key": "dfr"
+      },
+      {
+        "expression": "hätte am liebsten",
+        "key": "htt m lbstn"
+      },
+      {
+        "expression": "doch",
+        "key": "dch"
+      },
+      {
+        "expression": "aufgeben",
+        "key": "fgbn"
+      },
+      {
+        "expression": "gar nicht",
+        "key": "gr ncht"
+      },
+      {
+        "expression": "seit … wieder",
+        "key": "st wdr"
+      },
+      {
+        "expression": "zuständig",
+        "key": "zstndg"
+      },
+      {
+        "expression": "unbedingt",
+        "key": "nbdngt"
+      },
+      {
+        "expression": "bis einschließlich",
+        "key": "bs nschlsslch"
+      },
+      {
+        "expression": "außer Betrieb",
+        "key": "ssr btrb"
+      },
+      {
+        "expression": "sich eintragen",
+        "key": "ntrgn"
+      },
+      {
+        "expression": "ohne Ausnahme",
+        "key": "hn snhm"
+      },
+      {
+        "expression": "ich persönlich",
+        "key": "ch prsnlch"
+      },
+      {
+        "expression": "bisher",
+        "key": "bshr"
+      },
+      {
+        "expression": "inzwischen",
+        "key": "nzwschn"
+      }
+    ]
+  }
+}

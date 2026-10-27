@@ -12,6 +12,7 @@ The project treats an exam as structured data first. A deterministic blueprint f
 
 - `exams/<id>/exam.json` — generated exam text plus hidden validation annotations
 - `exams/<id>/telegram.json` — derived Telegram delivery manifest
+- `exams/<id>/vocab.json`, `exams/vocab-history.json` — selected vocabulary for the post after each exam, and what earlier posts used
 - `docs/` and `materials/` — reusable format references, generation guidance, and copyright-safe source notes
 
 Generated MP3s, downloaded media, credentials, and Telegram publication state are deliberately local-only. Render them again from `exam.json` whenever needed.
@@ -30,6 +31,7 @@ scripts/exam new
 scripts/exam new --no-audio
 scripts/exam validate <id>
 scripts/exam audio <id>
+scripts/exam vocab <id> --show
 scripts/exam telegram <id>
 scripts/exam publish <id> --dry-run
 scripts/exam publish <id>

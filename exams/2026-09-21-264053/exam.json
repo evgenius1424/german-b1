@@ -1039,7 +1039,9 @@
       ],
       "validation": {
         "errors": [],
-        "warnings": []
+        "warnings": [
+          "teil2: audio has 472 words, target 380–450"
+        ]
       },
       "cost_usd": 0.2879
     },

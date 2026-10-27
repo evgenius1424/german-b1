@@ -1,0 +1,318 @@
+{
+  "exam_id": "2026-09-21-264053",
+  "created": "2026-10-27T18:42:58",
+  "model": "default",
+  "count": 15,
+  "cost_usd": 0.3034,
+  "items": [
+    {
+      "expression": "nicht … sondern",
+      "surface": [
+        "nicht",
+        "sondern"
+      ],
+      "english": "not … but rather",
+      "category": "contrast",
+      "example": "Der Zug fährt heute nicht hier an Gleis 4 ab, sondern an Gleis 7.",
+      "trap_note": "The first platform you hear is the wrong one; the answer comes after sondern.",
+      "answer_relevance": 10,
+      "cross_scenario": 9,
+      "b1_likelihood": 9,
+      "learner_confusion": 7,
+      "context_clarity": 10,
+      "score": 9.7,
+      "repeat": false
+    },
+    {
+      "expression": "eigentlich",
+      "surface": [
+        "Eigentlich"
+      ],
+      "english": "originally planned (but not done)",
+      "category": "contrast",
+      "example": "Eigentlich wollten wir es heute fertig machen, aber das neue Hinterrad ist leider noch nicht geliefert worden.",
+      "trap_note": "Eigentlich marks a plan that failed, so what follows is not what happened.",
+      "answer_relevance": 9,
+      "cross_scenario": 9,
+      "b1_likelihood": 9,
+      "learner_confusion": 8,
+      "context_clarity": 9,
+      "score": 9.4,
+      "repeat": false
+    },
+    {
+      "expression": "nicht mehr",
+      "surface": [
+        "nicht mehr"
+      ],
+      "english": "no longer available",
+      "category": "change",
+      "example": "Das gab es aber leider nicht mehr.",
+      "trap_note": "Learners hear 'Kochbuch' and miss that it was sold out, so it was never bought.",
+      "answer_relevance": 9,
+      "cross_scenario": 9,
+      "b1_likelihood": 9,
+      "learner_confusion": 7,
+      "context_clarity": 9,
+      "score": 9.3,
+      "repeat": false
+    },
+    {
+      "expression": "bitten",
+      "surface": [
+        "bitten"
+      ],
+      "english": "ask (someone to do)",
+      "category": "instruction",
+      "example": "Wir bitten alle Gäste, die jetzt noch im Außenbecken sind, das Wasser zu verlassen und ins Hallenbad zu wechseln.",
+      "trap_note": "Wir bitten introduces what you must do; 'kann' and 'können' only describe options.",
+      "answer_relevance": 9,
+      "cross_scenario": 9,
+      "b1_likelihood": 9,
+      "learner_confusion": 6,
+      "context_clarity": 9,
+      "score": 9.2,
+      "repeat": false
+    },
+    {
+      "expression": "nämlich",
+      "surface": [
+        "nämlich"
+      ],
+      "english": "because, you see",
+      "category": "cause",
+      "example": "Heute Abend werden nämlich neue Kühltheken eingebaut.",
+      "trap_note": "Nämlich gives the reason even though there is no weil or denn.",
+      "answer_relevance": 9,
+      "cross_scenario": 8,
+      "b1_likelihood": 8,
+      "learner_confusion": 8,
+      "context_clarity": 8,
+      "score": 8.85,
+      "repeat": false
+    },
+    {
+      "expression": "zwar … aber",
+      "surface": [
+        "zwar",
+        "aber"
+      ],
+      "english": "admittedly … but",
+      "category": "contrast",
+      "example": "Es gibt zwar einen Aufzug, aber der ist sehr klein.",
+      "trap_note": "There is a lift; the complaint after aber does not mean there isn't one.",
+      "answer_relevance": 9,
+      "cross_scenario": 8,
+      "b1_likelihood": 8,
+      "learner_confusion": 7,
+      "context_clarity": 10,
+      "score": 8.85,
+      "repeat": false
+    },
+    {
+      "expression": "noch nicht",
+      "surface": [
+        "noch nicht"
+      ],
+      "english": "not yet",
+      "category": "time",
+      "example": "Eigentlich wollten wir es heute fertig machen, aber das neue Hinterrad ist leider noch nicht geliefert worden.",
+      "trap_note": "Noch nicht means it hasn't happened yet, so the bike is not ready today.",
+      "answer_relevance": 8,
+      "cross_scenario": 9,
+      "b1_likelihood": 9,
+      "learner_confusion": 5,
+      "context_clarity": 9,
+      "score": 8.75,
+      "repeat": false
+    },
+    {
+      "expression": "deshalb",
+      "surface": [
+        "Deshalb"
+      ],
+      "english": "that's why",
+      "category": "cause",
+      "example": "Deshalb lasse ich das Rad jetzt zu Hause.",
+      "trap_note": "Deshalb points back to the reason given just before (too far, traffic).",
+      "answer_relevance": 8,
+      "cross_scenario": 9,
+      "b1_likelihood": 9,
+      "learner_confusion": 4,
+      "context_clarity": 9,
+      "score": 8.65,
+      "repeat": false
+    },
+    {
+      "expression": "erst",
+      "surface": [
+        "erst"
+      ],
+      "english": "not until",
+      "category": "time",
+      "example": "Aber am Ende blieb es trocken, erst in der Nacht hat es angefangen.",
+      "trap_note": "Here erst means it only started raining at night, not 'first'.",
+      "answer_relevance": 8,
+      "cross_scenario": 9,
+      "b1_likelihood": 9,
+      "learner_confusion": 9,
+      "context_clarity": 8,
+      "score": 8.6,
+      "repeat": false
+    },
+    {
+      "expression": "ausnahmsweise",
+      "surface": [
+        "ausnahmsweise"
+      ],
+      "english": "as an exception",
+      "category": "change",
+      "example": "Unser Markt schließt heute ausnahmsweise schon um 18 Uhr und nicht wie sonst um 20 Uhr.",
+      "trap_note": "It's a one-time change; the usual time (wie sonst) is the distractor.",
+      "answer_relevance": 8,
+      "cross_scenario": 8,
+      "b1_likelihood": 8,
+      "learner_confusion": 8,
+      "context_clarity": 9,
+      "score": 8.55,
+      "repeat": false
+    },
+    {
+      "expression": "normalerweise",
+      "surface": [
+        "normalerweise"
+      ],
+      "english": "usually",
+      "category": "condition",
+      "example": "Ein Essen kostet normalerweise 4,50 Euro.",
+      "trap_note": "Normalerweise gives the usual case; the exception (aber im ersten Monat) is the answer.",
+      "answer_relevance": 9,
+      "cross_scenario": 8,
+      "b1_likelihood": 9,
+      "learner_confusion": 7,
+      "context_clarity": 9,
+      "score": 8.5,
+      "repeat": false
+    },
+    {
+      "expression": "Verspätung",
+      "surface": [
+        "Verspätung"
+      ],
+      "english": "delay",
+      "category": "concept",
+      "example": "Die Regionalbahn nach Lindau, planmäßige Abfahrt 16:20 Uhr, hat heute ungefähr 15 Minuten Verspätung.",
+      "trap_note": "The time you hear is the planned departure; Verspätung means the train is later.",
+      "answer_relevance": 8,
+      "cross_scenario": 8,
+      "b1_likelihood": 9,
+      "learner_confusion": 4,
+      "context_clarity": 10,
+      "score": 8.4,
+      "repeat": false
+    },
+    {
+      "expression": "geschlossen bleiben",
+      "surface": [
+        "bleibt",
+        "geschlossen"
+      ],
+      "english": "stay closed",
+      "category": "change",
+      "example": "Das Außenbecken bleibt heute aber leider geschlossen, weil dort die Wasserpumpe repariert werden muss.",
+      "trap_note": "Geschlossen comes at the very end, so wait for it before deciding what's open.",
+      "answer_relevance": 8,
+      "cross_scenario": 8,
+      "b1_likelihood": 9,
+      "learner_confusion": 4,
+      "context_clarity": 10,
+      "score": 8.4,
+      "repeat": false
+    },
+    {
+      "expression": "früher",
+      "surface": [
+        "Früher"
+      ],
+      "english": "in the past, previously",
+      "category": "change",
+      "example": "Früher hat man diese Sachen im Lager in Halle 2 abgeholt.",
+      "trap_note": "Früher signals the old arrangement, which is now a distractor; listen for jetzt.",
+      "answer_relevance": 9,
+      "cross_scenario": 8,
+      "b1_likelihood": 8,
+      "learner_confusion": 7,
+      "context_clarity": 9,
+      "score": 8.3,
+      "repeat": false
+    },
+    {
+      "expression": "zugeben",
+      "surface": [
+        "zugeben"
+      ],
+      "english": "admit",
+      "category": "contrast",
+      "example": "Ich muss aber zugeben: In der Praxis bekommen Teilzeitkräfte seltener eine höhere Stelle.",
+      "trap_note": "With zugeben, the speaker concedes a point against her own position.",
+      "answer_relevance": 9,
+      "cross_scenario": 7,
+      "b1_likelihood": 7,
+      "learner_confusion": 7,
+      "context_clarity": 9,
+      "score": 8.3,
+      "repeat": false
+    }
+  ],
+  "trap": {
+    "expression": "nicht … sondern",
+    "surface": [
+      "nicht",
+      "sondern"
+    ],
+    "quote": "Der Zug fährt heute nicht hier an Gleis 4 ab, sondern an Gleis 7.",
+    "note": "The first platform you hear is the wrong one; the answer comes after sondern."
+  },
+  "rejected": [
+    {
+      "expression": "zusammen",
+      "reason": "duplicate or synonym"
+    },
+    {
+      "expression": "übernehmen",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "erledigen",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "sich leisten",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "trotzdem",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "stattfinden",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "dagegen",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "wie gewohnt",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "kaum",
+      "reason": "ranked out"
+    },
+    {
+      "expression": "widersprechen",
+      "reason": "ranked out"
+    }
+  ]
+}

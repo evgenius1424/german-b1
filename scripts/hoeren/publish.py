@@ -59,10 +59,29 @@ def _exam_file(exam_dir, rel, post_id):
     return path
 
 
+TEIL_POSTS = ["teil1", "teil2", "teil3", "teil4"]
+VOCAB_POST = "vocab"
+
+
+def _validate_vocab(post):
+    """The optional fifth post: one plain HTML message, no comments."""
+    if post.get("method") != "sendMessage" or post.get("comments"):
+        raise PublishError("vocab post must be a single sendMessage without comments")
+    text = post.get("params", {}).get("text", "")
+    if not text or visible_len(text) > TG_MESSAGE:
+        raise PublishError(f"vocab post is empty or exceeds {TG_MESSAGE} chars")
+
+
 def validate_manifest(manifest, exam_dir):
+    """Four Teil posts in order, optionally followed by the vocab post."""
     posts = manifest["posts"]
-    if len(posts) != 4:
-        raise PublishError(f"expected 4 posts, found {len(posts)}")
+    ids = [post.get("id") for post in posts]
+    if ids not in (TEIL_POSTS, TEIL_POSTS + [VOCAB_POST]):
+        raise PublishError(f"expected posts {', '.join(TEIL_POSTS)} [+ {VOCAB_POST}], found {ids}")
+    vocab = posts[4:]
+    for post in vocab:
+        _validate_vocab(post)
+    posts = posts[:4]
     audio_files = 0
     comments = 0
     for post in posts:
@@ -87,7 +106,8 @@ def validate_manifest(manifest, exam_dir):
             if visible_len(comment.get("text", "")) > TG_MESSAGE:
                 raise PublishError(f"comment on {post.get('id')} exceeds {TG_MESSAGE} chars")
             comments += 1
-    return {"posts": len(posts), "audio_files": audio_files, "comments": comments}
+    return {"posts": len(posts) + len(vocab), "audio_files": audio_files, "comments": comments,
+            "vocab": len(vocab)}
 
 
 def _upload_name(item, path):
@@ -105,7 +125,8 @@ class Publisher:
         self.state = state
         self.last_request = 0.0
         self.base_url = f"https://api.telegram.org/bot{token}"
-        self.client = httpx.Client(timeout=35)
+        # Album uploads can take Telegram well over 35 s to acknowledge.
+        self.client = httpx.Client(timeout=httpx.Timeout(35, read=120))
 
     def close(self):
         self.client.close()
@@ -226,12 +247,18 @@ class Publisher:
             if not record.get("channel_message_ids"):
                 record["channel_message_ids"] = [m["message_id"] for m in self._send_post(post)]
                 self._save()
-            if post.get("comments"):
-                forwarded = record.get("forwarded")
-                if not forwarded:
+            # Every channel post gets a discussion-group copy; comments reply to it and
+            # unpublish deletes it. Without comments (vocab) a missing copy is not fatal.
+            forwarded = record.get("forwarded")
+            if not forwarded and (post.get("comments") or "forwarded" not in record):
+                try:
                     forwarded = self._find_forward(record["channel_message_ids"][0])
-                    record["forwarded"] = forwarded
-                    self._save()
+                except PublishError:
+                    if post.get("comments"):
+                        raise
+                record["forwarded"] = forwarded
+                self._save()
+            if post.get("comments"):
                 sent = record.setdefault("comment_message_ids", [])
                 for comment in post["comments"][len(sent):]:
                     params = dict(comment)
@@ -240,7 +267,43 @@ class Publisher:
                     result = self._request("sendMessage", params=params)
                     sent.append(result["message_id"])
                     self._save()
+        self._pin_first()
         return self.state
+
+    def _pin_first(self, timeout=15):
+        """Pin the exam's Teil 1 post silently and delete the channel's "pinned" notice.
+
+        A failed pin (e.g. the bot lacks the pin right) only warns: the exam is out.
+        """
+        record = self.state["posts"].get(TEIL_POSTS[0], {})
+        if record.get("pinned") or not record.get("channel_message_ids"):
+            return
+        try:
+            self._request("pinChatMessage", params={
+                "chat_id": self.chat_id, "message_id": record["channel_message_ids"][0],
+                "disable_notification": True})
+        except PublishError as exc:
+            print(f"warning: could not pin teil1: {exc}")
+            return
+        record["pinned"] = True
+        self._save()
+        deadline = time.monotonic() + timeout
+        while time.monotonic() < deadline:
+            params = {"timeout": 3}
+            if self.state.get("update_offset") is not None:
+                params["offset"] = self.state["update_offset"]
+            for update in self._request("getUpdates", params=params):
+                self.state["update_offset"] = update["update_id"] + 1
+                post = update.get("channel_post") or {}
+                if post.get("pinned_message", {}).get("message_id") == record["channel_message_ids"][0]:
+                    self._save()
+                    try:
+                        self._request("deleteMessage", params={
+                            "chat_id": post["chat"]["id"], "message_id": post["message_id"]})
+                    except PublishError as exc:
+                        print(f"warning: could not delete the pin notice: {exc}")
+                    return
+            self._save()
 
 
 def publish(exam_dir, chat_id=None, dry_run=False):
@@ -249,7 +312,7 @@ def publish(exam_dir, chat_id=None, dry_run=False):
     counts = validate_manifest(manifest, exam_dir)
     if dry_run:
         print(f"dry-run: {counts['posts']} posts, {counts['audio_files']} audio files, "
-              f"{counts['comments']} comments")
+              f"{counts['comments']} comments, vocab post: {'yes' if counts['vocab'] else 'no'}")
         return
     token = os.environ.get("BOT_KEY")
     if not token:

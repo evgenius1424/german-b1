@@ -9,9 +9,9 @@ import sys
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-from . import audio, blueprint, publish, telegram
+from . import audio, blueprint, publish, telegram, vocab
 from .generate import generate_part, stderr_log
-from .spec import EXAMS, ONTOLOGY
+from .spec import EXAMS, ONTOLOGY, VOCAB_COUNT, VOCAB_ENABLED, VOCAB_MAX
 from .validate import check_part
 
 
@@ -117,6 +117,11 @@ def cmd_new(args):
         sys.exit(f"validation errors remain; fix with: scripts/exam regen {exam_id} --parts <n>")
     if not args.no_audio:
         audio.render(exam, path)
+        if VOCAB_ENABLED and not args.no_vocab:
+            try:
+                vocab.generate(exam, path, args.vocab_count, args.model, args.effort, log=stderr_log)
+            except vocab.VocabError as e:
+                print(f"{e}; retry with: scripts/exam vocab {exam_id}", file=sys.stderr)
         write_telegram(exam, path)
 
 
@@ -159,8 +164,8 @@ def cmd_audio(args):
     write_telegram(exam, path)
 
 
-def write_telegram(exam, path):
-    manifest = telegram.build(exam, path)
+def write_telegram(exam, path, with_vocab=VOCAB_ENABLED):
+    manifest = telegram.build(exam, path, with_vocab)
     missing = []
     for post in manifest["posts"]:
         files = []
@@ -184,8 +189,23 @@ def cmd_publish(args):
     path = exam_dir(args.exam)
     exam = load(path)
     require_valid(exam, path, "publish")
-    write_telegram(exam, path)
+    write_telegram(exam, path, VOCAB_ENABLED and not args.no_vocab)
     publish.publish(path, args.chat, args.dry_run)
+
+
+def cmd_vocab(args):
+    path = exam_dir(args.exam)
+    exam = load(path)
+    require_valid(exam, path, "extract vocabulary")
+    try:
+        vocab.generate(exam, path, args.count, args.model, args.effort, log=stderr_log)
+    except vocab.VocabError as e:
+        sys.exit(str(e))
+    write_telegram(exam, path)
+    manifest = json.loads((path / "telegram.json").read_text())
+    post = next((p for p in manifest["posts"] if p["id"] == "vocab"), None)
+    if args.show and post:
+        print(post["params"]["text"])
 
 
 def cmd_unpublish(args):
@@ -199,13 +219,20 @@ def cmd_list(args):
         errors = sum(len(p["validation"]["errors"]) for p in exam["parts"].values())
         n_audio = len(list((path.parent / "audio").glob("*.mp3")))
         tg = (path.parent / "telegram.json").exists()
+        vc = (path.parent / vocab.FILE).exists()
         print(f"{exam['id']}  parts={len(exam['parts'])}/4  errors={errors}  "
-              f"audio={n_audio}/8  telegram={'yes' if tg else 'no'}")
+              f"audio={n_audio}/8  telegram={'yes' if tg else 'no'}  vocab={'yes' if vc else 'no'}")
 
 
 def main():
     ap = argparse.ArgumentParser(prog="scripts/exam", description=__doc__)
     sub = ap.add_subparsers(required=True)
+
+    def count(value):
+        n = int(value)
+        if not 1 <= n <= VOCAB_MAX:
+            raise argparse.ArgumentTypeError(f"must be 1–{VOCAB_MAX}")
+        return n
 
     def llm_opts(p):
         p.add_argument("--model", help="Claude model alias or id (default: CLI default)")
@@ -215,6 +242,8 @@ def main():
     p = sub.add_parser("new", help="blueprint → text → validate → audio → telegram.json")
     p.add_argument("--seed", type=int)
     p.add_argument("--no-audio", action="store_true", help="stop after text generation")
+    p.add_argument("--no-vocab", action="store_true", help="skip the vocabulary post")
+    p.add_argument("--vocab-count", type=count, default=VOCAB_COUNT, help="vocabulary items")
     llm_opts(p)
     p.set_defaults(func=cmd_new)
 
@@ -246,7 +275,16 @@ def main():
     p.add_argument("exam")
     p.add_argument("--chat", help="channel username or chat id (default: @german_b1_horen)")
     p.add_argument("--dry-run", action="store_true", help="validate and print counts without sending")
+    p.add_argument("--no-vocab", action="store_true", help="leave out the vocabulary post")
     p.set_defaults(func=cmd_publish)
+
+    p = sub.add_parser("vocab", help="(re)extract the post-exam vocabulary post → vocab.json")
+    p.add_argument("exam")
+    p.add_argument("--count", type=count, default=VOCAB_COUNT, help=f"items (max {VOCAB_MAX})")
+    p.add_argument("--show", action="store_true", help="print the rendered post")
+    p.add_argument("--model", help="Claude model alias or id (default: CLI default)")
+    p.add_argument("--effort", choices=["low", "medium", "high", "xhigh", "max"])
+    p.set_defaults(func=cmd_vocab)
 
     p = sub.add_parser("unpublish", help="delete an exam's Telegram posts and comments")
     p.add_argument("exam")

@@ -114,6 +114,17 @@
       "files": {
         "audio": "audio/teil4.mp3"
       }
+    },
+    {
+      "id": "vocab",
+      "method": "sendMessage",
+      "params": {
+        "text": "🎧 <b>B1 Hören | Words Worth Knowing</b>\n15 high-value expressions from today's listening practice\n\n<b>🔀 Corrections &amp; contrasts</b>\n1. <b>dafür</b> — instead, in its place\n2. <b>doch</b> — yes, actually (contradicting a negative)\n3. <b>gar nicht</b> — not at all\n\n<b>⏱ Time &amp; sequence</b>\n4. <b>bis einschließlich</b> — up to and including\n5. <b>bisher</b> — so far, until now\n6. <b>inzwischen</b> — by now, in the meantime\n\n<b>⚖️ Conditions &amp; limits</b>\n7. <b>hätte am liebsten</b> — would most have liked\n8. <b>sich eintragen</b> — sign up, register\n9. <b>ohne Ausnahme</b> — without exception\n\n<b>🔄 Changes &amp; cancellations</b>\n10. <b>aufgeben</b> — give up\n11. <b>seit … wieder</b> — open again since\n12. <b>außer Betrieb</b> — out of order\n\n<b>📋 Rules &amp; instructions</b>\n13. <b>unbedingt</b> — definitely, absolutely\n\n<b>🎯 Answer-bearing words</b>\n14. <b>zuständig</b> — responsible, in charge\n15. <b>ich persönlich</b> — in my own opinion\n\n💡 <b>Listening trap</b>\n„<b>Dafür</b> öffnen wir Kasse 5 am Ausgang.“\nHere, dafür means 'instead', not 'for it', so it names the replacement.\n\nRecognize the signal. Find the answer.",
+        "parse_mode": "HTML",
+        "link_preview_options": {
+          "is_disabled": true
+        }
+      }
     }
   ]
 }

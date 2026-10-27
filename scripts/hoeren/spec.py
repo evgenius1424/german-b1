@@ -144,3 +144,9 @@ TG_POLL_QUESTION = 300
 TG_POLL_OPTION = 100
 TG_POLL_EXPLANATION = 200
 TG_MESSAGE = 4096
+
+# Post-exam vocabulary message (see docs/telegram-delivery.md).
+VOCAB_ENABLED = True
+VOCAB_COUNT = 15
+VOCAB_MAX = 20
+VOCAB_HISTORY = EXAMS / "vocab-history.json"

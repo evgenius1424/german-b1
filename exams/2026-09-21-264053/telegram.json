@@ -114,6 +114,17 @@
       "files": {
         "audio": "audio/teil4.mp3"
       }
+    },
+    {
+      "id": "vocab",
+      "method": "sendMessage",
+      "params": {
+        "text": "🎧 <b>B1 Hören | Words Worth Knowing</b>\n15 high-value expressions from today's listening practice\n\n<b>🔀 Corrections &amp; contrasts</b>\n1. <b>nicht … sondern</b> — not … but rather\n2. <b>eigentlich</b> — originally planned (but not done)\n3. <b>zwar … aber</b> — admittedly … but\n4. <b>zugeben</b> — admit\n\n<b>⏱ Time &amp; sequence</b>\n5. <b>noch nicht</b> — not yet\n6. <b>erst</b> — not until\n\n<b>🔗 Reasons &amp; consequences</b>\n7. <b>nämlich</b> — because, you see\n8. <b>deshalb</b> — that's why\n\n<b>⚖️ Conditions &amp; limits</b>\n9. <b>normalerweise</b> — usually\n\n<b>🔄 Changes &amp; cancellations</b>\n10. <b>nicht mehr</b> — no longer available\n11. <b>ausnahmsweise</b> — as an exception\n12. <b>geschlossen bleiben</b> — stay closed\n13. <b>früher</b> — in the past, previously\n\n<b>📋 Rules &amp; instructions</b>\n14. <b>bitten</b> — ask (someone to do)\n\n<b>🎯 Answer-bearing words</b>\n15. <b>Verspätung</b> — delay\n\n💡 <b>Listening trap</b>\n„Der Zug fährt heute <b>nicht</b> hier an Gleis 4 ab, <b>sondern</b> an Gleis 7.“\nThe first platform you hear is the wrong one; the answer comes after sondern.\n\nRecognize the signal. Find the answer.",
+        "parse_mode": "HTML",
+        "link_preview_options": {
+          "is_disabled": true
+        }
+      }
     }
   ]
 }
