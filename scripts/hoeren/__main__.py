@@ -188,6 +188,11 @@ def cmd_publish(args):
     publish.publish(path, args.chat, args.dry_run)
 
 
+def cmd_unpublish(args):
+    path = exam_dir(args.exam)
+    publish.unpublish(path, args.dry_run)
+
+
 def cmd_list(args):
     for path in sorted(EXAMS.glob("*/exam.json")):
         exam = json.loads(path.read_text())
@@ -242,6 +247,11 @@ def main():
     p.add_argument("--chat", help="channel username or chat id (default: @german_b1_horen)")
     p.add_argument("--dry-run", action="store_true", help="validate and print counts without sending")
     p.set_defaults(func=cmd_publish)
+
+    p = sub.add_parser("unpublish", help="delete an exam's Telegram posts and comments")
+    p.add_argument("exam")
+    p.add_argument("--dry-run", action="store_true", help="list the messages without deleting")
+    p.set_defaults(func=cmd_unpublish)
 
     p = sub.add_parser("list", help="list generated exams")
     p.set_defaults(func=cmd_list)

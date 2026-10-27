@@ -268,3 +268,81 @@ def publish(exam_dir, chat_id=None, dry_run=False):
     finally:
         publisher.close()
     print(f"published {counts['posts']} posts, {counts['comments']} comments")
+
+
+def _delete_targets(state):
+    """Message ids to delete, in order: comments, discussion-group copies, then channel posts."""
+    channel = state["chat_id"]
+    comments, copies, posts = [], [], []
+    for post_id, record in state["posts"].items():
+        forwarded = record.get("forwarded")
+        for mid in record.get("comment_message_ids", []):
+            comments.append((post_id, "comment_message_ids", forwarded["chat_id"], mid))
+        if forwarded:
+            copies.append((post_id, "forwarded", forwarded["chat_id"], forwarded["message_id"]))
+        for mid in record.get("channel_message_ids", []):
+            posts.append((post_id, "channel_message_ids", channel, mid))
+    return comments + copies + posts
+
+
+def _forget(state, post_id, field, mid):
+    """Drop one deleted message from the state so a retry skips it."""
+    record = state["posts"][post_id]
+    if field == "forwarded":
+        record.pop("forwarded", None)
+    else:
+        record[field] = [m for m in record[field] if m != mid]
+
+
+def unpublish(exam_dir, dry_run=False, token=None):
+    """Delete an exam's Telegram messages and clear published.json as each one goes.
+
+    Resumable: a message that is already gone counts as deleted, and anything that
+    fails stays in published.json so the next run retries only that.
+    """
+    _load_dotenv(Path.cwd() / ".env")
+    state_path = exam_dir / PUBLISH_STATE
+    if not state_path.exists():
+        print(f"nothing to delete: {state_path} does not exist")
+        return
+    state = json.loads(state_path.read_text())
+    targets = _delete_targets(state)
+    if dry_run:
+        for post_id, field, chat, mid in targets:
+            print(f"would delete {post_id} {field} {chat} {mid}")
+        print(f"dry-run: {len(targets)} messages")
+        return
+    token = token or os.environ.get("BOT_KEY")
+    if not token:
+        raise PublishError("BOT_KEY is not set in .env or the environment")
+    client = httpx.Client(timeout=35)
+    url = f"https://api.telegram.org/bot{token}/deleteMessage"
+    failed = []
+    try:
+        for post_id, field, chat, mid in targets:
+            body = _delete_request(client, url, chat, mid)
+            if body.get("ok") or "not found" in body.get("description", "").lower():
+                _forget(state, post_id, field, mid)
+                tmp = state_path.with_suffix(".tmp")
+                tmp.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n")
+                tmp.replace(state_path)
+                print(f"deleted {post_id} {chat} {mid}")
+            else:
+                failed.append(f"{post_id} {chat} {mid}: {body.get('description')}")
+                print(f"FAILED {post_id} {chat} {mid}: {body.get('description')}")
+    finally:
+        client.close()
+    if failed:
+        raise PublishError(f"{len(failed)} messages could not be deleted; {state_path} keeps them for a retry")
+    state_path.unlink()
+    print(f"unpublished {len(targets)} messages; removed {state_path}")
+
+
+def _delete_request(client, url, chat, mid):
+    while True:
+        time.sleep(MIN_INTERVAL)
+        body = client.post(url, json={"chat_id": chat, "message_id": mid}).json()
+        if body.get("error_code") == 429:
+            time.sleep(max(1, int(body.get("parameters", {}).get("retry_after", 5))))
+            continue
+        return body

@@ -1,0 +1,1498 @@
+{
+  "id": "2026-10-25-152061",
+  "created": "2026-10-25T14:17:02",
+  "origin": "generated",
+  "ontology_sha256": "7caa388a00d6",
+  "model": "default",
+  "blueprint": {
+    "seed": 152061,
+    "1": {
+      "units": [
+        {
+          "text": 1,
+          "text_type": "announcement in a public building (library, swimming pool, town hall)",
+          "speaker_gender": "m",
+          "questions": [
+            {
+              "number": 1,
+              "answer": "richtig",
+              "trap": "MENTIONED_TRUE",
+              "difficulty": 3
+            },
+            {
+              "number": 2,
+              "answer": "c",
+              "trap": "REQUEST_ACTION",
+              "difficulty": 4
+            }
+          ]
+        },
+        {
+          "text": 2,
+          "text_type": "airport or bus-station announcement",
+          "speaker_gender": "m",
+          "questions": [
+            {
+              "number": 3,
+              "answer": "falsch",
+              "trap": "PLAN_ACTUAL",
+              "difficulty": 4
+            },
+            {
+              "number": 4,
+              "answer": "c",
+              "trap": "CAUSE_SWAP",
+              "difficulty": 5
+            }
+          ]
+        },
+        {
+          "text": 3,
+          "text_type": "private voicemail from a friend or relative",
+          "speaker_gender": "m",
+          "questions": [
+            {
+              "number": 5,
+              "answer": "falsch",
+              "trap": "PARAPHRASE",
+              "difficulty": 3
+            },
+            {
+              "number": 6,
+              "answer": "a",
+              "trap": "TIME_SWAP",
+              "difficulty": 4
+            }
+          ]
+        },
+        {
+          "text": 4,
+          "text_type": "voicemail from a shop, workshop or delivery service",
+          "speaker_gender": "m",
+          "questions": [
+            {
+              "number": 7,
+              "answer": "richtig",
+              "trap": "CONDITION",
+              "difficulty": 3
+            },
+            {
+              "number": 8,
+              "answer": "b",
+              "trap": "PLACE_SWAP",
+              "difficulty": 4
+            }
+          ]
+        },
+        {
+          "text": 5,
+          "text_type": "announcement in a department store or supermarket",
+          "speaker_gender": "f",
+          "questions": [
+            {
+              "number": 9,
+              "answer": "richtig",
+              "trap": "PLAN_ACTUAL",
+              "difficulty": 5
+            },
+            {
+              "number": 10,
+              "answer": "a",
+              "trap": "OLD_NEW",
+              "difficulty": 3
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "setting": "introduction to a language-school summer course",
+      "speaker_gender": "f",
+      "questions": [
+        {
+          "number": 11,
+          "answer": "a",
+          "trap": "MENTIONED_TRUE",
+          "difficulty": 4
+        },
+        {
+          "number": 12,
+          "answer": "c",
+          "trap": "PLACE_SWAP",
+          "difficulty": 3
+        },
+        {
+          "number": 13,
+          "answer": "b",
+          "trap": "TEMPORAL_SCOPE",
+          "difficulty": 4
+        },
+        {
+          "number": 14,
+          "answer": "a",
+          "trap": "CONDITION",
+          "difficulty": 3
+        },
+        {
+          "number": 15,
+          "answer": "b",
+          "trap": "TIME_SWAP",
+          "difficulty": 4
+        }
+      ]
+    },
+    "3": {
+      "scenario": "two friends in a café talk about a recent city trip",
+      "questions": [
+        {
+          "number": 16,
+          "answer": "falsch",
+          "trap": "WANT_DO",
+          "difficulty": 2
+        },
+        {
+          "number": 17,
+          "answer": "falsch",
+          "trap": "ACTOR_SWAP",
+          "difficulty": 3
+        },
+        {
+          "number": 18,
+          "answer": "richtig",
+          "trap": "WANT_DO",
+          "difficulty": 4
+        },
+        {
+          "number": 19,
+          "answer": "falsch",
+          "trap": "WANT_DO",
+          "difficulty": 3
+        },
+        {
+          "number": 20,
+          "answer": "falsch",
+          "trap": "REQUEST_RESULT",
+          "difficulty": 3
+        },
+        {
+          "number": 21,
+          "answer": "richtig",
+          "trap": "AVAILABLE_CHOSEN",
+          "difficulty": 5
+        },
+        {
+          "number": 22,
+          "answer": "richtig",
+          "trap": "TEMPORAL_SCOPE",
+          "difficulty": 3
+        }
+      ]
+    },
+    "4": {
+      "topic": "Are smartphones harmful in secondary schools?",
+      "genders": {
+        "moderator": "m",
+        "guest1": "f",
+        "guest2": "f"
+      },
+      "questions": [
+        {
+          "number": 23,
+          "answer": "guest2",
+          "trap": "KEYWORD_OVERLAP",
+          "difficulty": 4
+        },
+        {
+          "number": 24,
+          "answer": "guest1",
+          "trap": "SOURCE_ATTRIBUTION",
+          "difficulty": 3
+        },
+        {
+          "number": 25,
+          "answer": "guest2",
+          "trap": "SOURCE_ATTRIBUTION",
+          "difficulty": 2
+        },
+        {
+          "number": 26,
+          "answer": "guest2",
+          "trap": "KEYWORD_OVERLAP",
+          "difficulty": 3
+        },
+        {
+          "number": 27,
+          "answer": "guest1",
+          "trap": "PARAPHRASE",
+          "difficulty": 4
+        },
+        {
+          "number": 28,
+          "answer": "moderator",
+          "trap": "SOURCE_ATTRIBUTION",
+          "difficulty": 3
+        },
+        {
+          "number": 29,
+          "answer": "guest1",
+          "trap": "SOURCE_ATTRIBUTION",
+          "difficulty": 2
+        },
+        {
+          "number": 30,
+          "answer": "guest2",
+          "trap": "PARAPHRASE",
+          "difficulty": 4
+        }
+      ]
+    }
+  },
+  "parts": {
+    "1": {
+      "part": 1,
+      "instruction": "Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+      "plays": 2,
+      "situation": null,
+      "topic": null,
+      "units": [
+        {
+          "id": "teil1-text1",
+          "title": "Text 1",
+          "topic": "swimming pool announcement: sauna closed, voucher instructions",
+          "speakers": [
+            {
+              "id": "s1",
+              "name": "Ansage Stadtbad",
+              "gender": "m",
+              "role": "Durchsage im Hallenbad",
+              "voice": "markus"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "frame": "agent=Stadtbad Nord; object=Sauna; status=geschlossen wegen Reparatur; time=bis einschließlich Freitag",
+              "statement": "Die Sauna im Stadtbad Nord ist wegen einer Reparatur bis Freitag geschlossen."
+            },
+            {
+              "id": "F2",
+              "frame": "object=Schwimmbecken und Außenbecken; status=normal geöffnet",
+              "statement": "Die Schwimmbecken und das Außenbecken sind normal geöffnet."
+            },
+            {
+              "id": "F3",
+              "frame": "object=Saunagutschein; action=nicht an der Kasse abgeben, aufbewahren; time=Gültigkeit um zwei Wochen verlängert",
+              "statement": "Gäste mit Saunagutschein sollen ihn aufbewahren; die Gültigkeit wird verlängert."
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "s1",
+              "text": "Guten Abend, meine Damen und Herren. Hier ist die Ansage vom Stadtbad Nord. Bitte beachten Sie: Die Sauna bleibt wegen einer Reparatur bis einschließlich Freitag geschlossen. Die Schwimmbecken und das Außenbecken sind ganz normal geöffnet. Wenn Sie einen Saunagutschein haben, geben Sie ihn bitte nicht an der Kasse ab. Bewahren Sie ihn bitte auf. Die Gültigkeit verlängern wir für alle Gutscheine um zwei Wochen. Vielen Dank für Ihr Verständnis."
+            }
+          ],
+          "questions": [
+            {
+              "type": "true_false",
+              "number": 1,
+              "prompt": "Die Sauna ist bis Freitag geschlossen.",
+              "options": [],
+              "answer": "richtig",
+              "target_fact": "F1",
+              "evidence_quote": "Die Sauna bleibt wegen einer Reparatur bis einschließlich Freitag geschlossen.",
+              "trap": "MENTIONED_TRUE",
+              "slot": "STATUS",
+              "difficulty": 3,
+              "explanation": "Die Sauna ist wegen Reparatur bis Freitag zu. Die offenen Becken werden zwar genannt, betreffen aber nicht die Sauna."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 2,
+              "prompt": "Was sollen Gäste mit einem Saunagutschein tun?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "Ihn an der Kasse abgeben.",
+                  "fact_id": "F3",
+                  "why_wrong": "action reversed; the instruction is the opposite"
+                },
+                {
+                  "id": "b",
+                  "text": "Ihn sofort in der Sauna einlösen.",
+                  "fact_id": "F1",
+                  "why_wrong": "time wrong; the sauna is closed until Friday"
+                },
+                {
+                  "id": "c",
+                  "text": "Ihn aufbewahren und später verwenden.",
+                  "fact_id": "F3",
+                  "why_wrong": ""
+                }
+              ],
+              "answer": "c",
+              "target_fact": "F3",
+              "evidence_quote": "Wenn Sie einen Saunagutschein haben, geben Sie ihn bitte nicht an der Kasse ab.",
+              "trap": "REQUEST_ACTION",
+              "slot": "WHAT",
+              "difficulty": 4,
+              "explanation": "Man soll den Gutschein behalten. Die Einlösung in der geschlossenen Sauna wäre falsch; die Gültigkeit wird verlängert."
+            }
+          ],
+          "text_type": "announcement in a public building (library, swimming pool, town hall)"
+        },
+        {
+          "id": "teil1-text2",
+          "title": "Text 2",
+          "topic": "bus station announcement: delayed bus, changed cause",
+          "speakers": [
+            {
+              "id": "s2",
+              "name": "Ansage Busbahnhof",
+              "gender": "m",
+              "role": "Durchsage am Busbahnhof",
+              "voice": "markus"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F4",
+              "frame": "agent=Bus Linie 7 nach Hohenfels; time=geplant 14:20 Uhr, tatsächlich 14:45 Uhr; place=Steig 3; status=verspätet",
+              "statement": "Der Bus der Linie 7 fährt später als geplant ab, um 14:45 Uhr von Steig 3."
+            },
+            {
+              "id": "F5",
+              "frame": "cause=Baustelle Hauptstraße; status=zuerst vermutet, seit heute Morgen beendet",
+              "statement": "Die Baustelle an der Hauptstraße war zuerst als Grund genannt, ist aber beendet."
+            },
+            {
+              "id": "F6",
+              "frame": "cause=Unfall auf der Brücke; place=Brücke (nicht Bahnhof); status=echter Grund, Brücke wieder frei",
+              "statement": "Der eigentliche Grund ist ein Unfall auf der Brücke, nicht am Bahnhof."
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "s2",
+              "text": "Ihre Aufmerksamkeit, bitte. Ansage für den Bus der Linie 7 nach Hohenfels. Der Bus fährt heute nicht um 14:20 Uhr, sondern erst um 14:45 Uhr ab Steig 3. Zuerst hieß es, die Baustelle an der Hauptstraße sei schuld. Das stimmt aber nicht mehr, die Arbeiten sind seit heute Morgen beendet. Der Grund für die Verspätung ist ein Unfall auf der Brücke, nicht am Bahnhof. Die Polizei hat die Brücke inzwischen wieder freigegeben. Wir bitten um Entschuldigung."
+            }
+          ],
+          "questions": [
+            {
+              "type": "true_false",
+              "number": 3,
+              "prompt": "Der Bus fährt heute um 14:20 Uhr ab.",
+              "options": [],
+              "answer": "falsch",
+              "target_fact": "F4",
+              "evidence_quote": "Der Bus fährt heute nicht um 14:20 Uhr, sondern erst um 14:45 Uhr ab Steig 3.",
+              "trap": "PLAN_ACTUAL",
+              "slot": "WHEN",
+              "difficulty": 4,
+              "explanation": "Geplant war 14:20 Uhr, der Bus fährt aber erst um 14:45 Uhr. Die Abfahrtszeit wurde geändert."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 4,
+              "prompt": "Warum fährt der Bus später ab?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "Wegen der Baustelle an der Hauptstraße.",
+                  "fact_id": "F5",
+                  "why_wrong": "earlier assumed cause; the construction is finished"
+                },
+                {
+                  "id": "b",
+                  "text": "Wegen eines Unfalls am Bahnhof.",
+                  "fact_id": "F6",
+                  "why_wrong": "place swapped; the accident was on the bridge, not at the station"
+                },
+                {
+                  "id": "c",
+                  "text": "Wegen eines Unfalls auf der Brücke.",
+                  "fact_id": "F6",
+                  "why_wrong": ""
+                }
+              ],
+              "answer": "c",
+              "target_fact": "F6",
+              "evidence_quote": "Der Grund für die Verspätung ist ein Unfall auf der Brücke, nicht am Bahnhof.",
+              "trap": "CAUSE_SWAP",
+              "slot": "WHY",
+              "difficulty": 5,
+              "explanation": "Der echte Grund ist der Unfall auf der Brücke. Die Baustelle war nur die erste Vermutung, der Unfall war nicht am Bahnhof."
+            }
+          ],
+          "text_type": "airport or bus-station announcement"
+        },
+        {
+          "id": "teil1-text3",
+          "title": "Text 3",
+          "topic": "voicemail from a friend: moving day, changed truck time",
+          "speakers": [
+            {
+              "id": "s3",
+              "name": "Jonas",
+              "gender": "m",
+              "role": "Freund, Sprachnachricht auf dem Anrufbeantworter",
+              "voice": "markus"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F7",
+              "frame": "agent=Jonas; action=Mara bitten zu kommen; status=Hilfe unbedingt nötig",
+              "statement": "Jonas braucht Maras Hilfe beim Umzug am Samstag unbedingt."
+            },
+            {
+              "id": "F8",
+              "frame": "agent=Verleiher; object=Umzugswagen; time=8 Uhr (statt 9 Uhr)",
+              "statement": "Der Umzugswagen kommt schon um acht Uhr, nicht erst um neun."
+            },
+            {
+              "id": "F9",
+              "frame": "action=Treffen bei alter Wohnung; time=9 Uhr; status=trotzdem so geplant",
+              "statement": "Das Treffen bei der alten Wohnung bleibt um neun Uhr."
+            },
+            {
+              "id": "F10",
+              "frame": "agent=Vermieter; object=Schlüssel; time=11 Uhr",
+              "statement": "Der Vermieter will die Schlüssel erst um elf Uhr haben."
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "s3",
+              "text": "Hey Mara, ich bin's, Jonas. Hör mal, wegen Samstag. Ohne dich schaffe ich den Umzug echt nicht, also bitte komm unbedingt. Der Umzugswagen kommt schon um acht, nicht erst um neun, hat der Verleiher gerade angerufen. Wir treffen uns trotzdem um neun bei meiner alten Wohnung, dann tragen wir die Kisten runter. Der Vermieter will die Schlüssel erst um elf haben. Ruf mich kurz zurück, ja?"
+            }
+          ],
+          "questions": [
+            {
+              "type": "true_false",
+              "number": 5,
+              "prompt": "Maras Hilfe wird nicht mehr benötigt.",
+              "options": [],
+              "answer": "falsch",
+              "target_fact": "F7",
+              "evidence_quote": "Ohne dich schaffe ich den Umzug echt nicht, also bitte komm unbedingt.",
+              "trap": "PARAPHRASE",
+              "slot": "POLARITY",
+              "difficulty": 3,
+              "explanation": "Jonas sagt, ohne Mara schafft er den Umzug nicht. Ihre Hilfe wird also dringend gebraucht."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 6,
+              "prompt": "Wann treffen sich Jonas und Mara bei der alten Wohnung?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "Um 9 Uhr.",
+                  "fact_id": "F9",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "b",
+                  "text": "Um 8 Uhr.",
+                  "fact_id": "F8",
+                  "why_wrong": "time swapped; 8 Uhr is the arrival of the truck"
+                },
+                {
+                  "id": "c",
+                  "text": "Um 11 Uhr.",
+                  "fact_id": "F10",
+                  "why_wrong": "time swapped; 11 Uhr is when the landlord wants the keys"
+                }
+              ],
+              "answer": "a",
+              "target_fact": "F9",
+              "evidence_quote": "Wir treffen uns trotzdem um neun bei meiner alten Wohnung, dann tragen wir die Kisten runter.",
+              "trap": "TIME_SWAP",
+              "slot": "WHEN",
+              "difficulty": 4,
+              "explanation": "Das Treffen ist um 9 Uhr. Der Wagen kommt um 8 Uhr, die Schlüssel gibt es um 11 Uhr. Drei Zeiten, nur eine passt."
+            }
+          ],
+          "text_type": "private voicemail from a friend or relative"
+        },
+        {
+          "id": "teil1-text4",
+          "title": "Text 4",
+          "topic": "parcel delivery voicemail: redelivery condition and pickup point",
+          "speakers": [
+            {
+              "id": "s4",
+              "name": "Tobias Wendt",
+              "gender": "m",
+              "role": "Mitarbeiter Paketdienst, Sprachnachricht",
+              "voice": "markus"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F11",
+              "frame": "agent=Paketdienst Schnell; status=Paket heute nicht zugestellt; time=morgen früh; condition=Empfänger bis 9 Uhr zu Hause",
+              "statement": "Das Paket kommt morgen früh noch einmal, wenn Herr Kessler bis neun Uhr zu Hause ist."
+            },
+            {
+              "id": "F12",
+              "frame": "place=Paketshop Bahnhofstraße; use=Abholung ohne Warten",
+              "statement": "Man kann das Paket im Paketshop Bahnhofstraße abholen, ohne zu warten."
+            },
+            {
+              "id": "F13",
+              "frame": "place=Paketshop Lindenstraße; status=für dieses Paket nicht zuständig",
+              "statement": "Der Paketshop Lindenstraße ist für dieses Paket nicht zuständig."
+            },
+            {
+              "id": "F14",
+              "frame": "place=Packstation am Markt; status=für dieses Paket zu klein",
+              "statement": "Die Packstation am Markt ist für dieses Paket zu klein."
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "s4",
+              "text": "Guten Tag, Herr Kessler, hier spricht Tobias Wendt vom Paketdienst Schnell. Ihr Paket konnte heute leider nicht zugestellt werden. Wir liefern es morgen früh noch einmal, wenn Sie bis neun Uhr zu Hause sind. Wenn Sie nicht warten möchten, können Sie das Paket auch im Paketshop Bahnhofstraße abholen. Der Shop in der Lindenstraße ist für dieses Paket nicht zuständig. Die Packstation am Markt ist dafür zu klein. Vielen Dank und einen schönen Tag."
+            }
+          ],
+          "questions": [
+            {
+              "type": "true_false",
+              "number": 7,
+              "prompt": "Das Paket kommt morgen früh noch einmal.",
+              "options": [],
+              "answer": "richtig",
+              "target_fact": "F11",
+              "evidence_quote": "Wir liefern es morgen früh noch einmal, wenn Sie bis neun Uhr zu Hause sind.",
+              "trap": "CONDITION",
+              "slot": "CONDITION",
+              "difficulty": 3,
+              "explanation": "Die erneute Zustellung ist richtig, aber nur wenn Herr Kessler bis 9 Uhr zu Hause ist. Das ist die Bedingung."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 8,
+              "prompt": "Wo kann Herr Kessler das Paket abholen, wenn er nicht warten möchte?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "Im Paketshop in der Lindenstraße.",
+                  "fact_id": "F13",
+                  "why_wrong": "place swapped; this shop is not responsible for this parcel"
+                },
+                {
+                  "id": "b",
+                  "text": "Im Paketshop in der Bahnhofstraße.",
+                  "fact_id": "F12",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "c",
+                  "text": "In der Packstation am Markt.",
+                  "fact_id": "F14",
+                  "why_wrong": "place swapped; the parcel is too big for this station"
+                }
+              ],
+              "answer": "b",
+              "target_fact": "F12",
+              "evidence_quote": "Wenn Sie nicht warten möchten, können Sie das Paket auch im Paketshop Bahnhofstraße abholen.",
+              "trap": "PLACE_SWAP",
+              "slot": "WHERE",
+              "difficulty": 4,
+              "explanation": "Abholung ohne Warten geht im Paketshop Bahnhofstraße. Lindenstraße ist nicht zuständig, die Packstation am Markt ist zu klein."
+            }
+          ],
+          "text_type": "voicemail from a shop, workshop or delivery service"
+        },
+        {
+          "id": "teil1-text5",
+          "title": "Text 5",
+          "topic": "supermarket announcement: earlier bread promotion, changed open checkout",
+          "speakers": [
+            {
+              "id": "s5",
+              "name": "Sprecherin Frischmarkt",
+              "gender": "f",
+              "role": "Durchsage im Supermarkt",
+              "voice": "petra"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F15",
+              "frame": "object=Brotaktion; time=geplant 10 Uhr, jetzt 9 Uhr; cause=Lieferung früher gekommen",
+              "statement": "Die Brotaktion beginnt heute schon um neun Uhr statt um zehn."
+            },
+            {
+              "id": "F16",
+              "frame": "object=Kasse 2; status=sonst offen, heute geschlossen",
+              "statement": "Kasse 2 ist sonst offen, heute aber geschlossen."
+            },
+            {
+              "id": "F17",
+              "frame": "object=Kasse 5 am Ausgang; status=heute neu geöffnet",
+              "statement": "Kasse 5 am Ausgang wird heute geöffnet."
+            },
+            {
+              "id": "F18",
+              "frame": "object=Selbstbedienungskasse 7; status=weiterhin außer Betrieb",
+              "statement": "Die Selbstbedienungskasse 7 ist weiterhin außer Betrieb."
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "s5",
+              "text": "Liebe Kundinnen und Kunden, wir haben eine kurze Information für Sie. Die Brotaktion beginnt heute schon um neun Uhr, nicht erst um zehn Uhr, weil die Lieferung früher gekommen ist. Kasse 2, die sonst immer offen ist, bleibt heute geschlossen. Dafür öffnen wir Kasse 5 am Ausgang. Die Selbstbedienungskasse 7 ist weiterhin außer Betrieb. Wir bitten um Ihr Verständnis und wünschen Ihnen einen schönen Einkauf."
+            }
+          ],
+          "questions": [
+            {
+              "type": "true_false",
+              "number": 9,
+              "prompt": "Die Brotaktion beginnt heute früher als geplant.",
+              "options": [],
+              "answer": "richtig",
+              "target_fact": "F15",
+              "evidence_quote": "Die Brotaktion beginnt heute schon um neun Uhr, nicht erst um zehn Uhr, weil die Lieferung früher gekommen ist.",
+              "trap": "PLAN_ACTUAL",
+              "slot": "WHEN",
+              "difficulty": 5,
+              "explanation": "Geplant war 10 Uhr, die Aktion startet aber schon um 9 Uhr, weil die Lieferung früher kam. Die Aussage stimmt."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 10,
+              "prompt": "Welche Kasse ist heute geöffnet?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "Kasse 5 am Ausgang.",
+                  "fact_id": "F17",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "b",
+                  "text": "Kasse 2.",
+                  "fact_id": "F16",
+                  "why_wrong": "old status; Kasse 2 is normally open but closed today"
+                },
+                {
+                  "id": "c",
+                  "text": "Die Selbstbedienungskasse 7.",
+                  "fact_id": "F18",
+                  "why_wrong": "still out of order"
+                }
+              ],
+              "answer": "a",
+              "target_fact": "F17",
+              "evidence_quote": "Dafür öffnen wir Kasse 5 am Ausgang.",
+              "trap": "OLD_NEW",
+              "slot": "WHERE",
+              "difficulty": 3,
+              "explanation": "Kasse 5 am Ausgang ist heute neu geöffnet. Kasse 2 ist sonst offen, heute aber zu, und Kasse 7 bleibt außer Betrieb."
+            }
+          ],
+          "text_type": "announcement in a department store or supermarket"
+        }
+      ],
+      "validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "cost_usd": 0.0152
+    },
+    "2": {
+      "part": 2,
+      "instruction": "Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "plays": 1,
+      "situation": "Sie hören die Begrüßung einer Kursleiterin zu einem Sommerkurs an einer Sprachschule und sollen wichtige Informationen zu Terminen, Orten und Regeln verstehen.",
+      "topic": "Language-school summer course welcome talk (organised monologue, Teil 2)",
+      "units": [
+        {
+          "id": "teil2",
+          "title": null,
+          "topic": "Language-school summer course welcome talk (organised monologue, Teil 2)",
+          "speakers": [
+            {
+              "id": "s1",
+              "name": "Katrin Wendt",
+              "gender": "f",
+              "role": "Kursleiterin an der Sprachschule Elbblick",
+              "voice": "petra"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "frame": "agent=Teilnehmer; action=Einstufungstest schreiben; time=Montag 9 Uhr; status=Pflicht am ersten Tag",
+              "statement": "Am Montag um 9 Uhr schreiben alle Teilnehmer den Einstufungstest."
+            },
+            {
+              "id": "F2",
+              "frame": "agent=Teilnehmer; action=Kursgebühr bezahlen; status=bereits überwiesen, heute nicht nötig",
+              "statement": "Die Kursgebühr ist schon überwiesen und muss heute nicht mehr bezahlt werden."
+            },
+            {
+              "id": "F3",
+              "frame": "object=Lehrbücher; action=ausgeben; time=erst Dienstag im Büro",
+              "statement": "Die Lehrbücher gibt es erst am Dienstag im Büro."
+            },
+            {
+              "id": "F4",
+              "frame": "place=Foyer des Hauptgebäudes; time=Vormittag; function=Treffpunkt am Vormittag",
+              "statement": "Am Vormittag treffen sich alle im Foyer des Hauptgebäudes."
+            },
+            {
+              "id": "F5",
+              "frame": "place=Café gegenüber vom Hauptgebäude; function=Mittagessen",
+              "statement": "Mittagessen gibt es im Café gegenüber vom Hauptgebäude."
+            },
+            {
+              "id": "F6",
+              "frame": "place=Bibliothek im Nebengebäude, Schillerstraße; time=13:30 Uhr; function=Treffpunkt am Nachmittag",
+              "statement": "Die Nachmittagsgruppen treffen sich um 13:30 Uhr vor der Bibliothek im Nebengebäude."
+            },
+            {
+              "id": "F7",
+              "frame": "object=Computerraum; status=im Juli wegen Renovierung geschlossen, seit Montag wieder offen; hours=8 bis 18 Uhr",
+              "statement": "Der Computerraum ist seit Montag wieder offen, nicht mehr geschlossen wie im Juli."
+            },
+            {
+              "id": "F8",
+              "frame": "object=Leihrad (zehn Stück); agent=Teilnehmer; condition=Eintrag im Büro bis Donnerstag; status=dann reserviert",
+              "statement": "Ein Leihrad bekommt man nur, wenn man sich bis Donnerstag im Büro einträgt."
+            },
+            {
+              "id": "F9",
+              "frame": "event=Abschlussprüfung; time=Freitag, 7. August, 10 Uhr",
+              "statement": "Die Abschlussprüfung ist am Freitag, dem 7. August, um 10 Uhr."
+            },
+            {
+              "id": "F10",
+              "frame": "event=Stadtführung; time=Freitag, 14 Uhr; place=Hafen",
+              "statement": "Die Stadtführung am Freitagnachmittag beginnt um 14 Uhr am Hafen."
+            },
+            {
+              "id": "F11",
+              "frame": "event=Abschlussfest; time=18 Uhr; place=Garten der Schule; guests=Familien eingeladen",
+              "statement": "Das Abschlussfest beginnt um 18 Uhr im Garten der Schule."
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "s1",
+              "text": "Guten Morgen, liebe Teilnehmerinnen und Teilnehmer, herzlich willkommen bei unserem Sommerkurs an der Sprachschule Elbblick. Mein Name ist Katrin Wendt, und ich organisiere den Kurs gemeinsam mit meinem Kollegen Herrn Lorenz. Ich möchte Ihnen heute die wichtigsten Informationen für die nächsten drei Wochen geben. Ich gehe das in fünf Punkten durch. Wenn Sie danach Fragen haben, sprechen Sie mich einfach an."
+            },
+            {
+              "speaker": "s1",
+              "text": "Zuerst zum ersten Tag. Die Kursgebühr haben Sie ja schon überwiesen, das müssen Sie heute nicht mehr machen. Am Montag beginnt um 9 Uhr der Einstufungstest. Alle Teilnehmer schreiben diesen Test, damit wir die richtige Gruppe finden. Er dauert etwa eine Stunde. Die Lehrbücher bekommen Sie erst am Dienstag im Büro."
+            },
+            {
+              "speaker": "s1",
+              "text": "Kommen wir zu den Treffpunkten. Am Vormittag treffen wir uns immer im Foyer des Hauptgebäudes. Mittagessen gibt es im Café gegenüber, das kennen Sie sicher schon. Am Nachmittag ist es aber anders. Die Nachmittagsgruppen treffen sich um 13:30 Uhr vor der Bibliothek im Nebengebäude in der Schillerstraße. Dort wartet dann mein Kollege mit einer Liste."
+            },
+            {
+              "speaker": "s1",
+              "text": "Jetzt zum Computerraum. Der war im Juli wegen einer Renovierung geschlossen. Seit Montag ist er wieder offen, und Sie können ihn täglich von 8 bis 18 Uhr benutzen. Die Zugangskarte bekommen Sie im Büro. Bitte bringen Sie sie immer mit."
+            },
+            {
+              "speaker": "s1",
+              "text": "Viele von Ihnen möchten die Stadt mit dem Fahrrad erkunden. Wir haben zehn Leihräder. Sie können eines ausleihen, wenn Sie sich bis Donnerstag im Büro eintragen. Dann ist das Rad für Sie reserviert. Den Ausweis brauchen Sie auch dafür."
+            },
+            {
+              "speaker": "s1",
+              "text": "Zum Schluss noch die Termine für die letzte Woche. Die Abschlussprüfung ist am Freitag, dem 7. August, um 10 Uhr. Am selben Nachmittag machen wir eine Stadtführung, die beginnt um 14 Uhr am Hafen. Das Abschlussfest beginnt dann um 18 Uhr im Garten der Schule. Dazu sind auch Ihre Familien herzlich eingeladen."
+            },
+            {
+              "speaker": "s1",
+              "text": "Das war es für heute. Die Unterlagen liegen im Foyer. Bis Montag um 9 Uhr beim Test. Vielen Dank und viel Erfolg."
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "number": 11,
+              "prompt": "Was müssen die Teilnehmer am Montagmorgen tun?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "Einen Einstufungstest schreiben",
+                  "fact_id": "F1",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "b",
+                  "text": "Die Kursgebühr bezahlen",
+                  "fact_id": "F2",
+                  "why_wrong": "fee already paid; action mentioned but not required today"
+                },
+                {
+                  "id": "c",
+                  "text": "Die Lehrbücher abholen",
+                  "fact_id": "F3",
+                  "why_wrong": "books are handed out on Tuesday, not Monday"
+                }
+              ],
+              "answer": "a",
+              "target_fact": "F1",
+              "evidence_quote": "Am Montag beginnt um 9 Uhr der Einstufungstest.",
+              "trap": "MENTIONED_TRUE",
+              "slot": "WHAT",
+              "difficulty": 4,
+              "explanation": "Der Test am Montag um 9 Uhr ist richtig. Die Gebühr wird nur erwähnt, sie ist schon bezahlt und keine Aufgabe für heute."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 12,
+              "prompt": "Wo treffen sich die Gruppen am Nachmittag?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "Im Café gegenüber vom Hauptgebäude",
+                  "fact_id": "F5",
+                  "why_wrong": "lunch place, not the afternoon meeting point"
+                },
+                {
+                  "id": "b",
+                  "text": "Im Foyer des Hauptgebäudes",
+                  "fact_id": "F4",
+                  "why_wrong": "morning meeting point, not the afternoon"
+                },
+                {
+                  "id": "c",
+                  "text": "Vor der Bibliothek im Nebengebäude",
+                  "fact_id": "F6",
+                  "why_wrong": ""
+                }
+              ],
+              "answer": "c",
+              "target_fact": "F6",
+              "evidence_quote": "Die Nachmittagsgruppen treffen sich um 13:30 Uhr vor der Bibliothek im Nebengebäude in der Schillerstraße.",
+              "trap": "PLACE_SWAP",
+              "slot": "WHERE",
+              "difficulty": 3,
+              "explanation": "Am Nachmittag treffen sich die Gruppen vor der Bibliothek. Café und Foyer gehören zu Mittag bzw. Vormittag."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 13,
+              "prompt": "Was gilt für den Computerraum jetzt?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "Er ist wegen einer Renovierung geschlossen.",
+                  "fact_id": "F7",
+                  "why_wrong": "past state in July, superseded by reopening"
+                },
+                {
+                  "id": "b",
+                  "text": "Er ist seit Montag wieder geöffnet.",
+                  "fact_id": "F7",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "c",
+                  "text": "Er ist nur für Lehrkräfte offen.",
+                  "fact_id": "F7",
+                  "why_wrong": "access restriction is not stated anywhere"
+                }
+              ],
+              "answer": "b",
+              "target_fact": "F7",
+              "evidence_quote": "Seit Montag ist er wieder offen, und Sie können ihn täglich von 8 bis 18 Uhr benutzen.",
+              "trap": "TEMPORAL_SCOPE",
+              "slot": "STATUS",
+              "difficulty": 4,
+              "explanation": "Der Raum war im Juli geschlossen, ist aber seit Montag wieder offen. Die Schließung gilt nicht mehr."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 14,
+              "prompt": "Wann bekommen die Teilnehmer ein Leihrad?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "Wenn sie sich bis Donnerstag eintragen.",
+                  "fact_id": "F8",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "b",
+                  "text": "Am ersten Tag, ohne Eintrag.",
+                  "fact_id": "F8",
+                  "why_wrong": "condition of registration dropped"
+                },
+                {
+                  "id": "c",
+                  "text": "Nur am Wochenende.",
+                  "fact_id": "F8",
+                  "why_wrong": "weekend availability is not mentioned"
+                }
+              ],
+              "answer": "a",
+              "target_fact": "F8",
+              "evidence_quote": "Sie können eines ausleihen, wenn Sie sich bis Donnerstag im Büro eintragen.",
+              "trap": "CONDITION",
+              "slot": "CONDITION",
+              "difficulty": 3,
+              "explanation": "Das Leihrad gibt es nur mit Eintrag bis Donnerstag. Ohne Eintrag gilt die Bedingung nicht, eine Zeit am Wochenende fehlt im Text."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 15,
+              "prompt": "Wann beginnt das Abschlussfest?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "Um 10 Uhr.",
+                  "fact_id": "F9",
+                  "why_wrong": "start time of the final exam"
+                },
+                {
+                  "id": "b",
+                  "text": "Um 18 Uhr.",
+                  "fact_id": "F11",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "c",
+                  "text": "Um 14 Uhr.",
+                  "fact_id": "F10",
+                  "why_wrong": "start time of the city tour"
+                }
+              ],
+              "answer": "b",
+              "target_fact": "F11",
+              "evidence_quote": "Das Abschlussfest beginnt dann um 18 Uhr im Garten der Schule.",
+              "trap": "TIME_SWAP",
+              "slot": "WHEN",
+              "difficulty": 4,
+              "explanation": "Die Prüfung ist um 10 Uhr, die Stadtführung um 14 Uhr. Das Abschlussfest beginnt erst um 18 Uhr im Garten."
+            }
+          ]
+        }
+      ],
+      "validation": {
+        "errors": [],
+        "warnings": [
+          "teil2: audio has 320 words, target 380–450"
+        ]
+      },
+      "cost_usd": 0.0094
+    },
+    "3": {
+      "part": 3,
+      "instruction": "Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen richtig oder falsch?",
+      "plays": 1,
+      "situation": "Zwei Freunde sitzen in einem Café und sprechen über ihre Städtereise nach Prag.",
+      "topic": "Two friends in a café talk about a recent city trip (Prague)",
+      "units": [
+        {
+          "id": "teil3",
+          "title": null,
+          "topic": "Two friends in a café talk about a recent city trip (Prague)",
+          "speakers": [
+            {
+              "id": "f",
+              "name": "Nina",
+              "gender": "f",
+              "role": "Freundin, war mit ihrer Schwester in Prag",
+              "voice": "anna"
+            },
+            {
+              "id": "m",
+              "name": "Tobias",
+              "gender": "m",
+              "role": "Freund, war nicht mitgereist",
+              "voice": "markus"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "frame": "agent=Nina und Sara; action=Städtereise; place=Prag; time=letztes Wochenende, drei Tage; status=abgeschlossen",
+              "statement": "Nina und Sara waren drei Tage in Prag."
+            },
+            {
+              "id": "F2",
+              "frame": "agent=Nina; action=auf den Aussichtsturm steigen; status=gewünscht, nicht gemacht; reason=Schlange zu lang",
+              "statement": "Nina wollte auf den Aussichtsturm, hat aber nach einer halben Stunde aufgegeben."
+            },
+            {
+              "id": "F3",
+              "frame": "agent=Sara (Schwester von Nina); action=Hotel buchen; object=Hotel nah an der Altstadt; Nina=nicht die Buchende",
+              "statement": "Sara hat das Hotel gebucht, zehn Minuten zu Fuß bis zum Markt."
+            },
+            {
+              "id": "F4",
+              "frame": "agent=Nina; wish=noch einen Tag länger in Prag bleiben; status=Wunsch, nicht realisiert",
+              "statement": "Nina wäre am liebsten noch einen Tag länger geblieben."
+            },
+            {
+              "id": "F5",
+              "frame": "agent=Nina und Sara; action=zurückfahren; time=Sonntag; reason=Sara muss Montag arbeiten, Nina hat Termin",
+              "statement": "Sie sind am Sonntag mit dem Zug zurückgefahren."
+            },
+            {
+              "id": "F6",
+              "frame": "agent=Nina; action=Fotos an Tobias schicken; status=von Tobias gebeten, noch nicht gemacht; next=Fotos erst aussortieren, dann später schicken",
+              "statement": "Tobias bittet um Fotos; Nina schickt sie später, muss sie noch aussortieren."
+            },
+            {
+              "id": "F7",
+              "frame": "object=Frühstück im Hotel; status=im Preis enthalten, aber nicht genutzt; agent=Nina und Sara; alternative=Bäckerei um die Ecke",
+              "statement": "Das Hotelfrühstück war inklusive, aber sie haben es nicht gegessen."
+            },
+            {
+              "id": "F8",
+              "frame": "source=Markus (Kollege, war letztes Jahr in Prag); object=kleines Café in der Altstadt; status=früher geschlossen (laut Markus), jetzt wieder geöffnet",
+              "statement": "Markus meinte, das Café sei zu, aber es hat wieder offen."
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "m",
+              "text": "Hey Nina, schön, dass es mit dem Treffen geklappt hat. Du siehst richtig erholt aus. Wie war Prag?"
+            },
+            {
+              "speaker": "f",
+              "text": "Hey Tobias. Ja, war richtig schön. Drei Tage sind zwar nicht viel, aber das Wetter war super, und man kann in der Altstadt eine Menge sehen."
+            },
+            {
+              "speaker": "m",
+              "text": "Und du warst mit Sara unterwegs, oder? Ist das entspannt mit ihr zu reisen?"
+            },
+            {
+              "speaker": "f",
+              "text": "Meistens schon. Sie plant gern alles, und ich mache dann spontan mit. Nur der Aussichtsturm auf dem Hügel war ein Problem. Ich wollte unbedingt hoch, aber die Schlange war so lang, dass ich aufgegeben habe."
+            },
+            {
+              "speaker": "m",
+              "text": "Schade. Und wo habt ihr gewohnt? Habt ihr ein gutes Hotel gefunden?"
+            },
+            {
+              "speaker": "f",
+              "text": "Sara hat das Hotel gebucht, die hat darauf bestanden, dass es nah an der Altstadt liegt. Das war top, zehn Minuten zu Fuß bis zum Markt."
+            },
+            {
+              "speaker": "m",
+              "text": "Gut. Und wart ihr bis Montag dort oder nur bis Sonntag?"
+            },
+            {
+              "speaker": "f",
+              "text": "Eigentlich hätte ich am liebsten noch einen Tag länger geblieben. Die Stadt ist so schön, und man hat noch lange nicht alles gesehen."
+            },
+            {
+              "speaker": "m",
+              "text": "Und warum seid ihr dann doch gefahren? Hattet ihr keine Lust mehr?"
+            },
+            {
+              "speaker": "f",
+              "text": "Doch, Lust hatten wir schon. Aber Sara musste am Montag wieder arbeiten, und ich hatte auch einen Termin. Also sind wir mit dem Zug am Sonntag zurückgefahren."
+            },
+            {
+              "speaker": "m",
+              "text": "Verstehe. Kannst du mir die Fotos schicken? Ich würde die gern mal sehen."
+            },
+            {
+              "speaker": "f",
+              "text": "Mach ich gern. Aber ich muss die erst noch aussortieren, da sind hunderte drauf. Ich schick sie dir später."
+            },
+            {
+              "speaker": "m",
+              "text": "Okay, dann warte ich. Und das Frühstück im Hotel, war das gut?"
+            },
+            {
+              "speaker": "f",
+              "text": "Das war im Preis drin, aber wir haben es gar nicht gegessen. Wir sind lieber in die Bäckerei um die Ecke gegangen. Die Brötchen dort waren super."
+            },
+            {
+              "speaker": "m",
+              "text": "Echt? Dann habt ihr aber gut gefrühstückt. Hat Markus dir eigentlich was empfohlen? Er war doch letztes Jahr auch dort."
+            },
+            {
+              "speaker": "f",
+              "text": "Ja, ein kleines Café in der Altstadt. Er meinte, das wäre letztes Jahr zu gewesen. Jetzt hat es wieder auf, wir waren da und es war richtig voll."
+            },
+            {
+              "speaker": "m",
+              "text": "Dann schreib mir den Namen, da will ich auch hin. Und wann kommen die Fotos?"
+            },
+            {
+              "speaker": "f",
+              "text": "Heute Abend, versprochen. Wenn ich die Bilder sortiert habe."
+            }
+          ],
+          "questions": [
+            {
+              "type": "true_false",
+              "number": 16,
+              "prompt": "Nina ist auf den Aussichtsturm hinaufgestiegen.",
+              "options": [],
+              "answer": "falsch",
+              "target_fact": "F2",
+              "evidence_quote": "Ich wollte unbedingt hoch, aber die Schlange war so lang, dass ich aufgegeben habe.",
+              "trap": "WANT_DO",
+              "slot": "STATUS",
+              "difficulty": 2,
+              "explanation": "Nina wollte unbedingt hinauf, hat aber wegen der langen Schlange aufgegeben. Der Wunsch wurde nicht erfüllt."
+            },
+            {
+              "type": "true_false",
+              "number": 17,
+              "prompt": "Nina hat das Hotel für die Reise gebucht.",
+              "options": [],
+              "answer": "falsch",
+              "target_fact": "F3",
+              "evidence_quote": "Sara hat das Hotel gebucht, die hat darauf bestanden, dass es nah an der Altstadt liegt.",
+              "trap": "ACTOR_SWAP",
+              "slot": "WHO",
+              "difficulty": 3,
+              "explanation": "Das Hotel hat Sara gebucht, nicht Nina. Die Lage stimmt, aber die Person ist falsch."
+            },
+            {
+              "type": "true_false",
+              "number": 18,
+              "prompt": "Nina wäre gern noch einen Tag länger in Prag geblieben.",
+              "options": [],
+              "answer": "richtig",
+              "target_fact": "F4",
+              "evidence_quote": "Eigentlich hätte ich am liebsten noch einen Tag länger geblieben.",
+              "trap": "WANT_DO",
+              "slot": "STATUS",
+              "difficulty": 4,
+              "explanation": "Nina äußert einen Wunsch: Sie wäre gern länger geblieben. Der Wunsch ist wahr, auch wenn er nicht umgesetzt wurde."
+            },
+            {
+              "type": "true_false",
+              "number": 19,
+              "prompt": "Nina und Sara sind noch einen Tag länger in Prag geblieben.",
+              "options": [],
+              "answer": "falsch",
+              "target_fact": "F5",
+              "evidence_quote": "Also sind wir mit dem Zug am Sonntag zurückgefahren.",
+              "trap": "WANT_DO",
+              "slot": "STATUS",
+              "difficulty": 3,
+              "explanation": "Der Wunsch, länger zu bleiben, wurde nicht erfüllt. Sie sind wegen Saras Arbeit und Ninas Termin am Sonntag gefahren."
+            },
+            {
+              "type": "true_false",
+              "number": 20,
+              "prompt": "Nina hat Tobias die Fotos schon geschickt.",
+              "options": [],
+              "answer": "falsch",
+              "target_fact": "F6",
+              "evidence_quote": "Aber ich muss die erst noch aussortieren, da sind hunderte drauf.",
+              "trap": "REQUEST_RESULT",
+              "slot": "STATUS",
+              "difficulty": 3,
+              "explanation": "Tobias hat um die Fotos gebeten. Nina hat sie aber noch nicht geschickt, sie will sie später schicken."
+            },
+            {
+              "type": "true_false",
+              "number": 21,
+              "prompt": "Nina und Sara haben das Hotelfrühstück nicht gegessen.",
+              "options": [],
+              "answer": "richtig",
+              "target_fact": "F7",
+              "evidence_quote": "Das war im Preis drin, aber wir haben es gar nicht gegessen.",
+              "trap": "AVAILABLE_CHOSEN",
+              "slot": "POLARITY",
+              "difficulty": 5,
+              "explanation": "Das Frühstück war im Preis enthalten, also verfügbar. Sie haben sich aber für die Bäckerei entschieden."
+            },
+            {
+              "type": "true_false",
+              "number": 22,
+              "prompt": "Das Café aus der Altstadt hat inzwischen wieder geöffnet.",
+              "options": [],
+              "answer": "richtig",
+              "target_fact": "F8",
+              "evidence_quote": "Jetzt hat es wieder auf, wir waren da und es war richtig voll.",
+              "trap": "TEMPORAL_SCOPE",
+              "slot": "STATUS",
+              "difficulty": 3,
+              "explanation": "Markus sagte, das Café sei letztes Jahr zu gewesen. Jetzt ist es wieder geöffnet, wie Nina berichtet."
+            }
+          ]
+        }
+      ],
+      "validation": {
+        "errors": [],
+        "warnings": [
+          "teil3: audio has 347 words, target 480–750"
+        ]
+      },
+      "cost_usd": 0.0092
+    },
+    "4": {
+      "part": 4,
+      "instruction": "Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was?",
+      "plays": 2,
+      "situation": "Sie hören eine Radiodiskussion über Smartphones an weiterführenden Schulen. Ordnen Sie jeder Aussage den Sprecher zu, der sie sagt.",
+      "topic": "Smartphones in secondary schools (radio discussion, Teil 4)",
+      "units": [
+        {
+          "id": "teil4",
+          "title": null,
+          "topic": "Smartphones in secondary schools (radio discussion, Teil 4)",
+          "speakers": [
+            {
+              "id": "moderator",
+              "name": "Thomas Keller",
+              "gender": "m",
+              "role": "Moderator",
+              "voice": "markus"
+            },
+            {
+              "id": "guest1",
+              "name": "Nina Vogt",
+              "gender": "f",
+              "role": "Deutschlehrerin an einem Gymnasium",
+              "voice": "petra"
+            },
+            {
+              "id": "guest2",
+              "name": "Miriam Sander",
+              "gender": "f",
+              "role": "Medienpädagogin",
+              "voice": "anna"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "frame": "speaker=guest2 (Frau Sander); action=Position zur Ablenkung; claim=Ablenkung im Unterricht gab es schon vor den Smartphones (Comics, Zettel); keyword overlap=Frau Vogt sagt ebenfalls 'Ablenkung ist riesig'",
+              "statement": "Ablenkung im Unterricht gab es schon vor den Smartphones."
+            },
+            {
+              "id": "F2",
+              "frame": "speaker=guest1 (Frau Vogt); object=Lesen; claim=im Deutschunterricht liest kaum noch jemand ein ganzes Buch; source=eigene Beobachtung im Unterricht; contrast=Frau Sander gibt nur wieder, was 'viele Lehrkräfte' sagen",
+              "statement": "Schüler lesen kaum noch Bücher bis zum Ende."
+            },
+            {
+              "id": "F3",
+              "frame": "speaker=guest2 (Frau Sander); object=Noten; claim=Studien zeigen bisher kein eindeutiges Bild; status=offen, kein klarer Zusammenhang; contrast=Frau Vogt sagt: 'Die Noten werden schlechter' (eigene Klassen)",
+              "statement": "Studien zeigen keinen eindeutigen Zusammenhang zwischen Handy und Noten."
+            },
+            {
+              "id": "F4",
+              "frame": "speaker=guest2 (Frau Sander); modality=Verbot ablehnen; reason=Schüler sollen Verantwortung lernen; keyword overlap=Moderator und Frau Vogt sprechen ebenfalls über ein Verbot",
+              "statement": "Ein Verbot hindert Schüler daran, Verantwortung zu lernen."
+            },
+            {
+              "id": "F5",
+              "frame": "speaker=guest1 (Frau Vogt); object=Pausen; claim=ohne Handy in der Tasche werden Pausen wieder echte Pausen; contrast=Frau Sander: Pausen sind wichtig, aber Chatten in den Pausen ist Kontakt",
+              "statement": "Ohne Handy erholen sich Schüler in den Pausen besser."
+            },
+            {
+              "id": "F6",
+              "frame": "speaker=moderator (Herr Keller); claim=persönliche Meinung: Eltern sollten bei den Handyregeln stärker mitreden; source=Moderator; close-but-different=Frau Vogt sagt nur: ohne die Eltern klappt keine Schulregel",
+              "statement": "Eltern sollten bei den Handyregeln stärker mitreden."
+            },
+            {
+              "id": "F7",
+              "frame": "speaker=guest1 (Frau Vogt); modality=muss; scope=Unterricht, ohne Ausnahme; object=Handy; close-but-different=Frau Sander gibt nur zu, dass Handys im Unterricht stören, will aber keine Regel ohne Ausnahme",
+              "statement": "Handys müssen im Unterricht ohne Ausnahme ausgeschaltet bleiben."
+            },
+            {
+              "id": "F8",
+              "frame": "speaker=guest2 (Frau Sander); need=Lehrkräfte brauchen bessere Schulung; keyword overlap=Fortbildung wird von Moderator und Frau Vogt genannt; Vogt: nur ein Nachmittag Fortbildung, zu wenig",
+              "statement": "Lehrkräfte brauchen mehr Fortbildung, um Medien sinnvoll einzusetzen."
+            },
+            {
+              "id": "F9",
+              "frame": "background; speaker=guest1 (Frau Vogt); status=Fortbildung an der Schule war einmalig und nur ein Nachmittag; evaluation=zu wenig",
+              "statement": "An der Schule gab es nur einen Nachmittag Fortbildung zum Thema."
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "moderator",
+              "text": "Guten Abend und herzlich willkommen zu unserer Sendung. Mein Name ist Thomas Keller. Heute geht es um eine Frage, die viele Eltern und Lehrkräfte beschäftigt: Sind Smartphones an weiterführenden Schulen schädlich? Bei mir im Studio sind Nina Vogt und Miriam Sander. Frau Vogt unterrichtet Deutsch und Geschichte an einem Gymnasium. Frau Sander ist Medienpädagogin und arbeitet mit Schulklassen. Frau Vogt, fangen wir bei Ihnen an. Was erleben Sie im Unterricht?"
+            },
+            {
+              "speaker": "guest1",
+              "text": "Ganz ehrlich, die Ablenkung ist riesig. Wenn ich etwas erkläre, liegt bei vielen das Handy auf dem Tisch, und unter der Bank wird geschrieben. Das kostet Zeit, und die Schüler verpassen den Stoff. Ich finde, das Handy hat in der Schule nichts zu suchen."
+            },
+            {
+              "speaker": "guest2",
+              "text": "Die Ablenkung sehe ich auch, das bestreite ich nicht. Aber Ablenkung gab es doch schon immer. Früher hatten die Schüler Comics unter der Bank und haben Zettel geschrieben. Das Handy ist nur ein neues Werkzeug dafür. Die Frage ist, ob wir den Schülern beibringen, damit umzugehen."
+            },
+            {
+              "speaker": "moderator",
+              "text": "Frau Vogt, Sie unterrichten Deutsch. Merken Sie auch Veränderungen beim Lesen?"
+            },
+            {
+              "speaker": "guest1",
+              "text": "Ja, sehr deutlich. Im Deutschunterricht liest kaum noch jemand ein ganzes Buch. Die Schüler lesen nur noch Ausschnitte, meistens am Handy. Dann fehlt das Durchhalten. Ich finde das schade, weil man beim langen Lesen viel mehr lernt."
+            },
+            {
+              "speaker": "guest2",
+              "text": "Viele Lehrkräfte sagen das, und ich verstehe den Eindruck. Aber Jugendliche lesen heute auf dem Handy trotzdem viel: Nachrichten, Videos mit Untertiteln, Anleitungen. Das ist auch Lesen. Lesen verändert sich, es verschwindet nicht."
+            },
+            {
+              "speaker": "moderator",
+              "text": "Frau Sander, dann kommen wir zu den Noten. Hat das Handy Auswirkungen auf die Leistungen?"
+            },
+            {
+              "speaker": "guest2",
+              "text": "Das ist schwierig zu sagen. Studien zeigen bisher kein eindeutiges Bild. Manche finden einen Zusammenhang, andere nicht. Oft spielen die Familie und der Alltag eine größere Rolle. Deshalb würde ich nicht einfach sagen, das Handy macht die Noten schlechter."
+            },
+            {
+              "speaker": "guest1",
+              "text": "Ich sehe das anders. In meinen Klassen werden die Noten schlechter, seit fast alle ein Handy haben. Die Studien kenne ich nicht genau, das gebe ich zu. Aber wer nachts stundenlang spielt, schläft schlecht und kann sich am nächsten Tag kaum konzentrieren."
+            },
+            {
+              "speaker": "moderator",
+              "text": "Frau Vogt, Sie sagen, das Handy hat in der Schule nichts zu suchen. Brauchen wir dann ein Verbot an allen Schulen?"
+            },
+            {
+              "speaker": "guest2",
+              "text": "Ein generelles Verbot halte ich für falsch. Ein Verbot nimmt den Schülern die Chance, selbst Verantwortung zu lernen. Die müssen ja später auch ohne Verbot mit dem Handy umgehen. Dass Handys im Unterricht stören, bestreite ich nicht. Aber das regelt man in der Klasse, mit der Lehrkraft."
+            },
+            {
+              "speaker": "guest1",
+              "text": "Ein Verbot allein reicht sicher nicht. Aber wenn das Handy in der Tasche bleibt, sind die Pausen wieder echte Pausen. Und ohne die Eltern klappt keine Schulregel."
+            },
+            {
+              "speaker": "guest2",
+              "text": "Da bin ich bei Ihnen, Pausen sind wichtig. Aber in den Pausen chatten die Schüler auch mit Freunden, das gehört zum Kontakt dazu. Wenn wir das Handy ganz verbieten, sitzen sie schweigend auf dem Flur. Das finde ich nicht besser."
+            },
+            {
+              "speaker": "moderator",
+              "text": "Ich fasse kurz zusammen: Die Ablenkung ist ein Problem, aber bei einem Verbot gehen die Meinungen auseinander. Ich persönlich denke, die Eltern müssten bei den Handyregeln viel stärker mitreden. Frau Vogt, gibt es an Ihrer Schule eine Fortbildung zu diesem Thema?"
+            },
+            {
+              "speaker": "guest1",
+              "text": "Eine Fortbildung hatten wir, aber nur einen Nachmittag. Das war viel zu wenig. Im Unterricht muss das Handy ohne Ausnahme weg. Das Handy gehört in die Tasche, und Schluss."
+            },
+            {
+              "speaker": "guest2",
+              "text": "Da stimme ich Frau Vogt zu, eine Regel allein reicht nicht. Aber dafür müssen die Lehrkräfte viel besser geschult werden. Sonst weiß keiner, wie man das Handy sinnvoll im Unterricht einsetzt. Das ist für mich der Knackpunkt."
+            },
+            {
+              "speaker": "moderator",
+              "text": "Vielen Dank, Frau Vogt und Frau Sander. Heute hat sich gezeigt, dass es keine einfache Antwort gibt. Die Diskussion geht in der nächsten Sendung weiter. Ich war Thomas Keller, danke fürs Zuhören."
+            }
+          ],
+          "questions": [
+            {
+              "type": "speaker_matching",
+              "number": 23,
+              "prompt": "Ablenkung im Unterricht gab es schon vor den Smartphones.",
+              "options": [],
+              "answer": "guest2",
+              "target_fact": "F1",
+              "evidence_quote": "Aber Ablenkung gab es doch schon immer. Früher hatten die Schüler Comics unter der Bank",
+              "trap": "KEYWORD_OVERLAP",
+              "slot": "WHAT",
+              "difficulty": 4,
+              "explanation": "Frau Sander sagt, Ablenkung gab es schon früher, etwa mit Comics. Das Wort Ablenkung nutzt auch Frau Vogt, meint aber das Handy."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 24,
+              "prompt": "Schüler lesen kaum noch Bücher bis zum Ende.",
+              "options": [],
+              "answer": "guest1",
+              "target_fact": "F2",
+              "evidence_quote": "Im Deutschunterricht liest kaum noch jemand ein ganzes Buch.",
+              "trap": "SOURCE_ATTRIBUTION",
+              "slot": "SOURCE",
+              "difficulty": 3,
+              "explanation": "Frau Vogt berichtet aus ihrem Unterricht. Frau Sander nennt nur, was viele Lehrkräfte sagen, und widerspricht dem."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 25,
+              "prompt": "Studien zeigen keinen eindeutigen Zusammenhang zwischen Handy und Noten.",
+              "options": [],
+              "answer": "guest2",
+              "target_fact": "F3",
+              "evidence_quote": "Studien zeigen bisher kein eindeutiges Bild.",
+              "trap": "SOURCE_ATTRIBUTION",
+              "slot": "SOURCE",
+              "difficulty": 2,
+              "explanation": "Frau Sander verweist auf Studien ohne klares Ergebnis. Frau Vogt spricht ebenfalls über Noten, behauptet aber eine klare Verschlechterung."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 26,
+              "prompt": "Ein Verbot hindert Schüler daran, Verantwortung zu lernen.",
+              "options": [],
+              "answer": "guest2",
+              "target_fact": "F4",
+              "evidence_quote": "Ein Verbot nimmt den Schülern die Chance, selbst Verantwortung zu lernen.",
+              "trap": "KEYWORD_OVERLAP",
+              "slot": "WHAT",
+              "difficulty": 3,
+              "explanation": "Frau Sander lehnt ein generelles Verbot ab. Das Wort Verbot fällt auch beim Moderator und bei Frau Vogt, die nicht so argumentieren."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 27,
+              "prompt": "Ohne Handy erholen sich Schüler in den Pausen besser.",
+              "options": [],
+              "answer": "guest1",
+              "target_fact": "F5",
+              "evidence_quote": "wenn das Handy in der Tasche bleibt, sind die Pausen wieder echte Pausen.",
+              "trap": "PARAPHRASE",
+              "slot": "WHAT",
+              "difficulty": 4,
+              "explanation": "Frau Vogt sagt, ohne Handy in der Tasche seien Pausen wieder echte Pausen. Frau Sander spricht auch über Pausen, sieht aber Kontakt."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 28,
+              "prompt": "Eltern sollten bei den Handyregeln stärker mitreden.",
+              "options": [],
+              "answer": "moderator",
+              "target_fact": "F6",
+              "evidence_quote": "Ich persönlich denke, die Eltern müssten bei den Handyregeln viel stärker mitreden.",
+              "trap": "SOURCE_ATTRIBUTION",
+              "slot": "SOURCE",
+              "difficulty": 3,
+              "explanation": "Der Moderator äußert selbst diese Meinung. Frau Vogt sagt nur, ohne Eltern klappe keine Schulregel, das ist eine andere Aussage."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 29,
+              "prompt": "Handys müssen im Unterricht ohne Ausnahme ausgeschaltet bleiben.",
+              "options": [],
+              "answer": "guest1",
+              "target_fact": "F7",
+              "evidence_quote": "Im Unterricht muss das Handy ohne Ausnahme weg.",
+              "trap": "SOURCE_ATTRIBUTION",
+              "slot": "SOURCE",
+              "difficulty": 2,
+              "explanation": "Frau Vogt fordert ein Handyverbot im Unterricht ohne Ausnahme. Frau Sander gibt nur zu, dass Handys im Unterricht stören."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 30,
+              "prompt": "Lehrkräfte brauchen mehr Fortbildung, um Medien sinnvoll einzusetzen.",
+              "options": [],
+              "answer": "guest2",
+              "target_fact": "F8",
+              "evidence_quote": "Aber dafür müssen die Lehrkräfte viel besser geschult werden.",
+              "trap": "PARAPHRASE",
+              "slot": "WHAT",
+              "difficulty": 4,
+              "explanation": "Frau Sander verlangt bessere Schulung der Lehrkräfte. Frau Vogt nennt die Fortbildung, hält sie aber für viel zu kurz."
+            }
+          ]
+        }
+      ],
+      "validation": {
+        "errors": [],
+        "warnings": [
+          "teil4: audio has 611 words, target 620–950"
+        ]
+      },
+      "cost_usd": 0.0186
+    }
+  }
+}

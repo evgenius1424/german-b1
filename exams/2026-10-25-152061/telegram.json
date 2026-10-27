@@ -1,0 +1,119 @@
+{
+  "exam_id": "2026-10-25-152061",
+  "channel": "@german_b1_horen",
+  "posts": [
+    {
+      "id": "teil1",
+      "comments": [
+        {
+          "text": "<b>Lösungen</b>\n<b>1. Richtig</b> — Die Sauna ist wegen Reparatur bis Freitag zu. Die offenen Becken werden zwar genannt, betreffen aber nicht die Sauna.\n<b>2. c) Ihn aufbewahren und später verwenden.</b> — Man soll den Gutschein behalten. Die Einlösung in der geschlossenen Sauna wäre falsch; die Gültigkeit wird verlängert.\n<b>3. Falsch</b> — Geplant war 14:20 Uhr, der Bus fährt aber erst um 14:45 Uhr. Die Abfahrtszeit wurde geändert.\n<b>4. c) Wegen eines Unfalls auf der Brücke.</b> — Der echte Grund ist der Unfall auf der Brücke. Die Baustelle war nur die erste Vermutung, der Unfall war nicht am Bahnhof.\n<b>5. Falsch</b> — Jonas sagt, ohne Mara schafft er den Umzug nicht. Ihre Hilfe wird also dringend gebraucht.\n<b>6. a) Um 9 Uhr.</b> — Das Treffen ist um 9 Uhr. Der Wagen kommt um 8 Uhr, die Schlüssel gibt es um 11 Uhr. Drei Zeiten, nur eine passt.\n<b>7. Richtig</b> — Die erneute Zustellung ist richtig, aber nur wenn Herr Kessler bis 9 Uhr zu Hause ist. Das ist die Bedingung.\n<b>8. b) Im Paketshop in der Bahnhofstraße.</b> — Abholung ohne Warten geht im Paketshop Bahnhofstraße. Lindenstraße ist nicht zuständig, die Packstation am Markt ist zu klein.\n<b>9. Richtig</b> — Geplant war 10 Uhr, die Aktion startet aber schon um 9 Uhr, weil die Lieferung früher kam. Die Aussage stimmt.\n<b>10. a) Kasse 5 am Ausgang.</b> — Kasse 5 am Ausgang ist heute neu geöffnet. Kasse 2 ist sonst offen, heute aber zu, und Kasse 7 bleibt außer Betrieb.\n\n<b>Transkript</b>\n\n<b>Text 1</b>\nGuten Abend, meine Damen und Herren. Hier ist die Ansage vom Stadtbad Nord. Bitte beachten Sie: Die Sauna bleibt wegen einer Reparatur bis einschließlich Freitag geschlossen. Die Schwimmbecken und das Außenbecken sind ganz normal geöffnet. Wenn Sie einen Saunagutschein haben, geben Sie ihn bitte nicht an der Kasse ab. Bewahren Sie ihn bitte auf. Die Gültigkeit verlängern wir für alle Gutscheine um zwei Wochen. Vielen Dank für Ihr Verständnis.\n\n<b>Text 2</b>\nIhre Aufmerksamkeit, bitte. Ansage für den Bus der Linie 7 nach Hohenfels. Der Bus fährt heute nicht um 14:20 Uhr, sondern erst um 14:45 Uhr ab Steig 3. Zuerst hieß es, die Baustelle an der Hauptstraße sei schuld. Das stimmt aber nicht mehr, die Arbeiten sind seit heute Morgen beendet. Der Grund für die Verspätung ist ein Unfall auf der Brücke, nicht am Bahnhof. Die Polizei hat die Brücke inzwischen wieder freigegeben. Wir bitten um Entschuldigung.\n\n<b>Text 3</b>\nHey Mara, ich bin's, Jonas. Hör mal, wegen Samstag. Ohne dich schaffe ich den Umzug echt nicht, also bitte komm unbedingt. Der Umzugswagen kommt schon um acht, nicht erst um neun, hat der Verleiher gerade angerufen. Wir treffen uns trotzdem um neun bei meiner alten Wohnung, dann tragen wir die Kisten runter. Der Vermieter will die Schlüssel erst um elf haben. Ruf mich kurz zurück, ja?\n\n<b>Text 4</b>\nGuten Tag, Herr Kessler, hier spricht Tobias Wendt vom Paketdienst Schnell. Ihr Paket konnte heute leider nicht zugestellt werden. Wir liefern es morgen früh noch einmal, wenn Sie bis neun Uhr zu Hause sind. Wenn Sie nicht warten möchten, können Sie das Paket auch im Paketshop Bahnhofstraße abholen. Der Shop in der Lindenstraße ist für dieses Paket nicht zuständig. Die Packstation am Markt ist dafür zu klein. Vielen Dank und einen schönen Tag.\n\n<b>Text 5</b>\nLiebe Kundinnen und Kunden, wir haben eine kurze Information für Sie. Die Brotaktion beginnt heute schon um neun Uhr, nicht erst um zehn Uhr, weil die Lieferung früher gekommen ist. Kasse 2, die sonst immer offen ist, bleibt heute geschlossen. Dafür öffnen wir Kasse 5 am Ausgang. Die Selbstbedienungskasse 7 ist weiterhin außer Betrieb. Wir bitten um Ihr Verständnis und wünschen Ihnen einen schönen Einkauf.",
+          "parse_mode": "HTML"
+        }
+      ],
+      "method": "sendMediaGroup",
+      "media": [
+        {
+          "type": "audio",
+          "file": "audio/teil1-text1.mp3",
+          "title": "Teil 1 · Text 1",
+          "performer": "Hören B1",
+          "caption": "<b>Teil 1</b> · Aufgaben 1–10\n<i>Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.</i>\n\n<b>Text 1</b>\n<b>1.</b> Die Sauna ist bis Freitag geschlossen. <i>(R/F)</i>\n<b>2.</b> Was sollen Gäste mit einem Saunagutschein tun?\n      a) Ihn an der Kasse abgeben.\n      b) Ihn sofort in der Sauna einlösen.\n      c) Ihn aufbewahren und später verwenden.",
+          "parse_mode": "HTML"
+        },
+        {
+          "type": "audio",
+          "file": "audio/teil1-text2.mp3",
+          "title": "Teil 1 · Text 2",
+          "performer": "Hören B1",
+          "caption": "<b>Text 2</b>\n<b>3.</b> Der Bus fährt heute um 14:20 Uhr ab. <i>(R/F)</i>\n<b>4.</b> Warum fährt der Bus später ab?\n      a) Wegen der Baustelle an der Hauptstraße.\n      b) Wegen eines Unfalls am Bahnhof.\n      c) Wegen eines Unfalls auf der Brücke.",
+          "parse_mode": "HTML"
+        },
+        {
+          "type": "audio",
+          "file": "audio/teil1-text3.mp3",
+          "title": "Teil 1 · Text 3",
+          "performer": "Hören B1",
+          "caption": "<b>Text 3</b>\n<b>5.</b> Maras Hilfe wird nicht mehr benötigt. <i>(R/F)</i>\n<b>6.</b> Wann treffen sich Jonas und Mara bei der alten Wohnung?\n      a) Um 9 Uhr.\n      b) Um 8 Uhr.\n      c) Um 11 Uhr.",
+          "parse_mode": "HTML"
+        },
+        {
+          "type": "audio",
+          "file": "audio/teil1-text4.mp3",
+          "title": "Teil 1 · Text 4",
+          "performer": "Hören B1",
+          "caption": "<b>Text 4</b>\n<b>7.</b> Das Paket kommt morgen früh noch einmal. <i>(R/F)</i>\n<b>8.</b> Wo kann Herr Kessler das Paket abholen, wenn er nicht warten möchte?\n      a) Im Paketshop in der Lindenstraße.\n      b) Im Paketshop in der Bahnhofstraße.\n      c) In der Packstation am Markt.",
+          "parse_mode": "HTML"
+        },
+        {
+          "type": "audio",
+          "file": "audio/teil1-text5.mp3",
+          "title": "Teil 1 · Text 5",
+          "performer": "Hören B1",
+          "caption": "<b>Text 5</b>\n<b>9.</b> Die Brotaktion beginnt heute früher als geplant. <i>(R/F)</i>\n<b>10.</b> Welche Kasse ist heute geöffnet?\n      a) Kasse 5 am Ausgang.\n      b) Kasse 2.\n      c) Die Selbstbedienungskasse 7.",
+          "parse_mode": "HTML"
+        }
+      ]
+    },
+    {
+      "id": "teil2",
+      "comments": [
+        {
+          "text": "<b>Lösungen</b>\n<b>11. a) Einen Einstufungstest schreiben</b> — Der Test am Montag um 9 Uhr ist richtig. Die Gebühr wird nur erwähnt, sie ist schon bezahlt und keine Aufgabe für heute.\n<b>12. c) Vor der Bibliothek im Nebengebäude</b> — Am Nachmittag treffen sich die Gruppen vor der Bibliothek. Café und Foyer gehören zu Mittag bzw. Vormittag.\n<b>13. b) Er ist seit Montag wieder geöffnet.</b> — Der Raum war im Juli geschlossen, ist aber seit Montag wieder offen. Die Schließung gilt nicht mehr.\n<b>14. a) Wenn sie sich bis Donnerstag eintragen.</b> — Das Leihrad gibt es nur mit Eintrag bis Donnerstag. Ohne Eintrag gilt die Bedingung nicht, eine Zeit am Wochenende fehlt im Text.\n<b>15. b) Um 18 Uhr.</b> — Die Prüfung ist um 10 Uhr, die Stadtführung um 14 Uhr. Das Abschlussfest beginnt erst um 18 Uhr im Garten.\n\n<b>Transkript</b>\n\nGuten Morgen, liebe Teilnehmerinnen und Teilnehmer, herzlich willkommen bei unserem Sommerkurs an der Sprachschule Elbblick. Mein Name ist Katrin Wendt, und ich organisiere den Kurs gemeinsam mit meinem Kollegen Herrn Lorenz. Ich möchte Ihnen heute die wichtigsten Informationen für die nächsten drei Wochen geben. Ich gehe das in fünf Punkten durch. Wenn Sie danach Fragen haben, sprechen Sie mich einfach an.\nZuerst zum ersten Tag. Die Kursgebühr haben Sie ja schon überwiesen, das müssen Sie heute nicht mehr machen. Am Montag beginnt um 9 Uhr der Einstufungstest. Alle Teilnehmer schreiben diesen Test, damit wir die richtige Gruppe finden. Er dauert etwa eine Stunde. Die Lehrbücher bekommen Sie erst am Dienstag im Büro.\nKommen wir zu den Treffpunkten. Am Vormittag treffen wir uns immer im Foyer des Hauptgebäudes. Mittagessen gibt es im Café gegenüber, das kennen Sie sicher schon. Am Nachmittag ist es aber anders. Die Nachmittagsgruppen treffen sich um 13:30 Uhr vor der Bibliothek im Nebengebäude in der Schillerstraße. Dort wartet dann mein Kollege mit einer Liste.\nJetzt zum Computerraum. Der war im Juli wegen einer Renovierung geschlossen. Seit Montag ist er wieder offen, und Sie können ihn täglich von 8 bis 18 Uhr benutzen. Die Zugangskarte bekommen Sie im Büro. Bitte bringen Sie sie immer mit.\nViele von Ihnen möchten die Stadt mit dem Fahrrad erkunden. Wir haben zehn Leihräder. Sie können eines ausleihen, wenn Sie sich bis Donnerstag im Büro eintragen. Dann ist das Rad für Sie reserviert. Den Ausweis brauchen Sie auch dafür.\nZum Schluss noch die Termine für die letzte Woche. Die Abschlussprüfung ist am Freitag, dem 7. August, um 10 Uhr. Am selben Nachmittag machen wir eine Stadtführung, die beginnt um 14 Uhr am Hafen. Das Abschlussfest beginnt dann um 18 Uhr im Garten der Schule. Dazu sind auch Ihre Familien herzlich eingeladen.\nDas war es für heute. Die Unterlagen liegen im Foyer. Bis Montag um 9 Uhr beim Test. Vielen Dank und viel Erfolg.",
+          "parse_mode": "HTML"
+        }
+      ],
+      "method": "sendAudio",
+      "params": {
+        "title": "Teil 2",
+        "performer": "Hören B1",
+        "caption": "<b>Teil 2</b> · Aufgaben 11–15 · Sie hören den Text einmal.\nSie hören die Begrüßung einer Kursleiterin zu einem Sommerkurs an einer Sprachschule und sollen wichtige Informationen zu Terminen, Orten und Regeln verstehen.\n\n<b>11.</b> Was müssen die Teilnehmer am Montagmorgen tun?\n      a) Einen Einstufungstest schreiben\n      b) Die Kursgebühr bezahlen\n      c) Die Lehrbücher abholen\n<b>12.</b> Wo treffen sich die Gruppen am Nachmittag?\n      a) Im Café gegenüber vom Hauptgebäude\n      b) Im Foyer des Hauptgebäudes\n      c) Vor der Bibliothek im Nebengebäude\n<b>13.</b> Was gilt für den Computerraum jetzt?\n      a) Er ist wegen einer Renovierung geschlossen.\n      b) Er ist seit Montag wieder geöffnet.\n      c) Er ist nur für Lehrkräfte offen.\n<b>14.</b> Wann bekommen die Teilnehmer ein Leihrad?\n      a) Wenn sie sich bis Donnerstag eintragen.\n      b) Am ersten Tag, ohne Eintrag.\n      c) Nur am Wochenende.\n<b>15.</b> Wann beginnt das Abschlussfest?\n      a) Um 10 Uhr.\n      b) Um 18 Uhr.\n      c) Um 14 Uhr.",
+        "parse_mode": "HTML"
+      },
+      "files": {
+        "audio": "audio/teil2.mp3"
+      }
+    },
+    {
+      "id": "teil3",
+      "comments": [
+        {
+          "text": "<b>Lösungen</b>\n<b>16. Falsch</b> — Nina wollte unbedingt hinauf, hat aber wegen der langen Schlange aufgegeben. Der Wunsch wurde nicht erfüllt.\n<b>17. Falsch</b> — Das Hotel hat Sara gebucht, nicht Nina. Die Lage stimmt, aber die Person ist falsch.\n<b>18. Richtig</b> — Nina äußert einen Wunsch: Sie wäre gern länger geblieben. Der Wunsch ist wahr, auch wenn er nicht umgesetzt wurde.\n<b>19. Falsch</b> — Der Wunsch, länger zu bleiben, wurde nicht erfüllt. Sie sind wegen Saras Arbeit und Ninas Termin am Sonntag gefahren.\n<b>20. Falsch</b> — Tobias hat um die Fotos gebeten. Nina hat sie aber noch nicht geschickt, sie will sie später schicken.\n<b>21. Richtig</b> — Das Frühstück war im Preis enthalten, also verfügbar. Sie haben sich aber für die Bäckerei entschieden.\n<b>22. Richtig</b> — Markus sagte, das Café sei letztes Jahr zu gewesen. Jetzt ist es wieder geöffnet, wie Nina berichtet.\n\n<b>Transkript</b>\n\n<b>Tobias:</b> Hey Nina, schön, dass es mit dem Treffen geklappt hat. Du siehst richtig erholt aus. Wie war Prag?\n<b>Nina:</b> Hey Tobias. Ja, war richtig schön. Drei Tage sind zwar nicht viel, aber das Wetter war super, und man kann in der Altstadt eine Menge sehen.\n<b>Tobias:</b> Und du warst mit Sara unterwegs, oder? Ist das entspannt mit ihr zu reisen?\n<b>Nina:</b> Meistens schon. Sie plant gern alles, und ich mache dann spontan mit. Nur der Aussichtsturm auf dem Hügel war ein Problem. Ich wollte unbedingt hoch, aber die Schlange war so lang, dass ich aufgegeben habe.\n<b>Tobias:</b> Schade. Und wo habt ihr gewohnt? Habt ihr ein gutes Hotel gefunden?\n<b>Nina:</b> Sara hat das Hotel gebucht, die hat darauf bestanden, dass es nah an der Altstadt liegt. Das war top, zehn Minuten zu Fuß bis zum Markt.\n<b>Tobias:</b> Gut. Und wart ihr bis Montag dort oder nur bis Sonntag?\n<b>Nina:</b> Eigentlich hätte ich am liebsten noch einen Tag länger geblieben. Die Stadt ist so schön, und man hat noch lange nicht alles gesehen.\n<b>Tobias:</b> Und warum seid ihr dann doch gefahren? Hattet ihr keine Lust mehr?\n<b>Nina:</b> Doch, Lust hatten wir schon. Aber Sara musste am Montag wieder arbeiten, und ich hatte auch einen Termin. Also sind wir mit dem Zug am Sonntag zurückgefahren.\n<b>Tobias:</b> Verstehe. Kannst du mir die Fotos schicken? Ich würde die gern mal sehen.\n<b>Nina:</b> Mach ich gern. Aber ich muss die erst noch aussortieren, da sind hunderte drauf. Ich schick sie dir später.\n<b>Tobias:</b> Okay, dann warte ich. Und das Frühstück im Hotel, war das gut?\n<b>Nina:</b> Das war im Preis drin, aber wir haben es gar nicht gegessen. Wir sind lieber in die Bäckerei um die Ecke gegangen. Die Brötchen dort waren super.\n<b>Tobias:</b> Echt? Dann habt ihr aber gut gefrühstückt. Hat Markus dir eigentlich was empfohlen? Er war doch letztes Jahr auch dort.\n<b>Nina:</b> Ja, ein kleines Café in der Altstadt. Er meinte, das wäre letztes Jahr zu gewesen. Jetzt hat es wieder auf, wir waren da und es war richtig voll.\n<b>Tobias:</b> Dann schreib mir den Namen, da will ich auch hin. Und wann kommen die Fotos?\n<b>Nina:</b> Heute Abend, versprochen. Wenn ich die Bilder sortiert habe.",
+          "parse_mode": "HTML"
+        }
+      ],
+      "method": "sendAudio",
+      "params": {
+        "title": "Teil 3",
+        "performer": "Hören B1",
+        "caption": "<b>Teil 3</b> · Aufgaben 16–22\n<i>Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen richtig oder falsch?</i>\nZwei Freunde sitzen in einem Café und sprechen über ihre Städtereise nach Prag.\n\n<b>16.</b> Nina ist auf den Aussichtsturm hinaufgestiegen. <i>(R/F)</i>\n<b>17.</b> Nina hat das Hotel für die Reise gebucht. <i>(R/F)</i>\n<b>18.</b> Nina wäre gern noch einen Tag länger in Prag geblieben. <i>(R/F)</i>\n<b>19.</b> Nina und Sara sind noch einen Tag länger in Prag geblieben. <i>(R/F)</i>\n<b>20.</b> Nina hat Tobias die Fotos schon geschickt. <i>(R/F)</i>\n<b>21.</b> Nina und Sara haben das Hotelfrühstück nicht gegessen. <i>(R/F)</i>\n<b>22.</b> Das Café aus der Altstadt hat inzwischen wieder geöffnet. <i>(R/F)</i>",
+        "parse_mode": "HTML"
+      },
+      "files": {
+        "audio": "audio/teil3.mp3"
+      }
+    },
+    {
+      "id": "teil4",
+      "comments": [
+        {
+          "text": "<b>Lösungen</b>\n<b>23. c) Miriam Sander</b> — Frau Sander sagt, Ablenkung gab es schon früher, etwa mit Comics. Das Wort Ablenkung nutzt auch Frau Vogt, meint aber das Handy.\n<b>24. b) Nina Vogt</b> — Frau Vogt berichtet aus ihrem Unterricht. Frau Sander nennt nur, was viele Lehrkräfte sagen, und widerspricht dem.\n<b>25. c) Miriam Sander</b> — Frau Sander verweist auf Studien ohne klares Ergebnis. Frau Vogt spricht ebenfalls über Noten, behauptet aber eine klare Verschlechterung.\n<b>26. c) Miriam Sander</b> — Frau Sander lehnt ein generelles Verbot ab. Das Wort Verbot fällt auch beim Moderator und bei Frau Vogt, die nicht so argumentieren.\n<b>27. b) Nina Vogt</b> — Frau Vogt sagt, ohne Handy in der Tasche seien Pausen wieder echte Pausen. Frau Sander spricht auch über Pausen, sieht aber Kontakt.\n<b>28. a) Thomas Keller</b> — Der Moderator äußert selbst diese Meinung. Frau Vogt sagt nur, ohne Eltern klappe keine Schulregel, das ist eine andere Aussage.\n<b>29. b) Nina Vogt</b> — Frau Vogt fordert ein Handyverbot im Unterricht ohne Ausnahme. Frau Sander gibt nur zu, dass Handys im Unterricht stören.\n<b>30. c) Miriam Sander</b> — Frau Sander verlangt bessere Schulung der Lehrkräfte. Frau Vogt nennt die Fortbildung, hält sie aber für viel zu kurz.\n\n<b>Transkript</b>\n\n<b>Thomas Keller:</b> Guten Abend und herzlich willkommen zu unserer Sendung. Mein Name ist Thomas Keller. Heute geht es um eine Frage, die viele Eltern und Lehrkräfte beschäftigt: Sind Smartphones an weiterführenden Schulen schädlich? Bei mir im Studio sind Nina Vogt und Miriam Sander. Frau Vogt unterrichtet Deutsch und Geschichte an einem Gymnasium. Frau Sander ist Medienpädagogin und arbeitet mit Schulklassen. Frau Vogt, fangen wir bei Ihnen an. Was erleben Sie im Unterricht?\n<b>Nina Vogt:</b> Ganz ehrlich, die Ablenkung ist riesig. Wenn ich etwas erkläre, liegt bei vielen das Handy auf dem Tisch, und unter der Bank wird geschrieben. Das kostet Zeit, und die Schüler verpassen den Stoff. Ich finde, das Handy hat in der Schule nichts zu suchen.\n<b>Miriam Sander:</b> Die Ablenkung sehe ich auch, das bestreite ich nicht. Aber Ablenkung gab es doch schon immer. Früher hatten die Schüler Comics unter der Bank und haben Zettel geschrieben. Das Handy ist nur ein neues Werkzeug dafür. Die Frage ist, ob wir den Schülern beibringen, damit umzugehen.\n<b>Thomas Keller:</b> Frau Vogt, Sie unterrichten Deutsch. Merken Sie auch Veränderungen beim Lesen?\n<b>Nina Vogt:</b> Ja, sehr deutlich. Im Deutschunterricht liest kaum noch jemand ein ganzes Buch. Die Schüler lesen nur noch Ausschnitte, meistens am Handy. Dann fehlt das Durchhalten. Ich finde das schade, weil man beim langen Lesen viel mehr lernt.\n<b>Miriam Sander:</b> Viele Lehrkräfte sagen das, und ich verstehe den Eindruck. Aber Jugendliche lesen heute auf dem Handy trotzdem viel: Nachrichten, Videos mit Untertiteln, Anleitungen. Das ist auch Lesen. Lesen verändert sich, es verschwindet nicht.\n<b>Thomas Keller:</b> Frau Sander, dann kommen wir zu den Noten. Hat das Handy Auswirkungen auf die Leistungen?\n<b>Miriam Sander:</b> Das ist schwierig zu sagen. Studien zeigen bisher kein eindeutiges Bild. Manche finden einen Zusammenhang, andere nicht. Oft spielen die Familie und der Alltag eine größere Rolle. Deshalb würde ich nicht einfach sagen, das Handy macht die Noten schlechter.\n<b>Nina Vogt:</b> Ich sehe das anders. In meinen Klassen werden die Noten schlechter, seit fast alle ein Handy haben. Die Studien kenne ich nicht genau, das gebe ich zu. Aber wer nachts stundenlang spielt, schläft schlecht und kann sich am nächsten Tag kaum konzentrieren.\n<b>Thomas Keller:</b> Frau Vogt, Sie sagen, das Handy hat in der Schule nichts zu suchen. Brauchen wir dann ein Verbot an allen Schulen?\n<b>Miriam Sander:</b> Ein generelles Verbot halte ich für falsch. Ein Verbot nimmt den Schülern die Chance, selbst Verantwortung zu lernen. Die müssen ja später auch ohne Verbot mit dem Handy umgehen. Dass Handys im Unterricht stören, bestreite ich nicht. Aber das regelt man in der Klasse, mit der Lehrkraft.\n<b>Nina Vogt:</b> Ein Verbot allein reicht sicher nicht. Aber wenn das Handy in der Tasche bleibt, sind die Pausen wieder echte Pausen. Und ohne die Eltern klappt keine Schulregel.",
+          "parse_mode": "HTML"
+        },
+        {
+          "text": "<b>Miriam Sander:</b> Da bin ich bei Ihnen, Pausen sind wichtig. Aber in den Pausen chatten die Schüler auch mit Freunden, das gehört zum Kontakt dazu. Wenn wir das Handy ganz verbieten, sitzen sie schweigend auf dem Flur. Das finde ich nicht besser.\n<b>Thomas Keller:</b> Ich fasse kurz zusammen: Die Ablenkung ist ein Problem, aber bei einem Verbot gehen die Meinungen auseinander. Ich persönlich denke, die Eltern müssten bei den Handyregeln viel stärker mitreden. Frau Vogt, gibt es an Ihrer Schule eine Fortbildung zu diesem Thema?\n<b>Nina Vogt:</b> Eine Fortbildung hatten wir, aber nur einen Nachmittag. Das war viel zu wenig. Im Unterricht muss das Handy ohne Ausnahme weg. Das Handy gehört in die Tasche, und Schluss.\n<b>Miriam Sander:</b> Da stimme ich Frau Vogt zu, eine Regel allein reicht nicht. Aber dafür müssen die Lehrkräfte viel besser geschult werden. Sonst weiß keiner, wie man das Handy sinnvoll im Unterricht einsetzt. Das ist für mich der Knackpunkt.\n<b>Thomas Keller:</b> Vielen Dank, Frau Vogt und Frau Sander. Heute hat sich gezeigt, dass es keine einfache Antwort gibt. Die Diskussion geht in der nächsten Sendung weiter. Ich war Thomas Keller, danke fürs Zuhören.",
+          "parse_mode": "HTML"
+        }
+      ],
+      "method": "sendAudio",
+      "params": {
+        "title": "Teil 4",
+        "performer": "Hören B1",
+        "caption": "<b>Teil 4</b> · Aufgaben 23–30\n<i>Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was?</i>\nSie hören eine Radiodiskussion über Smartphones an weiterführenden Schulen. Ordnen Sie jeder Aussage den Sprecher zu, der sie sagt.\n<b>a)</b> Thomas Keller (Moderator)  <b>b)</b> Nina Vogt  <b>c)</b> Miriam Sander\n\n<b>23.</b> Ablenkung im Unterricht gab es schon vor den Smartphones.\n<b>24.</b> Schüler lesen kaum noch Bücher bis zum Ende.\n<b>25.</b> Studien zeigen keinen eindeutigen Zusammenhang zwischen Handy und Noten.\n<b>26.</b> Ein Verbot hindert Schüler daran, Verantwortung zu lernen.\n<b>27.</b> Ohne Handy erholen sich Schüler in den Pausen besser.\n<b>28.</b> Eltern sollten bei den Handyregeln stärker mitreden.\n<b>29.</b> Handys müssen im Unterricht ohne Ausnahme ausgeschaltet bleiben.\n<b>30.</b> Lehrkräfte brauchen mehr Fortbildung, um Medien sinnvoll einzusetzen.",
+        "parse_mode": "HTML"
+      },
+      "files": {
+        "audio": "audio/teil4.mp3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1499 @@
+{
+  "id": "2026-09-23-698128",
+  "created": "2026-09-23T22:19:21",
+  "origin": "generated",
+  "ontology_sha256": "7caa388a00d6",
+  "model": "default",
+  "blueprint": {
+    "seed": 698128,
+    "1": {
+      "units": [
+        {
+          "text": 1,
+          "text_type": "voicemail from a language school or course provider",
+          "speaker_gender": "m",
+          "questions": [
+            {
+              "number": 1,
+              "answer": "falsch",
+              "trap": "MENTIONED_TRUE",
+              "difficulty": 4
+            },
+            {
+              "number": 2,
+              "answer": "b",
+              "trap": "DISTRACTOR_DENSITY",
+              "difficulty": 4
+            }
+          ]
+        },
+        {
+          "text": 2,
+          "text_type": "voicemail from an employer or colleague",
+          "speaker_gender": "m",
+          "questions": [
+            {
+              "number": 3,
+              "answer": "richtig",
+              "trap": "OLD_NEW",
+              "difficulty": 4
+            },
+            {
+              "number": 4,
+              "answer": "c",
+              "trap": "CAUSE_SWAP",
+              "difficulty": 3
+            }
+          ]
+        },
+        {
+          "text": 3,
+          "text_type": "airport or bus-station announcement",
+          "speaker_gender": "m",
+          "questions": [
+            {
+              "number": 5,
+              "answer": "falsch",
+              "trap": "OLD_NEW",
+              "difficulty": 2
+            },
+            {
+              "number": 6,
+              "answer": "c",
+              "trap": "TIME_SWAP",
+              "difficulty": 3
+            }
+          ]
+        },
+        {
+          "text": 4,
+          "text_type": "voicemail from a landlord or property management",
+          "speaker_gender": "m",
+          "questions": [
+            {
+              "number": 7,
+              "answer": "richtig",
+              "trap": "CONDITION",
+              "difficulty": 4
+            },
+            {
+              "number": 8,
+              "answer": "a",
+              "trap": "OLD_NEW",
+              "difficulty": 4
+            }
+          ]
+        },
+        {
+          "text": 5,
+          "text_type": "tourist information or city-tour notice",
+          "speaker_gender": "f",
+          "questions": [
+            {
+              "number": 9,
+              "answer": "richtig",
+              "trap": "MENTIONED_TRUE",
+              "difficulty": 5
+            },
+            {
+              "number": 10,
+              "answer": "b",
+              "trap": "PLACE_SWAP",
+              "difficulty": 3
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "setting": "welcome talk for volunteers at a city festival",
+      "speaker_gender": "f",
+      "questions": [
+        {
+          "number": 11,
+          "answer": "a",
+          "trap": "QUANTITY_SCOPE",
+          "difficulty": 4
+        },
+        {
+          "number": 12,
+          "answer": "b",
+          "trap": "PART_WHOLE",
+          "difficulty": 2
+        },
+        {
+          "number": 13,
+          "answer": "c",
+          "trap": "MENTIONED_TRUE",
+          "difficulty": 4
+        },
+        {
+          "number": 14,
+          "answer": "a",
+          "trap": "TIME_SWAP",
+          "difficulty": 4
+        },
+        {
+          "number": 15,
+          "answer": "a",
+          "trap": "TEMPORAL_SCOPE",
+          "difficulty": 4
+        }
+      ]
+    },
+    "3": {
+      "scenario": "two friends talk about a concert or festival visit",
+      "questions": [
+        {
+          "number": 16,
+          "answer": "falsch",
+          "trap": "ACTOR_SWAP",
+          "difficulty": 3
+        },
+        {
+          "number": 17,
+          "answer": "richtig",
+          "trap": "CAUSE_SWAP",
+          "difficulty": 3
+        },
+        {
+          "number": 18,
+          "answer": "falsch",
+          "trap": "RECIPIENT_SWAP",
+          "difficulty": 4
+        },
+        {
+          "number": 19,
+          "answer": "richtig",
+          "trap": "REQUEST_RESULT",
+          "difficulty": 4
+        },
+        {
+          "number": 20,
+          "answer": "falsch",
+          "trap": "ROLE_SWAP",
+          "difficulty": 3
+        },
+        {
+          "number": 21,
+          "answer": "falsch",
+          "trap": "REQUEST_RESULT",
+          "difficulty": 3
+        },
+        {
+          "number": 22,
+          "answer": "richtig",
+          "trap": "NEGATION",
+          "difficulty": 4
+        }
+      ]
+    },
+    "4": {
+      "topic": "Do we still need cash?",
+      "genders": {
+        "moderator": "f",
+        "guest1": "m",
+        "guest2": "f"
+      },
+      "questions": [
+        {
+          "number": 23,
+          "answer": "guest2",
+          "trap": "SOURCE_ATTRIBUTION",
+          "difficulty": 5
+        },
+        {
+          "number": 24,
+          "answer": "guest1",
+          "trap": "STANCE_QUALIFIER",
+          "difficulty": 2
+        },
+        {
+          "number": 25,
+          "answer": "guest2",
+          "trap": "STANCE_QUALIFIER",
+          "difficulty": 4
+        },
+        {
+          "number": 26,
+          "answer": "moderator",
+          "trap": "STANCE_QUALIFIER",
+          "difficulty": 4
+        },
+        {
+          "number": 27,
+          "answer": "guest1",
+          "trap": "QUOTE_ATTRIBUTION",
+          "difficulty": 5
+        },
+        {
+          "number": 28,
+          "answer": "guest2",
+          "trap": "PARAPHRASE",
+          "difficulty": 5
+        },
+        {
+          "number": 29,
+          "answer": "guest1",
+          "trap": "PARAPHRASE",
+          "difficulty": 3
+        },
+        {
+          "number": 30,
+          "answer": "guest2",
+          "trap": "SOURCE_ATTRIBUTION",
+          "difficulty": 3
+        }
+      ]
+    }
+  },
+  "parts": {
+    "1": {
+      "part": 1,
+      "instruction": "Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+      "plays": 2,
+      "situation": null,
+      "topic": null,
+      "units": [
+        {
+          "id": "teil1-text1",
+          "title": "Text 1",
+          "topic": "Evening language course starts later",
+          "speakers": [
+            {
+              "id": "s1",
+              "name": "Herr Brandt",
+              "gender": "m",
+              "role": "Mitarbeiter der Sprachschule",
+              "voice": "markus"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "statement": "Der Kurs sollte am Montag beginnen, startet aber erst am 14. Oktober, einem Mittwoch, weil nur vier Personen angemeldet sind.",
+              "frame": "agent=Abendkurs B1; action=beginnen; time=Montag geplant, dann 14. Oktober; cause=nur vier Anmeldungen; status=verschoben"
+            },
+            {
+              "id": "F2",
+              "statement": "Die Gebühr von 180 Euro wird am ersten Abend bezahlt, nicht überwiesen.",
+              "frame": "object=Kursgebühr 180 Euro; action=bezahlen; time=erster Abend; modality=keine Überweisung"
+            },
+            {
+              "id": "F3",
+              "statement": "Frau Yilmaz soll ihr Lehrbuch mitbringen.",
+              "frame": "agent=Frau Yilmaz; action=Lehrbuch mitbringen; modality=Bitte"
+            },
+            {
+              "id": "F4",
+              "statement": "Falls der Termin nicht passt, soll sie bis Freitag anrufen.",
+              "frame": "action=anrufen; time=bis Freitag; condition=falls Termin nicht passt"
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "s1",
+              "text": "Guten Tag, Frau Yilmaz, hier spricht Thomas Brandt von der Sprachschule Lingua. Sie haben sich für den Abendkurs B1 angemeldet. Der Kurs sollte am Montag beginnen, aber leider sind bis jetzt nur vier Personen angemeldet. Deshalb fangen wir erst am 14. Oktober an, am Mittwoch. Der Raum ist dann 204, nicht mehr 112. Die Kursgebühr von 180 Euro können Sie am ersten Abend bezahlen, Sie müssen nichts überweisen. Bitte bringen Sie Ihr Lehrbuch mit. Falls der Termin nicht passt, rufen Sie mich bitte bis Freitag an. Danke und bis bald."
+            }
+          ],
+          "questions": [
+            {
+              "type": "true_false",
+              "number": 1,
+              "prompt": "Der Kurs beginnt am Montag wie geplant.",
+              "options": [],
+              "answer": "falsch",
+              "target_fact": "F1",
+              "evidence_quote": "Deshalb fangen wir erst am 14. Oktober an, am Mittwoch.",
+              "trap": "MENTIONED_TRUE",
+              "slot": "WHEN",
+              "difficulty": 4,
+              "explanation": "Der Montag war geplant, aber der Kurs beginnt erst am Mittwoch, dem 14. Oktober, weil zu wenige Personen angemeldet sind."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 2,
+              "prompt": "Was soll Frau Yilmaz zum ersten Abend tun?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "Die Gebühr überweisen",
+                  "fact_id": "F2",
+                  "why_wrong": "Fee is paid on the first evening, no transfer needed"
+                },
+                {
+                  "id": "b",
+                  "text": "Ihr Lehrbuch mitbringen",
+                  "fact_id": "F3",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "c",
+                  "text": "Bis Freitag anrufen",
+                  "fact_id": "F4",
+                  "why_wrong": "Only needed if the date does not suit her"
+                }
+              ],
+              "answer": "b",
+              "target_fact": "F3",
+              "evidence_quote": "Bitte bringen Sie Ihr Lehrbuch mit.",
+              "trap": "DISTRACTOR_DENSITY",
+              "slot": "WHAT",
+              "difficulty": 4,
+              "explanation": "Sie soll das Lehrbuch mitbringen. Überweisen muss sie nichts, und anrufen soll sie nur, falls der Termin nicht passt."
+            }
+          ],
+          "text_type": "voicemail from a language school or course provider"
+        },
+        {
+          "id": "teil1-text2",
+          "title": "Text 2",
+          "topic": "Meeting postponed because boss is away",
+          "speakers": [
+            {
+              "id": "s1",
+              "name": "Jörg",
+              "gender": "m",
+              "role": "Kollege",
+              "voice": "markus"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "statement": "Das Treffen um 9 Uhr wird auf 14 Uhr verschoben.",
+              "frame": "action=Treffen; time=9 Uhr geplant, dann 14 Uhr; status=verschoben"
+            },
+            {
+              "id": "F2",
+              "statement": "Jörg hat Freitag einen Arzttermin, das ist aber nicht der Grund.",
+              "frame": "agent=Jörg; object=Arzttermin; time=Freitag; cause=nicht der Grund"
+            },
+            {
+              "id": "F3",
+              "statement": "Die Kundenliste ist schon fertig.",
+              "frame": "object=Kundenliste; status=fertig; cause=nicht der Grund"
+            },
+            {
+              "id": "F4",
+              "statement": "Frau Sander ist morgen früh bei einem Kunden in Hamburg und kommt mittags zurück.",
+              "frame": "agent=Frau Sander; place=Kunde in Hamburg; time=morgen früh; cause=Grund der Verschiebung"
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "s1",
+              "text": "Hallo Nina, hier ist Jörg. Wir wollten uns morgen um 9 Uhr treffen, wegen der neuen Kundenliste. Das müssen wir leider verschieben. Ich habe zwar Freitag einen Arzttermin, aber das ist nicht der Grund. Die Liste ist auch schon fertig. Das Problem ist Frau Sander. Sie ist morgen früh noch bei einem Kunden in Hamburg und kommt erst mittags zurück. Wir treffen uns deshalb um 14 Uhr in ihrem Büro. Ist das für dich in Ordnung? Schreib mir kurz eine Nachricht. Danke, bis morgen."
+            }
+          ],
+          "questions": [
+            {
+              "type": "true_false",
+              "number": 3,
+              "prompt": "Das Treffen findet jetzt am Nachmittag statt.",
+              "options": [],
+              "answer": "richtig",
+              "target_fact": "F1",
+              "evidence_quote": "Wir treffen uns deshalb um 14 Uhr in ihrem Büro.",
+              "trap": "OLD_NEW",
+              "slot": "WHEN",
+              "difficulty": 4,
+              "explanation": "Geplant waren 9 Uhr, jetzt treffen sie sich um 14 Uhr. Das ist am Nachmittag."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 4,
+              "prompt": "Warum wird das Treffen verschoben?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "Jörg hat einen Arzttermin.",
+                  "fact_id": "F2",
+                  "why_wrong": "Mentioned but explicitly not the reason"
+                },
+                {
+                  "id": "b",
+                  "text": "Die Kundenliste ist nicht fertig.",
+                  "fact_id": "F3",
+                  "why_wrong": "The list is already finished"
+                },
+                {
+                  "id": "c",
+                  "text": "Frau Sander ist noch bei einem Kunden.",
+                  "fact_id": "F4",
+                  "why_wrong": ""
+                }
+              ],
+              "answer": "c",
+              "target_fact": "F4",
+              "evidence_quote": "Sie ist morgen früh noch bei einem Kunden in Hamburg und kommt erst mittags zurück.",
+              "trap": "CAUSE_SWAP",
+              "slot": "WHY",
+              "difficulty": 3,
+              "explanation": "Frau Sander ist morgen früh noch bei einem Kunden. Der Arzttermin ist nicht der Grund, und die Liste ist fertig."
+            }
+          ],
+          "text_type": "voicemail from an employer or colleague"
+        },
+        {
+          "id": "teil1-text3",
+          "title": "Text 3",
+          "topic": "Delayed bus to Freiburg",
+          "speakers": [
+            {
+              "id": "s1",
+              "name": "Ansage",
+              "gender": "m",
+              "role": "Ansage am Busbahnhof",
+              "voice": "markus"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "statement": "Der Bus 140 nach Freiburg fährt nicht um 16:20 Uhr, sondern erst um 16:50 Uhr ab.",
+              "frame": "agent=Bus 140 nach Freiburg; time=16:20 Uhr geplant, dann 16:50 Uhr; cause=Baustelle; status=verspätet"
+            },
+            {
+              "id": "F2",
+              "statement": "Der Bus nach Offenburg fährt um 16:35 Uhr normal.",
+              "frame": "agent=Bus nach Offenburg; time=16:35 Uhr; status=normal"
+            },
+            {
+              "id": "F3",
+              "statement": "Der Bus nach Freiburg fährt jetzt von Steig 5, nicht mehr von Steig 2.",
+              "frame": "place=Steig 5 neu, Steig 2 alt"
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "s1",
+              "text": "Meine Damen und Herren, eine Information für Reisende nach Freiburg. Der Bus 140 fährt heute nicht um 16:20 Uhr ab, sondern erst um 16:50 Uhr. Auf der Straße gibt es eine Baustelle. Der Bus fährt außerdem nicht mehr von Steig 2, sondern von Steig 5. Der Bus nach Offenburg um 16:35 Uhr fährt wie immer. Wer schon eine Fahrkarte hat, muss nichts tun. Im Bahnhofscafé bekommen Reisende mit Fahrkarte einen Kaffee gratis. Wir bitten um Ihr Verständnis."
+            }
+          ],
+          "questions": [
+            {
+              "type": "true_false",
+              "number": 5,
+              "prompt": "Der Bus nach Freiburg fährt pünktlich um 16:20 Uhr.",
+              "options": [],
+              "answer": "falsch",
+              "target_fact": "F1",
+              "evidence_quote": "Der Bus 140 fährt heute nicht um 16:20 Uhr ab, sondern erst um 16:50 Uhr.",
+              "trap": "OLD_NEW",
+              "slot": "WHEN",
+              "difficulty": 2,
+              "explanation": "16:20 Uhr ist die alte Zeit. Wegen einer Baustelle fährt der Bus erst um 16:50 Uhr."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 6,
+              "prompt": "Wann fährt der Bus nach Freiburg heute ab?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "Um 16:20 Uhr",
+                  "fact_id": "F1",
+                  "why_wrong": "Original time, now superseded"
+                },
+                {
+                  "id": "b",
+                  "text": "Um 16:35 Uhr",
+                  "fact_id": "F2",
+                  "why_wrong": "Time of the bus to Offenburg"
+                },
+                {
+                  "id": "c",
+                  "text": "Um 16:50 Uhr",
+                  "fact_id": "F1",
+                  "why_wrong": ""
+                }
+              ],
+              "answer": "c",
+              "target_fact": "F1",
+              "evidence_quote": "sondern erst um 16:50 Uhr",
+              "trap": "TIME_SWAP",
+              "slot": "WHEN",
+              "difficulty": 3,
+              "explanation": "Der Bus nach Freiburg fährt erst um 16:50 Uhr. 16:35 Uhr gilt für Offenburg, 16:20 Uhr war die alte Zeit."
+            }
+          ],
+          "text_type": "airport or bus-station announcement"
+        },
+        {
+          "id": "teil1-text4",
+          "title": "Text 4",
+          "topic": "Heating check moved earlier",
+          "speakers": [
+            {
+              "id": "s1",
+              "name": "Herr Roth",
+              "gender": "m",
+              "role": "Hausverwaltung",
+              "voice": "markus"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "statement": "Die Heizungsprüfung war für Dienstag geplant, die Firma kommt aber schon am Montag zwischen 8 und 12 Uhr.",
+              "frame": "action=Heizung prüfen; time=Dienstag geplant, dann Montag 8-12 Uhr; status=vorgezogen"
+            },
+            {
+              "id": "F2",
+              "statement": "Am Nachmittag kommt niemand mehr.",
+              "frame": "time=Montagnachmittag; polarity=kein Termin"
+            },
+            {
+              "id": "F3",
+              "statement": "Wenn Frau Petrović nicht zu Hause ist, kann sie den Schlüssel beim Hausmeister Herrn Aydin abgeben.",
+              "frame": "agent=Frau Petrović; action=Schlüssel abgeben; recipient=Hausmeister; condition=wenn nicht zu Hause"
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "s1",
+              "text": "Guten Tag, Frau Petrović, hier ist Martin Roth von der Hausverwaltung. Es geht um die Heizung in Ihrer Wohnung. Sie sollte am Dienstag geprüft werden. Die Firma kommt aber schon am Montag zwischen 8 und 12 Uhr. Am Nachmittag kommt niemand mehr. Ich weiß, das ist kurzfristig. Wenn Sie am Vormittag nicht zu Hause sind, können Sie den Schlüssel beim Hausmeister abgeben. Herr Aydin ist am Montag den ganzen Tag im Haus. Dann kann die Firma trotzdem in die Wohnung. Ansonsten müssen Sie nichts tun. Vielen Dank und einen schönen Tag."
+            }
+          ],
+          "questions": [
+            {
+              "type": "true_false",
+              "number": 7,
+              "prompt": "Frau Petrović muss am Montag nicht zu Hause sein.",
+              "options": [],
+              "answer": "richtig",
+              "target_fact": "F3",
+              "evidence_quote": "Wenn Sie am Vormittag nicht zu Hause sind, können Sie den Schlüssel beim Hausmeister abgeben.",
+              "trap": "CONDITION",
+              "slot": "CONDITION",
+              "difficulty": 4,
+              "explanation": "Sie kann den Schlüssel beim Hausmeister abgeben. Dann kommt die Firma auch ohne sie in die Wohnung."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 8,
+              "prompt": "Wann kommt die Firma zur Heizung?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "Am Montagvormittag",
+                  "fact_id": "F1",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "b",
+                  "text": "Am Dienstagvormittag",
+                  "fact_id": "F1",
+                  "why_wrong": "Original plan, now moved earlier"
+                },
+                {
+                  "id": "c",
+                  "text": "Am Montagnachmittag",
+                  "fact_id": "F2",
+                  "why_wrong": "Nobody comes in the afternoon"
+                }
+              ],
+              "answer": "a",
+              "target_fact": "F1",
+              "evidence_quote": "Die Firma kommt aber schon am Montag zwischen 8 und 12 Uhr.",
+              "trap": "OLD_NEW",
+              "slot": "WHEN",
+              "difficulty": 4,
+              "explanation": "Geplant war Dienstag, jetzt kommt die Firma schon am Montag zwischen 8 und 12 Uhr. Nachmittags kommt niemand."
+            }
+          ],
+          "text_type": "voicemail from a landlord or property management"
+        },
+        {
+          "id": "teil1-text5",
+          "title": "Text 5",
+          "topic": "Evening city tour changes meeting point",
+          "speakers": [
+            {
+              "id": "s1",
+              "name": "Sprecherin",
+              "gender": "f",
+              "role": "Stadtinformation",
+              "voice": "petra"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "statement": "Treffpunkt ist heute der Domplatz, nicht das Rathaus, weil das Rathaus wegen eines Marktes gesperrt ist.",
+              "frame": "place=Domplatz heute, Rathaus normal; cause=Markt; status=geändert"
+            },
+            {
+              "id": "F2",
+              "statement": "Die Führung beginnt um 19 Uhr, dauert 90 Minuten und kostet 12 Euro.",
+              "frame": "time=19 Uhr; quantity=90 Minuten, 12 Euro"
+            },
+            {
+              "id": "F3",
+              "statement": "Die Führung endet am Alten Brauhaus, das Essen ist nicht im Preis enthalten.",
+              "frame": "place=Altes Brauhaus; object=Essen; status=nicht im Preis enthalten"
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "s1",
+              "text": "Guten Tag und herzlich willkommen bei der Stadtführung Bamberg am Abend. Wir treffen uns heute nicht am Rathaus, sondern am Domplatz. Das Rathaus ist wegen eines Marktes gesperrt. Die Führung beginnt um 19 Uhr und dauert ungefähr 90 Minuten. Sie kostet 12 Euro. Am Ende gehen wir zum Alten Brauhaus. Dort können Sie gern etwas essen, aber das Essen ist nicht im Preis enthalten. Bitte kommen Sie zehn Minuten früher. Wir bitten um Ihr Verständnis."
+            }
+          ],
+          "questions": [
+            {
+              "type": "true_false",
+              "number": 9,
+              "prompt": "Das Essen ist nicht im Preis enthalten.",
+              "options": [],
+              "answer": "richtig",
+              "target_fact": "F3",
+              "evidence_quote": "Dort können Sie gern etwas essen, aber das Essen ist nicht im Preis enthalten.",
+              "trap": "MENTIONED_TRUE",
+              "slot": "SCOPE",
+              "difficulty": 5,
+              "explanation": "Im Brauhaus kann man essen, aber das Essen bezahlt man extra. Der Preis von 12 Euro gilt nur für die Führung."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 10,
+              "prompt": "Wo treffen sich die Teilnehmer heute?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "Am Rathaus",
+                  "fact_id": "F1",
+                  "why_wrong": "Usual meeting point, closed today"
+                },
+                {
+                  "id": "b",
+                  "text": "Am Domplatz",
+                  "fact_id": "F1",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "c",
+                  "text": "Am Alten Brauhaus",
+                  "fact_id": "F3",
+                  "why_wrong": "Place where the tour ends"
+                }
+              ],
+              "answer": "b",
+              "target_fact": "F1",
+              "evidence_quote": "Wir treffen uns heute nicht am Rathaus, sondern am Domplatz.",
+              "trap": "PLACE_SWAP",
+              "slot": "WHERE",
+              "difficulty": 3,
+              "explanation": "Heute ist der Treffpunkt der Domplatz. Das Rathaus ist gesperrt, und das Brauhaus ist der Ort, an dem die Führung endet."
+            }
+          ],
+          "text_type": "tourist information or city-tour notice"
+        }
+      ],
+      "validation": {
+        "errors": [],
+        "warnings": [
+          "teil1-text4: a turn has 91 words (TTS is tested up to ~100)"
+        ]
+      },
+      "cost_usd": 0.1486
+    },
+    "2": {
+      "part": 2,
+      "instruction": "Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "plays": 1,
+      "situation": "Sie nehmen an einem Treffen für neue Helfer beim Altstadtfest teil und hören die Organisatorin.",
+      "topic": "welcome talk for volunteers at a city festival",
+      "units": [
+        {
+          "id": "teil2",
+          "title": null,
+          "topic": "welcome talk for volunteers at a city festival",
+          "speakers": [
+            {
+              "id": "S1",
+              "name": "Petra Lindner",
+              "gender": "f",
+              "role": "Organisatorin des Altstadtfests",
+              "voice": "petra"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "statement": "Jeder Helfer macht zwei Schichten zu vier Stunden, nicht an allen drei Festtagen.",
+              "frame": "agent=jeder Helfer; action=Schichten machen; quantity=zwei Schichten à vier Stunden; scope=nicht alle drei Festtage"
+            },
+            {
+              "id": "F2",
+              "statement": "Alle Helfer bekommen ein T-Shirt; nur das Infostand-Team bekommt eine Jacke; Mützen gibt es nicht.",
+              "frame": "agent=alle Helfer; object=gelbes T-Shirt; scope=alle; part=Jacke nur Infostand; Mützen=gibt es nicht"
+            },
+            {
+              "id": "F3",
+              "statement": "Taschen kann man im Helferzelt lassen; das Rathaus ist Treffpunkt und abends zu, der Infostand ist für Fundsachen.",
+              "frame": "place=Helferzelt neben der Bühne; object=Taschen lassen; other places=Rathaus (Treffpunkt, abends abgeschlossen), Informationsstand (Fundsachen)"
+            },
+            {
+              "id": "F4",
+              "statement": "Das Helferessen ist um 13 Uhr; das Fest öffnet um 11 Uhr, die Spätschicht beginnt um 14 Uhr.",
+              "frame": "event=Helferessen; time=13 Uhr; other times=Fest-Eröffnung 11 Uhr, Spätschicht 14 Uhr"
+            },
+            {
+              "id": "F5",
+              "statement": "Dieses Jahr bekommen Helfer eine Fahrkarte; letztes Jahr gab es kostenloses Parken, jetzt nicht mehr.",
+              "frame": "object=Fahrkarte Bus und Bahn; time=dieses Jahr; old=letztes Jahr kostenlos Parkhaus, jetzt nicht mehr"
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "S1",
+              "text": "Guten Abend und herzlich willkommen. Mein Name ist Petra Lindner, und ich organisiere das Altstadtfest in Lindenburg. Schön, dass Sie alle gekommen sind. Wir freuen uns sehr über Ihre Hilfe. Ich erkläre Ihnen jetzt in ein paar Minuten, wie alles abläuft."
+            },
+            {
+              "speaker": "S1",
+              "text": "Wir sind in diesem Jahr 60 Helferinnen und Helfer. Das Fest dauert von Freitag bis Sonntag, also drei Tage. Aber Sie müssen nicht an allen drei Tagen kommen. Jeder von Ihnen macht zwei Schichten, und eine Schicht dauert vier Stunden. Welche Tage Sie haben, steht auf Ihrem Dienstplan. Den bekommen Sie nachher am Ausgang."
+            },
+            {
+              "speaker": "S1",
+              "text": "Jetzt zur Kleidung. Alle Helfer bekommen ein gelbes T-Shirt mit dem Logo vom Fest. Bitte tragen Sie es während der ganzen Schicht. Die Kolleginnen und Kollegen am Informationsstand bekommen zusätzlich eine Jacke, weil sie draußen stehen und es abends kalt wird. Mützen gibt es in diesem Jahr leider nicht. Die Kleidung dürfen Sie danach behalten."
+            },
+            {
+              "speaker": "S1",
+              "text": "Wo Sie sich vor der Schicht treffen? Im Rathaus, im großen Saal. Dort besprechen wir jeden Morgen kurz den Tag. Dann gehen wir gemeinsam zum Marktplatz. Wenn Sie etwas finden, das jemand verloren hat, bringen Sie es bitte zum Informationsstand. Ihre Taschen können Sie nicht im Rathaus lassen, denn dort ist abends abgeschlossen. Dafür gibt es das Helferzelt neben der Bühne. Dort sind kleine Schränke, und das Zelt ist immer offen."
+            },
+            {
+              "speaker": "S1",
+              "text": "Jetzt zu den Zeiten. Die Frühschicht ist von 9 bis 13 Uhr, die Spätschicht von 14 bis 18 Uhr. Das Fest selbst wird jeden Tag um 11 Uhr eröffnet. Das Essen für die Helfer gibt es um 13 Uhr, direkt wenn die Frühschicht zu Ende ist. Wer Spätschicht hat, kann auch schon dann kommen und mitessen. Um 14 Uhr beginnt aber pünktlich die Arbeit."
+            },
+            {
+              "speaker": "S1",
+              "text": "Noch etwas zur Anreise. Im letzten Jahr konnten Helfer kostenlos im Parkhaus am Rathaus parken. Das geht in diesem Jahr nicht mehr, weil das Parkhaus umgebaut wird. Deshalb bekommen Sie eine Fahrkarte für Bus und Bahn. Sie gilt für alle drei Festtage in der ganzen Stadt. Bitte lassen Sie das Auto möglichst zu Hause, denn im Zentrum gibt es kaum Parkplätze."
+            },
+            {
+              "speaker": "S1",
+              "text": "So, das war das Wichtigste. Wenn Sie noch Fragen haben, können Sie mich gern jetzt oder später ansprechen. Am Freitag um 8:30 Uhr sehen wir uns dann im Rathaus. Vielen Dank und bis bald."
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "number": 11,
+              "prompt": "Wie viele Schichten macht jeder Helfer?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "zwei Schichten",
+                  "fact_id": "F1",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "b",
+                  "text": "drei Schichten",
+                  "fact_id": "F1",
+                  "why_wrong": "Number of festival days, not shifts"
+                },
+                {
+                  "id": "c",
+                  "text": "vier Schichten",
+                  "fact_id": "F1",
+                  "why_wrong": "Length of one shift in hours, not number"
+                }
+              ],
+              "answer": "a",
+              "target_fact": "F1",
+              "evidence_quote": "Jeder von Ihnen macht zwei Schichten, und eine Schicht dauert vier Stunden.",
+              "trap": "QUANTITY_SCOPE",
+              "slot": "HOW_MUCH",
+              "difficulty": 4,
+              "explanation": "Das Fest dauert drei Tage und eine Schicht vier Stunden, aber jeder macht nur zwei Schichten."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 12,
+              "prompt": "Was bekommen alle Helfer?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "eine Jacke",
+                  "fact_id": "F2",
+                  "why_wrong": "Only the information stand team gets it"
+                },
+                {
+                  "id": "b",
+                  "text": "ein T-Shirt",
+                  "fact_id": "F2",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "c",
+                  "text": "eine Mütze",
+                  "fact_id": "F2",
+                  "why_wrong": "Caps are not given this year"
+                }
+              ],
+              "answer": "b",
+              "target_fact": "F2",
+              "evidence_quote": "Alle Helfer bekommen ein gelbes T-Shirt mit dem Logo vom Fest.",
+              "trap": "PART_WHOLE",
+              "slot": "WHAT",
+              "difficulty": 2,
+              "explanation": "Alle bekommen ein T-Shirt. Eine Jacke bekommt nur das Team am Informationsstand, Mützen gibt es nicht."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 13,
+              "prompt": "Wo können die Helfer ihre Taschen lassen?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "im Rathaus",
+                  "fact_id": "F3",
+                  "why_wrong": "Meeting place, locked in the evening"
+                },
+                {
+                  "id": "b",
+                  "text": "am Informationsstand",
+                  "fact_id": "F3",
+                  "why_wrong": "Only for found items"
+                },
+                {
+                  "id": "c",
+                  "text": "im Helferzelt",
+                  "fact_id": "F3",
+                  "why_wrong": ""
+                }
+              ],
+              "answer": "c",
+              "target_fact": "F3",
+              "evidence_quote": "Dafür gibt es das Helferzelt neben der Bühne. Dort sind kleine Schränke, und das Zelt ist immer offen.",
+              "trap": "MENTIONED_TRUE",
+              "slot": "WHERE",
+              "difficulty": 4,
+              "explanation": "Taschen kommen ins Helferzelt. Rathaus ist nur Treffpunkt, am Informationsstand gibt man Fundsachen ab."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 14,
+              "prompt": "Wann gibt es das Essen für die Helfer?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "um 13 Uhr",
+                  "fact_id": "F4",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "b",
+                  "text": "um 14 Uhr",
+                  "fact_id": "F4",
+                  "why_wrong": "Start time of late shift"
+                },
+                {
+                  "id": "c",
+                  "text": "um 11 Uhr",
+                  "fact_id": "F4",
+                  "why_wrong": "Opening time of the festival"
+                }
+              ],
+              "answer": "a",
+              "target_fact": "F4",
+              "evidence_quote": "Das Essen für die Helfer gibt es um 13 Uhr, direkt wenn die Frühschicht zu Ende ist.",
+              "trap": "TIME_SWAP",
+              "slot": "WHEN",
+              "difficulty": 4,
+              "explanation": "Gegessen wird um 13 Uhr. 11 Uhr ist die Eröffnung, um 14 Uhr beginnt die Spätschicht."
+            },
+            {
+              "type": "multiple_choice",
+              "number": 15,
+              "prompt": "Was bekommen die Helfer in diesem Jahr für die Anreise?",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "eine Fahrkarte für Bus und Bahn",
+                  "fact_id": "F5",
+                  "why_wrong": ""
+                },
+                {
+                  "id": "b",
+                  "text": "einen kostenlosen Parkplatz im Parkhaus",
+                  "fact_id": "F5",
+                  "why_wrong": "Only last year, no longer possible"
+                },
+                {
+                  "id": "c",
+                  "text": "Geld für das Benzin",
+                  "fact_id": "F5",
+                  "why_wrong": "Not mentioned, plausible inference"
+                }
+              ],
+              "answer": "a",
+              "target_fact": "F5",
+              "evidence_quote": "Das geht in diesem Jahr nicht mehr, weil das Parkhaus umgebaut wird. Deshalb bekommen Sie eine Fahrkarte für Bus und Bahn.",
+              "trap": "TEMPORAL_SCOPE",
+              "slot": "STATUS",
+              "difficulty": 4,
+              "explanation": "Im letzten Jahr gab es kostenloses Parken. Jetzt ist das Parkhaus zu, deshalb gibt es eine Fahrkarte."
+            }
+          ]
+        }
+      ],
+      "validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "cost_usd": 0.1639
+    },
+    "3": {
+      "part": 3,
+      "instruction": "Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen richtig oder falsch?",
+      "plays": 1,
+      "situation": "Lena und Tobias telefonieren am Tag nach einem gemeinsamen Festivalbesuch und sprechen über den Abend.",
+      "topic": "Concert/festival recap phone call between friends",
+      "units": [
+        {
+          "id": "teil3",
+          "title": null,
+          "topic": "Concert/festival recap phone call between friends",
+          "speakers": [
+            {
+              "id": "f",
+              "name": "Lena",
+              "gender": "f",
+              "role": "Freundin",
+              "voice": "anna"
+            },
+            {
+              "id": "m",
+              "name": "Tobias",
+              "gender": "m",
+              "role": "Freund",
+              "voice": "markus"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "statement": "Tobias ist kurzfristig für Mira eingesprungen und mit Lena zum Festival gefahren.",
+              "frame": "agent=Lena; plan=mit Schwester Mira zum Festival gehen; status=geändert wegen Fieber von Mira; actual_agent=Tobias"
+            },
+            {
+              "id": "F2",
+              "statement": "Lena und Tobias kamen spät an, weil sie lange einen Parkplatz suchten, nicht wegen eines Staus.",
+              "frame": "cause=Parkplatzsuche; not_cause=Stau; effect=späte Ankunft am Festival"
+            },
+            {
+              "id": "F3",
+              "statement": "Tobias gab das übrige Ticket seinem Nachbarn Ben, nicht seinem Kollegen Jan.",
+              "frame": "agent=Tobias; action=zweites Ticket weitergeben; recipient=Nachbar Ben; not_recipient=Kollege Jan; reason=Jan hatte keine Zeit"
+            },
+            {
+              "id": "F4",
+              "statement": "Tobias brachte wie von Lena erbeten eine Decke mit.",
+              "frame": "requester=Lena; request=Decke mitbringen; reason=abends kalt am See; result=erfüllt; agent=Tobias"
+            },
+            {
+              "id": "F5",
+              "statement": "Sven, den sie am Getränkestand trafen, ist Tobias' Cousin.",
+              "frame": "person=Sven; role=Cousin von Tobias; not_role=Kollege aus Tobias' Büro; ort=Getränkestand"
+            },
+            {
+              "id": "F6",
+              "statement": "Tobias wollte VIP-Tickets reservieren, aber sie waren schon ausverkauft.",
+              "frame": "agent=Tobias; action=VIP-Tickets reservieren; status=versucht, aber ausverkauft; result=nicht erfüllt"
+            },
+            {
+              "id": "F7",
+              "statement": "Lena und Tobias verließen das Festival vor der Zugabe, um den letzten Bus zu bekommen.",
+              "frame": "event=Zugabe; polarity=nicht gesehen; reason=letzten Bus nicht verpassen wollen"
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "f",
+              "text": "Hey Tobias, na, bist du schon wach? Ich muss noch an gestern denken, das war schon ein langer Tag."
+            },
+            {
+              "speaker": "m",
+              "text": "Hey Lena, klar bin ich wach. Der Tag war richtig schön, auch wenn's am Anfang ziemlich chaotisch war."
+            },
+            {
+              "speaker": "f",
+              "text": "Stimmt, vor allem, weil ich ja eigentlich geplant hatte, mit meiner Schwester Mira zum Festival zu gehen."
+            },
+            {
+              "speaker": "m",
+              "text": "Genau, aber Mira hatte am Freitagabend plötzlich Fieber und konnte deshalb nicht mit. Zum Glück bin ich dann kurzfristig eingesprungen."
+            },
+            {
+              "speaker": "f",
+              "text": "Fand ich total nett von dir, dass es trotzdem so schnell geklappt hat. Wir kamen aber ziemlich spät auf dem Festivalgelände an, oder? Ich glaub, es war schon fast neun, als wir da waren."
+            },
+            {
+              "speaker": "m",
+              "text": "Ja, total. Ich dachte erst, das liegt am Stau auf der Autobahn, weil da ja Baustelle war."
+            },
+            {
+              "speaker": "f",
+              "text": "Nee, der Stau war eigentlich gar nicht so schlimm. Wir haben einfach ewig lange einen Parkplatz in der Nähe gesucht."
+            },
+            {
+              "speaker": "m",
+              "text": "Stimmt, wir sind bestimmt zwanzig Minuten um den ganzen Park rumgefahren, bis endlich eine Lücke frei war."
+            },
+            {
+              "speaker": "f",
+              "text": "Zum Glück haben wir die erste Band trotzdem noch mitbekommen. Apropos, was ist eigentlich mit dem zweiten Ticket passiert? Mira konnte es ja nicht mehr nutzen. Ich hab mich noch gewundert, wo das hin ist."
+            },
+            {
+              "speaker": "m",
+              "text": "Also, das hab ich am Ende meinem Nachbarn Ben gegeben. Mein Kollege Jan hatte zwar auch danach gefragt, aber der hatte am Freitag doch keine Zeit mehr."
+            },
+            {
+              "speaker": "f",
+              "text": "Nett von dir, dass Ben spontan mitkommen konnte. Er sah richtig glücklich aus, als wir ihn gesehen haben. Übrigens, danke, dass du an die Decke gedacht hast."
+            },
+            {
+              "speaker": "m",
+              "text": "Ja klar, hab ich gemacht, ich hatte sie extra ganz oben in die Tasche gepackt."
+            },
+            {
+              "speaker": "f",
+              "text": "Ich hatte dich ja vorher gebeten, unbedingt eine mitzubringen, weil es abends am See immer so kalt wird."
+            },
+            {
+              "speaker": "m",
+              "text": "Genau, und zum Glück hab ich dran gedacht. Die haben wir später wirklich gebraucht, als die Sonne weg war."
+            },
+            {
+              "speaker": "f",
+              "text": "Das Essen am Stand mit den Pommes war übrigens auch richtig gut, viel besser als letztes Jahr. Wir haben da bestimmt eine halbe Stunde in der Schlange gestanden, aber es hat sich gelohnt."
+            },
+            {
+              "speaker": "m",
+              "text": "Stimmt, das fand ich auch. Sag mal, weißt du noch, wen wir am Getränkestand getroffen haben?"
+            },
+            {
+              "speaker": "f",
+              "text": "Klar, den mit der grünen Jacke. Stimmt, ich dachte da kurz, das wäre jemand aus deinem Büro."
+            },
+            {
+              "speaker": "m",
+              "text": "Nein, der war es nicht. Das war Sven, mein Cousin, wir kennen uns schon seit der Kindheit und ich hab ihn ewig nicht mehr gesehen."
+            },
+            {
+              "speaker": "f",
+              "text": "Echt witzig, dass ihr euch da über den Weg gelaufen seid, bei so vielen Leuten."
+            },
+            {
+              "speaker": "m",
+              "text": "Ja, total. Und weißt du noch, was mit den VIP-Tickets war? Ich wollte die doch eigentlich vorher reservieren."
+            },
+            {
+              "speaker": "f",
+              "text": "Genau, ich hab mich schon gefragt, was daraus geworden ist."
+            },
+            {
+              "speaker": "m",
+              "text": "Ich hab's versucht, aber als ich am Donnerstag angerufen habe, waren die schon ausverkauft."
+            },
+            {
+              "speaker": "f",
+              "text": "Schade, das wäre schön gewesen mit dem Blick direkt von vorne auf die Bühne."
+            },
+            {
+              "speaker": "m",
+              "text": "Ja, aber so war's auch okay, wir waren ja trotzdem ziemlich nah dran."
+            },
+            {
+              "speaker": "f",
+              "text": "Stimmt. Aber die Zugabe am Ende haben wir ja leider nicht mehr gesehen."
+            },
+            {
+              "speaker": "m",
+              "text": "Nee, wir mussten leider los, sonst wäre uns der letzte Bus weggefahren. War aber trotzdem ein toller Abend, das machen wir bald nochmal."
+            }
+          ],
+          "questions": [
+            {
+              "type": "true_false",
+              "number": 16,
+              "prompt": "Lena ist mit ihrer Schwester Mira zum Festival gefahren.",
+              "options": [],
+              "answer": "falsch",
+              "target_fact": "F1",
+              "evidence_quote": "Zum Glück bin ich dann kurzfristig eingesprungen.",
+              "trap": "ACTOR_SWAP",
+              "slot": "WHO",
+              "difficulty": 3,
+              "explanation": "Mira wurde krank, deshalb ist Tobias eingesprungen und mit Lena gefahren, nicht Mira."
+            },
+            {
+              "type": "true_false",
+              "number": 17,
+              "prompt": "Lena und Tobias fanden lange keinen Parkplatz.",
+              "options": [],
+              "answer": "richtig",
+              "target_fact": "F2",
+              "evidence_quote": "Wir haben einfach ewig lange einen Parkplatz in der Nähe gesucht.",
+              "trap": "CAUSE_SWAP",
+              "slot": "WHY",
+              "difficulty": 3,
+              "explanation": "Nicht der Stau, sondern die lange Parkplatzsuche war der Grund für die späte Ankunft."
+            },
+            {
+              "type": "true_false",
+              "number": 18,
+              "prompt": "Tobias hat das zweite Ticket seinem Kollegen Jan gegeben.",
+              "options": [],
+              "answer": "falsch",
+              "target_fact": "F3",
+              "evidence_quote": "das hab ich am Ende meinem Nachbarn Ben gegeben",
+              "trap": "RECIPIENT_SWAP",
+              "slot": "WHO",
+              "difficulty": 4,
+              "explanation": "Tobias gab das Ticket seinem Nachbarn Ben, nicht seinem Kollegen Jan."
+            },
+            {
+              "type": "true_false",
+              "number": 19,
+              "prompt": "Tobias hat wie gewünscht eine Decke mitgebracht.",
+              "options": [],
+              "answer": "richtig",
+              "target_fact": "F4",
+              "evidence_quote": "Ja klar, hab ich gemacht, ich hatte sie extra ganz oben in die Tasche gepackt.",
+              "trap": "REQUEST_RESULT",
+              "slot": "STATUS",
+              "difficulty": 4,
+              "explanation": "Tobias brachte die von Lena gewünschte Decke tatsächlich mit, sie wurde abends gebraucht."
+            },
+            {
+              "type": "true_false",
+              "number": 20,
+              "prompt": "Sven ist ein Kollege aus Tobias' Büro.",
+              "options": [],
+              "answer": "falsch",
+              "target_fact": "F5",
+              "evidence_quote": "Das war Sven, mein Cousin, wir kennen uns schon seit der Kindheit",
+              "trap": "ROLE_SWAP",
+              "slot": "WHO",
+              "difficulty": 3,
+              "explanation": "Sven ist Tobias' Cousin, kein Kollege aus dessen Büro."
+            },
+            {
+              "type": "true_false",
+              "number": 21,
+              "prompt": "Tobias hat VIP-Tickets für die beiden reserviert.",
+              "options": [],
+              "answer": "falsch",
+              "target_fact": "F6",
+              "evidence_quote": "Ich hab's versucht, aber als ich am Donnerstag angerufen habe, waren die schon ausverkauft.",
+              "trap": "REQUEST_RESULT",
+              "slot": "STATUS",
+              "difficulty": 3,
+              "explanation": "Tobias wollte VIP-Tickets reservieren, aber sie waren schon ausverkauft, es kam nicht dazu."
+            },
+            {
+              "type": "true_false",
+              "number": 22,
+              "prompt": "Lena und Tobias haben die Zugabe nicht mehr gesehen.",
+              "options": [],
+              "answer": "richtig",
+              "target_fact": "F7",
+              "evidence_quote": "die Zugabe am Ende haben wir ja leider nicht mehr gesehen",
+              "trap": "NEGATION",
+              "slot": "POLARITY",
+              "difficulty": 4,
+              "explanation": "Sie verließen das Festival vor der Zugabe, um den letzten Bus zu bekommen."
+            }
+          ]
+        }
+      ],
+      "validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "cost_usd": 0.3592
+    },
+    "4": {
+      "part": 4,
+      "instruction": "Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was?",
+      "plays": 2,
+      "situation": "Sie hören eine Radiosendung über die Frage, ob wir noch Bargeld brauchen. Wer sagt was: die Moderatorin, Herr Brandt oder Frau Öztürk?",
+      "topic": "Do we still need cash?",
+      "units": [
+        {
+          "id": "teil4",
+          "title": null,
+          "topic": "Do we still need cash?",
+          "speakers": [
+            {
+              "id": "moderator",
+              "name": "Sabine Keller",
+              "gender": "f",
+              "role": "Moderatorin",
+              "voice": "petra"
+            },
+            {
+              "id": "guest1",
+              "name": "Thomas Brandt",
+              "gender": "m",
+              "role": "Besitzer einer Bäckerei",
+              "voice": "markus"
+            },
+            {
+              "id": "guest2",
+              "name": "Laura Öztürk",
+              "gender": "f",
+              "role": "Mitarbeiterin bei einer Bank",
+              "voice": "anna"
+            }
+          ],
+          "facts": [
+            {
+              "id": "F1",
+              "statement": "Frau Öztürk zahlt mit Karte, weil es an der Kasse schneller geht. Herr Brandt berichtet nur, was man sagt, und widerspricht.",
+              "frame": "agent=Frau Öztürk; action=zahlt mit Karte; reason=schneller an der Kasse; source=Herr Brandt berichtet nur, was man sagt, und widerspricht"
+            },
+            {
+              "id": "F2",
+              "statement": "Herr Brandt hat ein Kartengerät, nimmt für Brötchen aber Münzen; Karte erst ab ungefähr 10 Euro.",
+              "frame": "agent=Herr Brandt; action=Kartengerät, aber Münzen für Brötchen; condition=Karte ab ungefähr 10 Euro; stance=nur teilweise für Karte"
+            },
+            {
+              "id": "F3",
+              "statement": "Frau Öztürk gibt zu, dass Bargeld für Ältere heute noch wichtig ist, aber in zehn Jahren wird es anders sein.",
+              "frame": "agent=Frau Öztürk; state=Bargeld für Ältere heute noch wichtig; stance=gibt es zu, aber in zehn Jahren anders"
+            },
+            {
+              "id": "F4",
+              "statement": "Die Moderatorin glaubt, ihre Tochter versteht mit Münzen besser, was ein Eis kostet, ist aber nicht ganz sicher. Frau Öztürk nennt Kinderkonten.",
+              "frame": "agent=Moderatorin; claim=Tochter versteht mit Münzen besser, was ein Eis kostet; stance=nicht ganz sicher; other=Frau Öztürk nennt Kinderkonten"
+            },
+            {
+              "id": "F5",
+              "statement": "Herr Brandt erlebte im letzten Winter zwei Stunden Stromausfall; nur mit Bargeld konnte er verkaufen. Frau Öztürk berichtet nur, was viele sagen.",
+              "frame": "agent=Herr Brandt; event=Stromausfall im letzten Winter zwei Stunden; result=Kartengerät ging nicht, nur Bargeld; other=Frau Öztürk berichtet: viele sagen das, selten"
+            },
+            {
+              "id": "F6",
+              "statement": "Frau Öztürk sagt, Bargeld macht Geschäften Arbeit (Kasse zählen, Geld zur Bank bringen). Herr Brandt stört das nicht; die Karte kostet Gebühren.",
+              "frame": "agent=Frau Öztürk; claim=Bargeld macht Geschäften Arbeit; other=Herr Brandt: Zählen macht ihm nichts aus, Karte kostet Gebühren"
+            },
+            {
+              "id": "F7",
+              "statement": "Herr Brandt merkt mit Scheinen sofort, dass sein Geld weniger wird. Frau Öztürk sieht ihre Ausgaben in der App.",
+              "frame": "agent=Herr Brandt; claim=mit Scheinen merkt man, dass das Geld weniger wird; other=Frau Öztürk: App zeigt Ausgaben"
+            },
+            {
+              "id": "F8",
+              "statement": "Im Dorf der Eltern von Frau Öztürk wurde der letzte Geldautomat abgebaut. Herr Brandt sagt, in der Stadt gibt es Automaten an jeder Ecke.",
+              "frame": "agent=Frau Öztürk; place=Dorf der Eltern; state=letzter Geldautomat abgebaut, zehn Kilometer Fahrt; other=Herr Brandt: Stadt Automaten überall"
+            }
+          ],
+          "turns": [
+            {
+              "speaker": "moderator",
+              "text": "Guten Abend, liebe Hörerinnen und Hörer. Heute fragen wir: Brauchen wir Bargeld noch? Bei mir im Studio sind Herr Thomas Brandt, er hat eine Bäckerei in Freiburg, und Frau Laura Öztürk, sie arbeitet bei einer Bank. Frau Öztürk, wie bezahlen Sie im Alltag?"
+            },
+            {
+              "speaker": "guest2",
+              "text": "Fast alles mit Karte oder mit dem Handy, auch bei kleinen Beträgen. Das ist für mich einfach praktisch. An der Kasse geht es schneller, weil ich kein Geld suchen und kein Wechselgeld zählen muss."
+            },
+            {
+              "speaker": "guest1",
+              "text": "Man sagt oft, mit Karte gehe es schneller. Bei mir stimmt das nicht immer, denn manche Kunden suchen erst ihre PIN. Ich habe seit zwei Jahren ein Kartengerät im Laden. Für ein Brötchen nehme ich aber lieber Münzen. Ab ungefähr 10 Euro ist die Karte in Ordnung."
+            },
+            {
+              "speaker": "moderator",
+              "text": "Sie sind also nicht ganz gegen Karten, Herr Brandt. Frau Öztürk, denken Sie auch an ältere Menschen? Die haben oft nur Bargeld im Portemonnaie."
+            },
+            {
+              "speaker": "guest2",
+              "text": "Ja, das stimmt. Für viele ältere Menschen ist Bargeld heute noch wichtig, das gebe ich gern zu. Aber in zehn Jahren sieht das schon anders aus. Die Banken sollten den Älteren trotzdem zeigen, wie man mit Karte zahlt."
+            },
+            {
+              "speaker": "guest1",
+              "text": "Meine älteren Kunden kommen jeden Morgen um sieben Uhr und zahlen bar, seit vielen Jahren. Ich kenne sie alle mit Namen. Aber ehrlich gesagt, auch junge Leute geben mir manchmal Scheine, zum Beispiel am Wochenende."
+            },
+            {
+              "speaker": "moderator",
+              "text": "Ich zahle selbst meistens mit Karte. Aber meine Tochter versteht mit Münzen in der Hand besser, was ein Eis kostet. Ganz sicher bin ich nicht, vielleicht ist das nur meine Gewohnheit."
+            },
+            {
+              "speaker": "guest2",
+              "text": "Das kann sein. Es gibt aber auch Kinderkonten mit Karte, da sehen die Eltern jede Zahlung. Und noch etwas: Viele sagen, bei einem Stromausfall stehe man ohne Bargeld da. Das passiert aber sehr selten, finde ich."
+            },
+            {
+              "speaker": "guest1",
+              "text": "Selten, aber es passiert. Im letzten Winter war bei uns zwei Stunden kein Strom. Das Kartengerät hat nicht funktioniert. Nur mit Bargeld konnte ich weiter verkaufen, sonst hätte ich die Kunden nach Hause schicken müssen."
+            },
+            {
+              "speaker": "moderator",
+              "text": "Frau Öztürk, Sie kennen auch die Seite der Geschäfte. Was kostet Bargeld dort?"
+            },
+            {
+              "speaker": "guest2",
+              "text": "Vor allem Zeit. Am Abend muss man die Kasse zählen, das Geld sicher aufbewahren und zur Bank bringen. Das ist jeden Tag dieselbe Arbeit, und sie kostet Geld."
+            },
+            {
+              "speaker": "guest1",
+              "text": "Das Zählen macht mir nichts aus, das gehört für mich zum Beruf. Und die Karte ist auch nicht gratis. Bei jedem Kunden bezahle ich ein paar Cent Gebühr."
+            },
+            {
+              "speaker": "guest2",
+              "text": "Das stimmt. Trotzdem hat die Karte einen großen Vorteil. In meiner App sehe ich alle Ausgaben des Monats auf einen Blick."
+            },
+            {
+              "speaker": "guest1",
+              "text": "Genau da sehe ich es anders. Wenn ich Scheine aus dem Portemonnaie nehme, merke ich sofort, dass mein Geld weniger wird. Mit der Karte fühlt sich das an wie Spielgeld."
+            },
+            {
+              "speaker": "moderator",
+              "text": "Noch eine Frage: Wie ist es auf dem Land? Kommt man dort leicht an Bargeld?"
+            },
+            {
+              "speaker": "guest1",
+              "text": "Bei uns in der Stadt gibt es Geldautomaten an jeder Ecke. Ich muss nie lange suchen. Auf dem Land kenne ich mich nicht so gut aus."
+            },
+            {
+              "speaker": "guest2",
+              "text": "Ich schon. Im Dorf meiner Eltern hat die Bank den letzten Automaten abgebaut. Jetzt fahren die Leute zehn Kilometer, nur um Geld zu holen."
+            },
+            {
+              "speaker": "moderator",
+              "text": "Ich fasse zusammen: Karten sind bequem, aber Bargeld hat noch Vorteile. Herr Brandt, Ihr letztes Wort?"
+            },
+            {
+              "speaker": "guest1",
+              "text": "Bargeld sollte bleiben, weil es einfach und sicher ist. Aber ich bin auch froh, dass meine Kunden inzwischen mit Karte zahlen können."
+            },
+            {
+              "speaker": "guest2",
+              "text": "Ich bin für die Karte. Trotzdem darf niemand ohne Bargeld dastehen. Beides zusammen ist für mich die beste Lösung."
+            },
+            {
+              "speaker": "moderator",
+              "text": "Vielen Dank Ihnen beiden für das Gespräch und Ihnen allen fürs Zuhören. Einen schönen Abend noch."
+            }
+          ],
+          "questions": [
+            {
+              "type": "speaker_matching",
+              "number": 23,
+              "prompt": "Mit Karte geht das Bezahlen an der Kasse schneller.",
+              "options": [],
+              "answer": "guest2",
+              "target_fact": "F1",
+              "evidence_quote": "An der Kasse geht es schneller, weil ich kein Geld suchen und kein Wechselgeld zählen muss.",
+              "trap": "SOURCE_ATTRIBUTION",
+              "slot": "SOURCE",
+              "difficulty": 5,
+              "explanation": "Frau Öztürk sagt das selbst. Herr Brandt berichtet nur, was man sagt, und widerspricht ihr."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 24,
+              "prompt": "Kartenzahlung lohnt sich nur bei größeren Beträgen.",
+              "options": [],
+              "answer": "guest1",
+              "target_fact": "F2",
+              "evidence_quote": "Für ein Brötchen nehme ich aber lieber Münzen. Ab ungefähr 10 Euro ist die Karte in Ordnung.",
+              "trap": "STANCE_QUALIFIER",
+              "slot": "SCOPE",
+              "difficulty": 2,
+              "explanation": "Herr Brandt nutzt die Karte erst ab ungefähr 10 Euro. Frau Öztürk zahlt auch kleine Beträge mit Karte."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 25,
+              "prompt": "Ältere Menschen brauchen heute noch Bargeld.",
+              "options": [],
+              "answer": "guest2",
+              "target_fact": "F3",
+              "evidence_quote": "Für viele ältere Menschen ist Bargeld heute noch wichtig, das gebe ich gern zu.",
+              "trap": "STANCE_QUALIFIER",
+              "slot": "STATUS",
+              "difficulty": 4,
+              "explanation": "Frau Öztürk gibt es zu, sagt aber, dass es in zehn Jahren anders aussieht. Herr Brandt erzählt nur von seinen Kunden."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 26,
+              "prompt": "Mit Bargeld lernen Kinder besser, was Dinge kosten.",
+              "options": [],
+              "answer": "moderator",
+              "target_fact": "F4",
+              "evidence_quote": "Aber meine Tochter versteht mit Münzen in der Hand besser, was ein Eis kostet.",
+              "trap": "STANCE_QUALIFIER",
+              "slot": "SCOPE",
+              "difficulty": 4,
+              "explanation": "Die Moderatorin denkt das, ist aber nicht ganz sicher. Frau Öztürk spricht nur von Kinderkonten mit Karte."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 27,
+              "prompt": "Bei Stromausfall hilft nur Bargeld weiter.",
+              "options": [],
+              "answer": "guest1",
+              "target_fact": "F5",
+              "evidence_quote": "Nur mit Bargeld konnte ich weiter verkaufen, sonst hätte ich die Kunden nach Hause schicken müssen.",
+              "trap": "QUOTE_ATTRIBUTION",
+              "slot": "CONDITION",
+              "difficulty": 5,
+              "explanation": "Herr Brandt hat es erlebt. Frau Öztürk berichtet nur, was viele sagen, und hält es für selten."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 28,
+              "prompt": "Der Umgang mit Bargeld macht Geschäften viel Arbeit.",
+              "options": [],
+              "answer": "guest2",
+              "target_fact": "F6",
+              "evidence_quote": "Am Abend muss man die Kasse zählen, das Geld sicher aufbewahren und zur Bank bringen.",
+              "trap": "PARAPHRASE",
+              "slot": "WHAT",
+              "difficulty": 5,
+              "explanation": "Frau Öztürk nennt Zählen, Aufbewahren und Bankfahrt als tägliche Arbeit. Herr Brandt sagt nur, das Zählen macht ihm nichts aus."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 29,
+              "prompt": "Bargeld hilft, die eigenen Ausgaben zu kontrollieren.",
+              "options": [],
+              "answer": "guest1",
+              "target_fact": "F7",
+              "evidence_quote": "Wenn ich Scheine aus dem Portemonnaie nehme, merke ich sofort, dass mein Geld weniger wird.",
+              "trap": "PARAPHRASE",
+              "slot": "WHAT",
+              "difficulty": 3,
+              "explanation": "Herr Brandt merkt mit Scheinen sofort, wie viel er ausgibt. Frau Öztürk hat den Überblick über die App."
+            },
+            {
+              "type": "speaker_matching",
+              "number": 30,
+              "prompt": "Auf dem Land ist es schwierig, an Bargeld zu kommen.",
+              "options": [],
+              "answer": "guest2",
+              "target_fact": "F8",
+              "evidence_quote": "Im Dorf meiner Eltern hat die Bank den letzten Automaten abgebaut.",
+              "trap": "SOURCE_ATTRIBUTION",
+              "slot": "WHERE",
+              "difficulty": 3,
+              "explanation": "Frau Öztürk nennt das Dorf ihrer Eltern. Herr Brandt spricht über die Stadt und kennt sich auf dem Land nicht aus."
+            }
+          ]
+        }
+      ],
+      "validation": {
+        "errors": [],
+        "warnings": [
+          "teil4: audio has 581 words, target 620–950"
+        ]
+      },
+      "cost_usd": 0.2567
+    }
+  }
+}

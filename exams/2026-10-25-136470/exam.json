@@ -1,0 +1,251 @@
+{
+  "id": "2026-10-25-136470",
+  "created": "2026-10-25T14:15:21",
+  "origin": "generated",
+  "ontology_sha256": "7caa388a00d6",
+  "model": "default",
+  "blueprint": {
+    "seed": 136470,
+    "1": {
+      "units": [
+        {
+          "text": 1,
+          "text_type": "private voicemail from a friend or relative",
+          "speaker_gender": "m",
+          "questions": [
+            {
+              "number": 1,
+              "answer": "richtig",
+              "trap": "CONDITION",
+              "difficulty": 5
+            },
+            {
+              "number": 2,
+              "answer": "b",
+              "trap": "OLD_NEW",
+              "difficulty": 2
+            }
+          ]
+        },
+        {
+          "text": 2,
+          "text_type": "voicemail from an employer or colleague",
+          "speaker_gender": "m",
+          "questions": [
+            {
+              "number": 3,
+              "answer": "richtig",
+              "trap": "MENTIONED_TRUE",
+              "difficulty": 4
+            },
+            {
+              "number": 4,
+              "answer": "a",
+              "trap": "REQUEST_ACTION",
+              "difficulty": 4
+            }
+          ]
+        },
+        {
+          "text": 3,
+          "text_type": "voicemail from a doctor's practice",
+          "speaker_gender": "m",
+          "questions": [
+            {
+              "number": 5,
+              "answer": "richtig",
+              "trap": "PARAPHRASE",
+              "difficulty": 3
+            },
+            {
+              "number": 6,
+              "answer": "a",
+              "trap": "CAUSE_SWAP",
+              "difficulty": 4
+            }
+          ]
+        },
+        {
+          "text": 4,
+          "text_type": "radio traffic report",
+          "speaker_gender": "f",
+          "questions": [
+            {
+              "number": 7,
+              "answer": "falsch",
+              "trap": "CONDITION",
+              "difficulty": 3
+            },
+            {
+              "number": 8,
+              "answer": "c",
+              "trap": "CAUSE_SWAP",
+              "difficulty": 4
+            }
+          ]
+        },
+        {
+          "text": 5,
+          "text_type": "announcement in a public building (library, swimming pool, town hall)",
+          "speaker_gender": "m",
+          "questions": [
+            {
+              "number": 9,
+              "answer": "falsch",
+              "trap": "NEGATION",
+              "difficulty": 5
+            },
+            {
+              "number": 10,
+              "answer": "c",
+              "trap": "QUANTITY_SCOPE",
+              "difficulty": 3
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "setting": "guided visit of a factory or brewery",
+      "speaker_gender": "m",
+      "questions": [
+        {
+          "number": 11,
+          "answer": "a",
+          "trap": "QUANTITY_SCOPE",
+          "difficulty": 4
+        },
+        {
+          "number": 12,
+          "answer": "b",
+          "trap": "PART_WHOLE",
+          "difficulty": 4
+        },
+        {
+          "number": 13,
+          "answer": "b",
+          "trap": "MODALITY",
+          "difficulty": 4
+        },
+        {
+          "number": 14,
+          "answer": "c",
+          "trap": "MENTIONED_TRUE",
+          "difficulty": 3
+        },
+        {
+          "number": 15,
+          "answer": "a",
+          "trap": "DISTRACTOR_DENSITY",
+          "difficulty": 3
+        }
+      ]
+    },
+    "3": {
+      "scenario": "two colleagues talk about a weekend helping relatives renovate",
+      "questions": [
+        {
+          "number": 16,
+          "answer": "falsch",
+          "trap": "RECIPIENT_SWAP",
+          "difficulty": 3
+        },
+        {
+          "number": 17,
+          "answer": "richtig",
+          "trap": "AVAILABLE_CHOSEN",
+          "difficulty": 3
+        },
+        {
+          "number": 18,
+          "answer": "falsch",
+          "trap": "PLAN_ACTUAL",
+          "difficulty": 3
+        },
+        {
+          "number": 19,
+          "answer": "falsch",
+          "trap": "ROLE_SWAP",
+          "difficulty": 3
+        },
+        {
+          "number": 20,
+          "answer": "richtig",
+          "trap": "TEMPORAL_SCOPE",
+          "difficulty": 3
+        },
+        {
+          "number": 21,
+          "answer": "falsch",
+          "trap": "RECIPIENT_SWAP",
+          "difficulty": 3
+        },
+        {
+          "number": 22,
+          "answer": "richtig",
+          "trap": "AVAILABLE_CHOSEN",
+          "difficulty": 3
+        }
+      ]
+    },
+    "4": {
+      "topic": "Should adult children live with their parents to save money?",
+      "genders": {
+        "moderator": "f",
+        "guest1": "m",
+        "guest2": "f"
+      },
+      "questions": [
+        {
+          "number": 23,
+          "answer": "guest2",
+          "trap": "KEYWORD_OVERLAP",
+          "difficulty": 3
+        },
+        {
+          "number": 24,
+          "answer": "moderator",
+          "trap": "KEYWORD_OVERLAP",
+          "difficulty": 2
+        },
+        {
+          "number": 25,
+          "answer": "guest1",
+          "trap": "PARAPHRASE",
+          "difficulty": 3
+        },
+        {
+          "number": 26,
+          "answer": "guest2",
+          "trap": "PARAPHRASE",
+          "difficulty": 4
+        },
+        {
+          "number": 27,
+          "answer": "guest1",
+          "trap": "PARAPHRASE",
+          "difficulty": 4
+        },
+        {
+          "number": 28,
+          "answer": "guest1",
+          "trap": "SOURCE_ATTRIBUTION",
+          "difficulty": 3
+        },
+        {
+          "number": 29,
+          "answer": "guest2",
+          "trap": "QUOTE_ATTRIBUTION",
+          "difficulty": 5
+        },
+        {
+          "number": 30,
+          "answer": "moderator",
+          "trap": "KEYWORD_OVERLAP",
+          "difficulty": 4
+        }
+      ]
+    }
+  },
+  "parts": {}
+}

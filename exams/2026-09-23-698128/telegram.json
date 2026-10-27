@@ -1,0 +1,119 @@
+{
+  "exam_id": "2026-09-23-698128",
+  "channel": "@german_b1_horen",
+  "posts": [
+    {
+      "id": "teil1",
+      "comments": [
+        {
+          "text": "<b>Lösungen</b>\n<b>1. Falsch</b> — Der Montag war geplant, aber der Kurs beginnt erst am Mittwoch, dem 14. Oktober, weil zu wenige Personen angemeldet sind.\n<b>2. b) Ihr Lehrbuch mitbringen</b> — Sie soll das Lehrbuch mitbringen. Überweisen muss sie nichts, und anrufen soll sie nur, falls der Termin nicht passt.\n<b>3. Richtig</b> — Geplant waren 9 Uhr, jetzt treffen sie sich um 14 Uhr. Das ist am Nachmittag.\n<b>4. c) Frau Sander ist noch bei einem Kunden.</b> — Frau Sander ist morgen früh noch bei einem Kunden. Der Arzttermin ist nicht der Grund, und die Liste ist fertig.\n<b>5. Falsch</b> — 16:20 Uhr ist die alte Zeit. Wegen einer Baustelle fährt der Bus erst um 16:50 Uhr.\n<b>6. c) Um 16:50 Uhr</b> — Der Bus nach Freiburg fährt erst um 16:50 Uhr. 16:35 Uhr gilt für Offenburg, 16:20 Uhr war die alte Zeit.\n<b>7. Richtig</b> — Sie kann den Schlüssel beim Hausmeister abgeben. Dann kommt die Firma auch ohne sie in die Wohnung.\n<b>8. a) Am Montagvormittag</b> — Geplant war Dienstag, jetzt kommt die Firma schon am Montag zwischen 8 und 12 Uhr. Nachmittags kommt niemand.\n<b>9. Richtig</b> — Im Brauhaus kann man essen, aber das Essen bezahlt man extra. Der Preis von 12 Euro gilt nur für die Führung.\n<b>10. b) Am Domplatz</b> — Heute ist der Treffpunkt der Domplatz. Das Rathaus ist gesperrt, und das Brauhaus ist der Ort, an dem die Führung endet.\n\n<b>Transkript</b>\n\n<b>Text 1</b>\nGuten Tag, Frau Yilmaz, hier spricht Thomas Brandt von der Sprachschule Lingua. Sie haben sich für den Abendkurs B1 angemeldet. Der Kurs sollte am Montag beginnen, aber leider sind bis jetzt nur vier Personen angemeldet. Deshalb fangen wir erst am 14. Oktober an, am Mittwoch. Der Raum ist dann 204, nicht mehr 112. Die Kursgebühr von 180 Euro können Sie am ersten Abend bezahlen, Sie müssen nichts überweisen. Bitte bringen Sie Ihr Lehrbuch mit. Falls der Termin nicht passt, rufen Sie mich bitte bis Freitag an. Danke und bis bald.\n\n<b>Text 2</b>\nHallo Nina, hier ist Jörg. Wir wollten uns morgen um 9 Uhr treffen, wegen der neuen Kundenliste. Das müssen wir leider verschieben. Ich habe zwar Freitag einen Arzttermin, aber das ist nicht der Grund. Die Liste ist auch schon fertig. Das Problem ist Frau Sander. Sie ist morgen früh noch bei einem Kunden in Hamburg und kommt erst mittags zurück. Wir treffen uns deshalb um 14 Uhr in ihrem Büro. Ist das für dich in Ordnung? Schreib mir kurz eine Nachricht. Danke, bis morgen.\n\n<b>Text 3</b>\nMeine Damen und Herren, eine Information für Reisende nach Freiburg. Der Bus 140 fährt heute nicht um 16:20 Uhr ab, sondern erst um 16:50 Uhr. Auf der Straße gibt es eine Baustelle. Der Bus fährt außerdem nicht mehr von Steig 2, sondern von Steig 5. Der Bus nach Offenburg um 16:35 Uhr fährt wie immer. Wer schon eine Fahrkarte hat, muss nichts tun. Im Bahnhofscafé bekommen Reisende mit Fahrkarte einen Kaffee gratis. Wir bitten um Ihr Verständnis.\n\n<b>Text 4</b>\nGuten Tag, Frau Petrović, hier ist Martin Roth von der Hausverwaltung. Es geht um die Heizung in Ihrer Wohnung. Sie sollte am Dienstag geprüft werden. Die Firma kommt aber schon am Montag zwischen 8 und 12 Uhr. Am Nachmittag kommt niemand mehr. Ich weiß, das ist kurzfristig. Wenn Sie am Vormittag nicht zu Hause sind, können Sie den Schlüssel beim Hausmeister abgeben. Herr Aydin ist am Montag den ganzen Tag im Haus. Dann kann die Firma trotzdem in die Wohnung. Ansonsten müssen Sie nichts tun. Vielen Dank und einen schönen Tag.\n\n<b>Text 5</b>\nGuten Tag und herzlich willkommen bei der Stadtführung Bamberg am Abend. Wir treffen uns heute nicht am Rathaus, sondern am Domplatz. Das Rathaus ist wegen eines Marktes gesperrt. Die Führung beginnt um 19 Uhr und dauert ungefähr 90 Minuten. Sie kostet 12 Euro. Am Ende gehen wir zum Alten Brauhaus. Dort können Sie gern etwas essen, aber das Essen ist nicht im Preis enthalten. Bitte kommen Sie zehn Minuten früher. Wir bitten um Ihr Verständnis.",
+          "parse_mode": "HTML"
+        }
+      ],
+      "method": "sendMediaGroup",
+      "media": [
+        {
+          "type": "audio",
+          "file": "audio/teil1-text1.mp3",
+          "title": "Teil 1 · Text 1",
+          "performer": "Hören B1",
+          "caption": "<b>Teil 1</b> · Aufgaben 1–10\n<i>Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.</i>\n\n<b>Text 1</b>\n<b>1.</b> Der Kurs beginnt am Montag wie geplant. <i>(R/F)</i>\n<b>2.</b> Was soll Frau Yilmaz zum ersten Abend tun?\n      a) Die Gebühr überweisen\n      b) Ihr Lehrbuch mitbringen\n      c) Bis Freitag anrufen",
+          "parse_mode": "HTML"
+        },
+        {
+          "type": "audio",
+          "file": "audio/teil1-text2.mp3",
+          "title": "Teil 1 · Text 2",
+          "performer": "Hören B1",
+          "caption": "<b>Text 2</b>\n<b>3.</b> Das Treffen findet jetzt am Nachmittag statt. <i>(R/F)</i>\n<b>4.</b> Warum wird das Treffen verschoben?\n      a) Jörg hat einen Arzttermin.\n      b) Die Kundenliste ist nicht fertig.\n      c) Frau Sander ist noch bei einem Kunden.",
+          "parse_mode": "HTML"
+        },
+        {
+          "type": "audio",
+          "file": "audio/teil1-text3.mp3",
+          "title": "Teil 1 · Text 3",
+          "performer": "Hören B1",
+          "caption": "<b>Text 3</b>\n<b>5.</b> Der Bus nach Freiburg fährt pünktlich um 16:20 Uhr. <i>(R/F)</i>\n<b>6.</b> Wann fährt der Bus nach Freiburg heute ab?\n      a) Um 16:20 Uhr\n      b) Um 16:35 Uhr\n      c) Um 16:50 Uhr",
+          "parse_mode": "HTML"
+        },
+        {
+          "type": "audio",
+          "file": "audio/teil1-text4.mp3",
+          "title": "Teil 1 · Text 4",
+          "performer": "Hören B1",
+          "caption": "<b>Text 4</b>\n<b>7.</b> Frau Petrović muss am Montag nicht zu Hause sein. <i>(R/F)</i>\n<b>8.</b> Wann kommt die Firma zur Heizung?\n      a) Am Montagvormittag\n      b) Am Dienstagvormittag\n      c) Am Montagnachmittag",
+          "parse_mode": "HTML"
+        },
+        {
+          "type": "audio",
+          "file": "audio/teil1-text5.mp3",
+          "title": "Teil 1 · Text 5",
+          "performer": "Hören B1",
+          "caption": "<b>Text 5</b>\n<b>9.</b> Das Essen ist nicht im Preis enthalten. <i>(R/F)</i>\n<b>10.</b> Wo treffen sich die Teilnehmer heute?\n      a) Am Rathaus\n      b) Am Domplatz\n      c) Am Alten Brauhaus",
+          "parse_mode": "HTML"
+        }
+      ]
+    },
+    {
+      "id": "teil2",
+      "comments": [
+        {
+          "text": "<b>Lösungen</b>\n<b>11. a) zwei Schichten</b> — Das Fest dauert drei Tage und eine Schicht vier Stunden, aber jeder macht nur zwei Schichten.\n<b>12. b) ein T-Shirt</b> — Alle bekommen ein T-Shirt. Eine Jacke bekommt nur das Team am Informationsstand, Mützen gibt es nicht.\n<b>13. c) im Helferzelt</b> — Taschen kommen ins Helferzelt. Rathaus ist nur Treffpunkt, am Informationsstand gibt man Fundsachen ab.\n<b>14. a) um 13 Uhr</b> — Gegessen wird um 13 Uhr. 11 Uhr ist die Eröffnung, um 14 Uhr beginnt die Spätschicht.\n<b>15. a) eine Fahrkarte für Bus und Bahn</b> — Im letzten Jahr gab es kostenloses Parken. Jetzt ist das Parkhaus zu, deshalb gibt es eine Fahrkarte.\n\n<b>Transkript</b>\n\nGuten Abend und herzlich willkommen. Mein Name ist Petra Lindner, und ich organisiere das Altstadtfest in Lindenburg. Schön, dass Sie alle gekommen sind. Wir freuen uns sehr über Ihre Hilfe. Ich erkläre Ihnen jetzt in ein paar Minuten, wie alles abläuft.\nWir sind in diesem Jahr 60 Helferinnen und Helfer. Das Fest dauert von Freitag bis Sonntag, also drei Tage. Aber Sie müssen nicht an allen drei Tagen kommen. Jeder von Ihnen macht zwei Schichten, und eine Schicht dauert vier Stunden. Welche Tage Sie haben, steht auf Ihrem Dienstplan. Den bekommen Sie nachher am Ausgang.\nJetzt zur Kleidung. Alle Helfer bekommen ein gelbes T-Shirt mit dem Logo vom Fest. Bitte tragen Sie es während der ganzen Schicht. Die Kolleginnen und Kollegen am Informationsstand bekommen zusätzlich eine Jacke, weil sie draußen stehen und es abends kalt wird. Mützen gibt es in diesem Jahr leider nicht. Die Kleidung dürfen Sie danach behalten.\nWo Sie sich vor der Schicht treffen? Im Rathaus, im großen Saal. Dort besprechen wir jeden Morgen kurz den Tag. Dann gehen wir gemeinsam zum Marktplatz. Wenn Sie etwas finden, das jemand verloren hat, bringen Sie es bitte zum Informationsstand. Ihre Taschen können Sie nicht im Rathaus lassen, denn dort ist abends abgeschlossen. Dafür gibt es das Helferzelt neben der Bühne. Dort sind kleine Schränke, und das Zelt ist immer offen.\nJetzt zu den Zeiten. Die Frühschicht ist von 9 bis 13 Uhr, die Spätschicht von 14 bis 18 Uhr. Das Fest selbst wird jeden Tag um 11 Uhr eröffnet. Das Essen für die Helfer gibt es um 13 Uhr, direkt wenn die Frühschicht zu Ende ist. Wer Spätschicht hat, kann auch schon dann kommen und mitessen. Um 14 Uhr beginnt aber pünktlich die Arbeit.\nNoch etwas zur Anreise. Im letzten Jahr konnten Helfer kostenlos im Parkhaus am Rathaus parken. Das geht in diesem Jahr nicht mehr, weil das Parkhaus umgebaut wird. Deshalb bekommen Sie eine Fahrkarte für Bus und Bahn. Sie gilt für alle drei Festtage in der ganzen Stadt. Bitte lassen Sie das Auto möglichst zu Hause, denn im Zentrum gibt es kaum Parkplätze.\nSo, das war das Wichtigste. Wenn Sie noch Fragen haben, können Sie mich gern jetzt oder später ansprechen. Am Freitag um 8:30 Uhr sehen wir uns dann im Rathaus. Vielen Dank und bis bald.",
+          "parse_mode": "HTML"
+        }
+      ],
+      "method": "sendAudio",
+      "params": {
+        "title": "Teil 2",
+        "performer": "Hören B1",
+        "caption": "<b>Teil 2</b> · Aufgaben 11–15\n<i>Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.</i>\nSie nehmen an einem Treffen für neue Helfer beim Altstadtfest teil und hören die Organisatorin.\n\n<b>11.</b> Wie viele Schichten macht jeder Helfer?\n      a) zwei Schichten\n      b) drei Schichten\n      c) vier Schichten\n<b>12.</b> Was bekommen alle Helfer?\n      a) eine Jacke\n      b) ein T-Shirt\n      c) eine Mütze\n<b>13.</b> Wo können die Helfer ihre Taschen lassen?\n      a) im Rathaus\n      b) am Informationsstand\n      c) im Helferzelt\n<b>14.</b> Wann gibt es das Essen für die Helfer?\n      a) um 13 Uhr\n      b) um 14 Uhr\n      c) um 11 Uhr\n<b>15.</b> Was bekommen die Helfer in diesem Jahr für die Anreise?\n      a) eine Fahrkarte für Bus und Bahn\n      b) einen kostenlosen Parkplatz im Parkhaus\n      c) Geld für das Benzin",
+        "parse_mode": "HTML"
+      },
+      "files": {
+        "audio": "audio/teil2.mp3"
+      }
+    },
+    {
+      "id": "teil3",
+      "comments": [
+        {
+          "text": "<b>Lösungen</b>\n<b>16. Falsch</b> — Mira wurde krank, deshalb ist Tobias eingesprungen und mit Lena gefahren, nicht Mira.\n<b>17. Richtig</b> — Nicht der Stau, sondern die lange Parkplatzsuche war der Grund für die späte Ankunft.\n<b>18. Falsch</b> — Tobias gab das Ticket seinem Nachbarn Ben, nicht seinem Kollegen Jan.\n<b>19. Richtig</b> — Tobias brachte die von Lena gewünschte Decke tatsächlich mit, sie wurde abends gebraucht.\n<b>20. Falsch</b> — Sven ist Tobias' Cousin, kein Kollege aus dessen Büro.\n<b>21. Falsch</b> — Tobias wollte VIP-Tickets reservieren, aber sie waren schon ausverkauft, es kam nicht dazu.\n<b>22. Richtig</b> — Sie verließen das Festival vor der Zugabe, um den letzten Bus zu bekommen.\n\n<b>Transkript</b>\n\n<b>Lena:</b> Hey Tobias, na, bist du schon wach? Ich muss noch an gestern denken, das war schon ein langer Tag.\n<b>Tobias:</b> Hey Lena, klar bin ich wach. Der Tag war richtig schön, auch wenn's am Anfang ziemlich chaotisch war.\n<b>Lena:</b> Stimmt, vor allem, weil ich ja eigentlich geplant hatte, mit meiner Schwester Mira zum Festival zu gehen.\n<b>Tobias:</b> Genau, aber Mira hatte am Freitagabend plötzlich Fieber und konnte deshalb nicht mit. Zum Glück bin ich dann kurzfristig eingesprungen.\n<b>Lena:</b> Fand ich total nett von dir, dass es trotzdem so schnell geklappt hat. Wir kamen aber ziemlich spät auf dem Festivalgelände an, oder? Ich glaub, es war schon fast neun, als wir da waren.\n<b>Tobias:</b> Ja, total. Ich dachte erst, das liegt am Stau auf der Autobahn, weil da ja Baustelle war.\n<b>Lena:</b> Nee, der Stau war eigentlich gar nicht so schlimm. Wir haben einfach ewig lange einen Parkplatz in der Nähe gesucht.\n<b>Tobias:</b> Stimmt, wir sind bestimmt zwanzig Minuten um den ganzen Park rumgefahren, bis endlich eine Lücke frei war.\n<b>Lena:</b> Zum Glück haben wir die erste Band trotzdem noch mitbekommen. Apropos, was ist eigentlich mit dem zweiten Ticket passiert? Mira konnte es ja nicht mehr nutzen. Ich hab mich noch gewundert, wo das hin ist.\n<b>Tobias:</b> Also, das hab ich am Ende meinem Nachbarn Ben gegeben. Mein Kollege Jan hatte zwar auch danach gefragt, aber der hatte am Freitag doch keine Zeit mehr.\n<b>Lena:</b> Nett von dir, dass Ben spontan mitkommen konnte. Er sah richtig glücklich aus, als wir ihn gesehen haben. Übrigens, danke, dass du an die Decke gedacht hast.\n<b>Tobias:</b> Ja klar, hab ich gemacht, ich hatte sie extra ganz oben in die Tasche gepackt.\n<b>Lena:</b> Ich hatte dich ja vorher gebeten, unbedingt eine mitzubringen, weil es abends am See immer so kalt wird.\n<b>Tobias:</b> Genau, und zum Glück hab ich dran gedacht. Die haben wir später wirklich gebraucht, als die Sonne weg war.\n<b>Lena:</b> Das Essen am Stand mit den Pommes war übrigens auch richtig gut, viel besser als letztes Jahr. Wir haben da bestimmt eine halbe Stunde in der Schlange gestanden, aber es hat sich gelohnt.\n<b>Tobias:</b> Stimmt, das fand ich auch. Sag mal, weißt du noch, wen wir am Getränkestand getroffen haben?\n<b>Lena:</b> Klar, den mit der grünen Jacke. Stimmt, ich dachte da kurz, das wäre jemand aus deinem Büro.\n<b>Tobias:</b> Nein, der war es nicht. Das war Sven, mein Cousin, wir kennen uns schon seit der Kindheit und ich hab ihn ewig nicht mehr gesehen.\n<b>Lena:</b> Echt witzig, dass ihr euch da über den Weg gelaufen seid, bei so vielen Leuten.\n<b>Tobias:</b> Ja, total. Und weißt du noch, was mit den VIP-Tickets war? Ich wollte die doch eigentlich vorher reservieren.\n<b>Lena:</b> Genau, ich hab mich schon gefragt, was daraus geworden ist.\n<b>Tobias:</b> Ich hab's versucht, aber als ich am Donnerstag angerufen habe, waren die schon ausverkauft.\n<b>Lena:</b> Schade, das wäre schön gewesen mit dem Blick direkt von vorne auf die Bühne.\n<b>Tobias:</b> Ja, aber so war's auch okay, wir waren ja trotzdem ziemlich nah dran.\n<b>Lena:</b> Stimmt. Aber die Zugabe am Ende haben wir ja leider nicht mehr gesehen.\n<b>Tobias:</b> Nee, wir mussten leider los, sonst wäre uns der letzte Bus weggefahren. War aber trotzdem ein toller Abend, das machen wir bald nochmal.",
+          "parse_mode": "HTML"
+        }
+      ],
+      "method": "sendAudio",
+      "params": {
+        "title": "Teil 3",
+        "performer": "Hören B1",
+        "caption": "<b>Teil 3</b> · Aufgaben 16–22\n<i>Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen richtig oder falsch?</i>\nLena und Tobias telefonieren am Tag nach einem gemeinsamen Festivalbesuch und sprechen über den Abend.\n\n<b>16.</b> Lena ist mit ihrer Schwester Mira zum Festival gefahren. <i>(R/F)</i>\n<b>17.</b> Lena und Tobias fanden lange keinen Parkplatz. <i>(R/F)</i>\n<b>18.</b> Tobias hat das zweite Ticket seinem Kollegen Jan gegeben. <i>(R/F)</i>\n<b>19.</b> Tobias hat wie gewünscht eine Decke mitgebracht. <i>(R/F)</i>\n<b>20.</b> Sven ist ein Kollege aus Tobias' Büro. <i>(R/F)</i>\n<b>21.</b> Tobias hat VIP-Tickets für die beiden reserviert. <i>(R/F)</i>\n<b>22.</b> Lena und Tobias haben die Zugabe nicht mehr gesehen. <i>(R/F)</i>",
+        "parse_mode": "HTML"
+      },
+      "files": {
+        "audio": "audio/teil3.mp3"
+      }
+    },
+    {
+      "id": "teil4",
+      "comments": [
+        {
+          "text": "<b>Lösungen</b>\n<b>23. c) Laura Öztürk</b> — Frau Öztürk sagt das selbst. Herr Brandt berichtet nur, was man sagt, und widerspricht ihr.\n<b>24. b) Thomas Brandt</b> — Herr Brandt nutzt die Karte erst ab ungefähr 10 Euro. Frau Öztürk zahlt auch kleine Beträge mit Karte.\n<b>25. c) Laura Öztürk</b> — Frau Öztürk gibt es zu, sagt aber, dass es in zehn Jahren anders aussieht. Herr Brandt erzählt nur von seinen Kunden.\n<b>26. a) Sabine Keller</b> — Die Moderatorin denkt das, ist aber nicht ganz sicher. Frau Öztürk spricht nur von Kinderkonten mit Karte.\n<b>27. b) Thomas Brandt</b> — Herr Brandt hat es erlebt. Frau Öztürk berichtet nur, was viele sagen, und hält es für selten.\n<b>28. c) Laura Öztürk</b> — Frau Öztürk nennt Zählen, Aufbewahren und Bankfahrt als tägliche Arbeit. Herr Brandt sagt nur, das Zählen macht ihm nichts aus.\n<b>29. b) Thomas Brandt</b> — Herr Brandt merkt mit Scheinen sofort, wie viel er ausgibt. Frau Öztürk hat den Überblick über die App.\n<b>30. c) Laura Öztürk</b> — Frau Öztürk nennt das Dorf ihrer Eltern. Herr Brandt spricht über die Stadt und kennt sich auf dem Land nicht aus.\n\n<b>Transkript</b>\n\n<b>Sabine Keller:</b> Guten Abend, liebe Hörerinnen und Hörer. Heute fragen wir: Brauchen wir Bargeld noch? Bei mir im Studio sind Herr Thomas Brandt, er hat eine Bäckerei in Freiburg, und Frau Laura Öztürk, sie arbeitet bei einer Bank. Frau Öztürk, wie bezahlen Sie im Alltag?\n<b>Laura Öztürk:</b> Fast alles mit Karte oder mit dem Handy, auch bei kleinen Beträgen. Das ist für mich einfach praktisch. An der Kasse geht es schneller, weil ich kein Geld suchen und kein Wechselgeld zählen muss.\n<b>Thomas Brandt:</b> Man sagt oft, mit Karte gehe es schneller. Bei mir stimmt das nicht immer, denn manche Kunden suchen erst ihre PIN. Ich habe seit zwei Jahren ein Kartengerät im Laden. Für ein Brötchen nehme ich aber lieber Münzen. Ab ungefähr 10 Euro ist die Karte in Ordnung.\n<b>Sabine Keller:</b> Sie sind also nicht ganz gegen Karten, Herr Brandt. Frau Öztürk, denken Sie auch an ältere Menschen? Die haben oft nur Bargeld im Portemonnaie.\n<b>Laura Öztürk:</b> Ja, das stimmt. Für viele ältere Menschen ist Bargeld heute noch wichtig, das gebe ich gern zu. Aber in zehn Jahren sieht das schon anders aus. Die Banken sollten den Älteren trotzdem zeigen, wie man mit Karte zahlt.\n<b>Thomas Brandt:</b> Meine älteren Kunden kommen jeden Morgen um sieben Uhr und zahlen bar, seit vielen Jahren. Ich kenne sie alle mit Namen. Aber ehrlich gesagt, auch junge Leute geben mir manchmal Scheine, zum Beispiel am Wochenende.\n<b>Sabine Keller:</b> Ich zahle selbst meistens mit Karte. Aber meine Tochter versteht mit Münzen in der Hand besser, was ein Eis kostet. Ganz sicher bin ich nicht, vielleicht ist das nur meine Gewohnheit.\n<b>Laura Öztürk:</b> Das kann sein. Es gibt aber auch Kinderkonten mit Karte, da sehen die Eltern jede Zahlung. Und noch etwas: Viele sagen, bei einem Stromausfall stehe man ohne Bargeld da. Das passiert aber sehr selten, finde ich.\n<b>Thomas Brandt:</b> Selten, aber es passiert. Im letzten Winter war bei uns zwei Stunden kein Strom. Das Kartengerät hat nicht funktioniert. Nur mit Bargeld konnte ich weiter verkaufen, sonst hätte ich die Kunden nach Hause schicken müssen.\n<b>Sabine Keller:</b> Frau Öztürk, Sie kennen auch die Seite der Geschäfte. Was kostet Bargeld dort?\n<b>Laura Öztürk:</b> Vor allem Zeit. Am Abend muss man die Kasse zählen, das Geld sicher aufbewahren und zur Bank bringen. Das ist jeden Tag dieselbe Arbeit, und sie kostet Geld.\n<b>Thomas Brandt:</b> Das Zählen macht mir nichts aus, das gehört für mich zum Beruf. Und die Karte ist auch nicht gratis. Bei jedem Kunden bezahle ich ein paar Cent Gebühr.\n<b>Laura Öztürk:</b> Das stimmt. Trotzdem hat die Karte einen großen Vorteil. In meiner App sehe ich alle Ausgaben des Monats auf einen Blick.\n<b>Thomas Brandt:</b> Genau da sehe ich es anders. Wenn ich Scheine aus dem Portemonnaie nehme, merke ich sofort, dass mein Geld weniger wird. Mit der Karte fühlt sich das an wie Spielgeld.\n<b>Sabine Keller:</b> Noch eine Frage: Wie ist es auf dem Land? Kommt man dort leicht an Bargeld?\n<b>Thomas Brandt:</b> Bei uns in der Stadt gibt es Geldautomaten an jeder Ecke. Ich muss nie lange suchen. Auf dem Land kenne ich mich nicht so gut aus.",
+          "parse_mode": "HTML"
+        },
+        {
+          "text": "<b>Laura Öztürk:</b> Ich schon. Im Dorf meiner Eltern hat die Bank den letzten Automaten abgebaut. Jetzt fahren die Leute zehn Kilometer, nur um Geld zu holen.\n<b>Sabine Keller:</b> Ich fasse zusammen: Karten sind bequem, aber Bargeld hat noch Vorteile. Herr Brandt, Ihr letztes Wort?\n<b>Thomas Brandt:</b> Bargeld sollte bleiben, weil es einfach und sicher ist. Aber ich bin auch froh, dass meine Kunden inzwischen mit Karte zahlen können.\n<b>Laura Öztürk:</b> Ich bin für die Karte. Trotzdem darf niemand ohne Bargeld dastehen. Beides zusammen ist für mich die beste Lösung.\n<b>Sabine Keller:</b> Vielen Dank Ihnen beiden für das Gespräch und Ihnen allen fürs Zuhören. Einen schönen Abend noch.",
+          "parse_mode": "HTML"
+        }
+      ],
+      "method": "sendAudio",
+      "params": {
+        "title": "Teil 4",
+        "performer": "Hören B1",
+        "caption": "<b>Teil 4</b> · Aufgaben 23–30\n<i>Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was?</i>\nSie hören eine Radiosendung über die Frage, ob wir noch Bargeld brauchen. Wer sagt was: die Moderatorin, Herr Brandt oder Frau Öztürk?\n<b>a)</b> Sabine Keller (Moderatorin)  <b>b)</b> Thomas Brandt  <b>c)</b> Laura Öztürk\n\n<b>23.</b> Mit Karte geht das Bezahlen an der Kasse schneller.\n<b>24.</b> Kartenzahlung lohnt sich nur bei größeren Beträgen.\n<b>25.</b> Ältere Menschen brauchen heute noch Bargeld.\n<b>26.</b> Mit Bargeld lernen Kinder besser, was Dinge kosten.\n<b>27.</b> Bei Stromausfall hilft nur Bargeld weiter.\n<b>28.</b> Der Umgang mit Bargeld macht Geschäften viel Arbeit.\n<b>29.</b> Bargeld hilft, die eigenen Ausgaben zu kontrollieren.\n<b>30.</b> Auf dem Land ist es schwierig, an Bargeld zu kommen.",
+        "parse_mode": "HTML"
+      },
+      "files": {
+        "audio": "audio/teil4.mp3"
+      }
+    }
+  ]
+}

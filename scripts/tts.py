@@ -26,10 +26,18 @@ NEUTRAL = (
 # Approved roles: Petra = solo female,
 # Markus = solo male, Anna = dialogues with Markus only (too emotional solo).
 # Jonas, Herr Weber, Sabine and Thomas are untested extras.
-# Temporarily all Piper (2026-09-22): the Qwen voices over-acted (laughing,
-# "high"-sounding). To go back, set anna -> ("qwen", "Vivian"), markus -> ("qwen", "Ryan").
+# Qwen Vivian reads too emotionally with NEUTRAL, so she gets a flatter prompt.
+QWEN_STYLE = {
+    "Vivian": (
+        "Lies den Text flach und gleichmäßig, in ruhigem, gleichbleibendem Tonfall. "
+        "Keine Betonung, keine Emotion, kein Lächeln in der Stimme, normales Sprechtempo."
+    ),
+}
+# Piper "low" voices are 16 kHz and sound thin and phone-like, so Anna (the
+# female dialogue voice) moved to Qwen on 2026-10-25. Markus stays on Piper.
+# Do not put a Piper "low" voice in a dialogue; only the 22 kHz "high" models qualify.
 VOICES = {
-    "anna": ("piper", "de_DE-ramona-low"),
+    "anna": ("qwen", "Vivian"),
     "markus": ("piper", "de_DE-thorsten-high"),
     "jonas": ("qwen", "Aiden"),
     "herr weber": ("qwen", "Uncle_Fu"),
@@ -146,7 +154,7 @@ class Synth:
                         lang_code="german",
                         speed=self.speed,
                         temperature=self.temperature,
-                        instruct=self.instruct or None,
+                        instruct=QWEN_STYLE.get(voice, self.instruct) or None,
                     )
                 ]), sr)
                 dur = len(audio) / sr
